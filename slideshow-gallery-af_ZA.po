@@ -7,1311 +7,1221 @@ msgstr ""
 "Project-Id-Version: Slideshow Gallery plugin\n"
 "Language: af\n"
 
-#: ../helpers/html.php:46 ../slideshow-gallery.php:85
-#: ../views/admin/slides/index.php:2
+#: helpers/html.php:46 slideshow-gallery.php:102
+#: views/admin/slides/index.php:2
 msgid "Manage Slides"
 msgstr "Beheer Skyfies"
 
-#: ../helpers/html.php:49 ../slideshow-gallery.php:86
-#: ../views/admin/galleries/index.php:2
+#: helpers/html.php:49 slideshow-gallery.php:103
+#: views/admin/galleries/index.php:2
 msgid "Manage Galleries"
 msgstr "Beheer Galerye"
 
-#: ../helpers/html.php:52 ../slideshow-gallery.php:87
+#: helpers/html.php:52 slideshow-gallery.php:104
 msgid "Configuration"
 msgstr "Verstellings"
 
-#: ../models/gallery.php:82 ../models/slide.php:93
+#: models/gallery.php:82 models/slide.php:93
 msgid "Please fill in a title"
 msgstr "Vul n titel in"
 
-#: ../models/gallery.php:84 ../models/galleryslides.php:74
-#: ../models/slide.php:185
+#: models/gallery.php:84 models/galleryslides.php:74 models/slide.php:185
 msgid "No data was posted"
 msgstr "Geen data was gepos nie"
 
-#: ../models/galleryslides.php:65 ../slideshow-gallery.php:499
+#: models/galleryslides.php:65 slideshow-gallery.php:516
 msgid "No gallery was specified"
 msgstr "Geen galery was gespesifiseer nie"
 
-#: ../models/galleryslides.php:66 ../slideshow-gallery.php:372
+#: models/galleryslides.php:66 slideshow-gallery.php:389
 msgid "No slide was specified"
 msgstr "Geen skyfie was gespesifiseer nie"
 
-#: ../models/slide.php:96
+#: models/slide.php:96
 msgid "Please select an image type"
 msgstr "Kies n prent tipe"
 
-#: ../models/slide.php:104
+#: models/slide.php:104
 msgid "Choose an image"
 msgstr "Kies n prent"
 
-#: ../models/slide.php:133
+#: models/slide.php:133
 msgid "This file type is not allowed for security reasons"
 msgstr "Hierdie tipe leer is nie toegelaat nie"
 
-#: ../models/slide.php:135
+#: models/slide.php:135
 msgid "The image did not upload, please try again"
 msgstr "Die prent het nie opgelaai nie, probeer weer"
 
-#: ../models/slide.php:136
+#: models/slide.php:136
 msgid "Image could not be moved from TMP to \"wp-content/uploads/\", please check permissions"
 msgstr "Prent kon nie geskuif word van TMP na /uploads/ toe nie, kyk na regte"
 
-#: ../models/slide.php:148
+#: models/slide.php:148
 msgid "The image file is too large"
 msgstr "Die prent leer is te groot"
 
-#: ../models/slide.php:151
+#: models/slide.php:151
 msgid "The image was partially uploaded, please try again"
 msgstr "Die prent was halfpad opgelaai, probeer weer"
 
-#: ../models/slide.php:154
+#: models/slide.php:154
 msgid "No image was chosen for uploading, please choose an image"
 msgstr "Geen prent was gekies om op te laai nie"
 
-#: ../models/slide.php:157
+#: models/slide.php:157
 msgid "No TMP directory has been specified for PHP to use, please ask your hosting provider"
 msgstr "Geen TMP gids was gespesifiseer in PHP nie, vra jou hosting voorsiener"
 
-#: ../models/slide.php:160
+#: models/slide.php:160
 msgid "Image cannot be written to disc, please ask your hosting provider"
 msgstr "Prent kon nie geskryf word nie, vra jou hosting voorsiener"
 
-#: ../models/slide.php:166
+#: models/slide.php:166
 msgid "Please specify an image"
 msgstr "Spesifiseer n prent"
 
-#: ../slideshow-gallery-plugin.php:61
+#: slideshow-gallery-plugin.php:61
 msgid "Slides have been ordered"
 msgstr "Skyfies was gesorteer"
 
-#: ../slideshow-gallery-plugin.php:271
+#: slideshow-gallery-plugin.php:271
 msgid "Slideshow Manager"
 msgstr "Skyfievertoning Beheerder"
 
-#: ../slideshow-gallery-plugin.php:382
+#: slideshow-gallery-plugin.php:382
 msgid "Uploads folder named \"%s\" cannot be created inside \"%s\""
 msgstr "Oplaai leer naamlik \"%s\" kan nie gemaak word binne \"%s\" nie"
 
-#: ../slideshow-gallery-plugin.php:391
+#: slideshow-gallery-plugin.php:391
 msgid "Slideshow cache folder \"%s\" for resizing images cannot be created inside \"%s\""
 msgstr "Skyfievertoning cache leer \"%s\" vir die verstelling van prent kon nie gemaak word binne \"%s\" nie"
 
-#: ../slideshow-gallery.php:67
+#: slideshow-gallery.php:67
 msgid "Settings"
 msgstr "Verstellings"
 
-#: ../slideshow-gallery.php:84
+#: slideshow-gallery.php:101
 msgid "Slideshow"
 msgstr "Skyfievertoning"
 
-#: ../slideshow-gallery.php:104
+#: slideshow-gallery.php:121
 msgid "Save Settings"
 msgstr "Stoor Verstellings"
 
-#: ../slideshow-gallery.php:105
+#: slideshow-gallery.php:122
 msgid "About This Plugin"
 msgstr "Oor Hierdie Plugin"
 
-#: ../slideshow-gallery.php:105
+#: slideshow-gallery.php:122
 msgid "More about this plugin and the creators of it"
 msgstr "Meer oor hierdie plugin en die ontwikkelaars daarvan"
 
-#: ../slideshow-gallery.php:106
+#: slideshow-gallery.php:123
 msgid "Recommended Plugin"
 msgstr "Voorgestelde Plugin"
 
-#: ../slideshow-gallery.php:107
+#: slideshow-gallery.php:124
 msgid "General Settings"
 msgstr "Algemene Verstellings"
 
-#: ../slideshow-gallery.php:107
+#: slideshow-gallery.php:124
 msgid "General configuration settings for the inner workings and some default behaviours"
-msgstr ""
+msgstr "Algemene verstellings vir die werking van standaard gedrag"
 
-#: ../slideshow-gallery.php:108
+#: slideshow-gallery.php:125
 msgid "Links &amp; Images Overlay"
 msgstr "Links &amp; Prente Oorlaag"
 
-#: ../slideshow-gallery.php:108
+#: slideshow-gallery.php:125
 msgid "Configure the way that slides with links are opened"
 msgstr "Verstel die manier hoe skyfies met links oopmaak"
 
-#: ../slideshow-gallery.php:109
+#: slideshow-gallery.php:126
 msgid "Appearance &amp; Styles"
-msgstr ""
+msgstr "Voorkoms &amp; Style"
 
-#: ../slideshow-gallery.php:109
+#: slideshow-gallery.php:126
 msgid "Change the way the slideshows look so that it suits your needs"
-msgstr ""
+msgstr "Verander die manier hoe skyfievertonings lyk om jou te pas"
 
-#: ../slideshow-gallery.php:110
+#: slideshow-gallery.php:127
 msgid "WordPress Related"
 msgstr "WordPress Relevante"
 
-#: ../slideshow-gallery.php:110
+#: slideshow-gallery.php:127
 msgid "Settings specifically related to WordPress"
-msgstr ""
+msgstr "Verstellings spesifiek relevant tot WordPress"
 
-#: ../slideshow-gallery.php:126
+#: slideshow-gallery.php:143
 msgid "You have been using the %s for %s days or more. Please consider to %s it or say it %s on %s."
-msgstr ""
+msgstr "Jy gebruik die %s al vir %s dae of meer. Oorweeg asseblief om %s of te se dit %s op %s."
 
-#: ../slideshow-gallery.php:237
+#: slideshow-gallery.php:254
 msgid "You need the %sShopping Cart plugin%s to display products slides."
-msgstr ""
+msgstr "Jy kort die %sShopping Cart plugin%s om produkte te wys."
 
-#: ../slideshow-gallery.php:259
+#: slideshow-gallery.php:276
 msgid "No posts with featured images are available. Ensure your theme includes %s support."
-msgstr ""
+msgstr "Geen poste met gewilde prente is beskikbaar nie. Maak seker jou ontwerp ondersteun %s."
 
-#: ../slideshow-gallery.php:365
+#: slideshow-gallery.php:382
 msgid "Slide has been removed"
-msgstr ""
+msgstr "Skyfie was verwyder"
 
-#: ../slideshow-gallery.php:368
+#: slideshow-gallery.php:385
 msgid "Slide cannot be removed"
-msgstr ""
+msgstr "Skyfie kan nie verwyder word nie"
 
-#: ../slideshow-gallery.php:380
+#: slideshow-gallery.php:397
 msgid "Slide has been saved"
-msgstr ""
+msgstr "Skyfie was gestoor"
 
-#: ../slideshow-gallery.php:383
+#: slideshow-gallery.php:400
 msgid "Slide could not be saved"
-msgstr ""
+msgstr "Skyfie kon nie gestoor word nie"
 
-#: ../slideshow-gallery.php:401
+#: slideshow-gallery.php:418
 msgid "Selected slides have been removed"
-msgstr ""
+msgstr "Gekose skyfies was verwyder"
 
-#: ../slideshow-gallery.php:406 ../slideshow-gallery.php:518
+#: slideshow-gallery.php:423 slideshow-gallery.php:535
 msgid "No slides were selected"
-msgstr ""
+msgstr "Geen skyfies was gekies nie"
 
-#: ../slideshow-gallery.php:410 ../slideshow-gallery.php:522
+#: slideshow-gallery.php:427 slideshow-gallery.php:539
 msgid "No action was specified"
-msgstr ""
+msgstr "Geen aksie was gespesifiseer nie"
 
-#: ../slideshow-gallery.php:457
+#: slideshow-gallery.php:474
 msgid "Gallery has been saved"
-msgstr ""
+msgstr "Galery was gestoor"
 
-#: ../slideshow-gallery.php:492
+#: slideshow-gallery.php:509
 msgid "Gallery has been removed"
-msgstr ""
+msgstr "Galery was verwyder"
 
-#: ../slideshow-gallery.php:495
+#: slideshow-gallery.php:512
 msgid "Gallery cannot be removed"
-msgstr ""
+msgstr "Galery kon nie verwyder word nie"
 
-#: ../slideshow-gallery.php:513
+#: slideshow-gallery.php:530
 msgid "Selected galleries have been removed"
-msgstr ""
+msgstr "Gekose galerye was verwyder"
 
-#: ../slideshow-gallery.php:554
+#: slideshow-gallery.php:571
 msgid "All configuration settings have been reset to their defaults"
-msgstr ""
+msgstr "Alle verstellings was teruggestel na hulle standaarde"
 
-#: ../slideshow-gallery.php:558
+#: slideshow-gallery.php:575
 msgid "Configuration settings could not be reset"
-msgstr ""
+msgstr "Verstellings kon nie teruggestel word nie"
 
-#: ../slideshow-gallery.php:609
+#: slideshow-gallery.php:627
 msgid "Configuration has been saved"
-msgstr ""
+msgstr "Verstellings was gestoor"
 
-#: ../vendors/BFI_Thumb.php:120
+#: vendors/BFI_Thumb.php:120
 msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
-msgstr ""
+msgstr "Die server het nie ImageMagick of GD geinstalleer nie. Dit word benodig vir WordPress om die prente te verstel soos nodig. Kontak asseblief jou hosting administrateur om dit aan te sit."
 
-#: ../vendors/BFI_Thumb.php:235
+#: vendors/BFI_Thumb.php:235
 msgid "Image rotate failed."
-msgstr ""
+msgstr "Prent roteer het misluk."
 
-#: ../vendors/BFI_Thumb.php:257
+#: vendors/BFI_Thumb.php:257
 msgid "Image opacity change failed."
-msgstr ""
+msgstr "Prent ondeursigtigheid verandering het misluk. "
 
-#: ../vendors/BFI_Thumb.php:335
+#: vendors/BFI_Thumb.php:335
 msgid "Image color change failed."
-msgstr ""
+msgstr "Prent kleur verandering het misluk."
 
-#: ../vendors/BFI_Thumb.php:351
+#: vendors/BFI_Thumb.php:351
 msgid "Image grayscale failed."
-msgstr ""
+msgstr "Prent grysskaal het misluk."
 
-#: ../vendors/BFI_Thumb.php:367
+#: vendors/BFI_Thumb.php:367
 msgid "Image negate failed."
-msgstr ""
+msgstr "Prent negeer het misluk."
 
-#: ../vendors/class.paginate.php:183
+#: vendors/class.paginate.php:183
 msgid "Displaying"
-msgstr ""
+msgstr "Wys"
 
-#: ../vendors/class.paginate.php:183
+#: vendors/class.paginate.php:183
 msgid "of"
-msgstr ""
+msgstr "van"
 
-#: ../vendors/class.paginate.php:186
+#: vendors/class.paginate.php:186
 msgid "Previous Page"
-msgstr ""
+msgstr "Vorige Bladsy"
 
-#: ../vendors/class.paginate.php:194
+#: vendors/class.paginate.php:194
 msgid "Page"
-msgstr ""
+msgstr "Bladsy"
 
-#: ../vendors/class.paginate.php:205
+#: vendors/class.paginate.php:205
 msgid "Next Page"
-msgstr ""
+msgstr "Volgende Bladsy"
 
-#: ../views/admin/about.php:14
-msgid "Welcome to Slideshow Gallery %s"
-msgstr ""
-
-#: ../views/admin/about.php:16
-msgid "Thank you for installing! Slideshow Gallery %s is more powerful, reliable and versatile than before. It includes many features and improvements."
-msgstr ""
-
-#: ../views/admin/about.php:18
-msgid "Version %s"
-msgstr ""
-
-#: ../views/admin/about.php:21
-msgid "What's new in this release"
-msgstr ""
-
-#: ../views/admin/about.php:25
-msgid "WordPress 4.0 Compatibility"
-msgstr ""
-
-#: ../views/admin/about.php:26
-msgid "This version is 100% compatible with the latest WordPress version. It will fit nicely into your WordPress dashboard and maximizes the WordPress capabilities for speed, functionality and reliability."
-msgstr ""
-
-#: ../views/admin/about.php:30
-msgid "Multilingual"
-msgstr ""
-
-#: ../views/admin/about.php:31
-msgid "This version of the Slideshow Gallery plugin is fully integrated with (m)qTranslate. It now supports internationalization and multilanguage through (m)qTranslate."
-msgstr ""
-
-#: ../views/admin/about.php:35
-msgid "Responsive Slideshow"
-msgstr ""
-
-#: ../views/admin/about.php:36
-msgid "The new, responsive option is a flexible foundation that adapts your slideshow to mobile devices and the desktop or any other viewing environment. In this way your slideshow can easily be viewed on a desktop or mobile device."
-msgstr ""
-
-#: ../views/admin/about.php:46
-msgid "Compatibility with Thickbox"
-msgstr ""
-
-#: ../views/admin/about.php:47
-msgid " Slideshows in this version is compatibile with Thickbox/Lightbox to show slide images in an overlay."
-msgstr ""
-
-#: ../views/admin/about.php:51
-msgid "More than one slideshow"
-msgstr ""
-
-#: ../views/admin/about.php:52
-msgid "Create a beautiful page with more than one slideshow. You now have the ability to add unlimited slideshows per page, as many as you want. They will all play along nicely!"
-msgstr ""
-
-#: ../views/admin/about.php:63
-#: ../views/admin/metaboxes/settings-general.php:19
+#: views/admin/metaboxes/settings-general.php:19
 msgid "Auto Slide"
-msgstr ""
+msgstr "Outoskyf"
 
-#: ../views/admin/about.php:64
-msgid "Set your slideshow to autoslide, when viewing a slideshow it will autoslide and it won't be necessary for the user to manually flip through the images."
-msgstr ""
-
-#: ../views/admin/about.php:65
-msgid "WordPress Object Cache API"
-msgstr ""
-
-#: ../views/admin/about.php:66
-msgid "Speed up the plugin with the WordPress Object Cache API which is now built in to cache queries through the WordPress database object."
-msgstr ""
-
-#: ../views/admin/about.php:69
-msgid "Hide information bar on mobile devices"
-msgstr ""
-
-#: ../views/admin/about.php:70
-msgid "Hide the information bar on mobile devices with a responsive slideshow to view a full slideshow without any text over it.."
-msgstr ""
-
-#: ../views/admin/about.php:72
-msgid "Show latest/feature products from Shopping Cart plugin"
-msgstr ""
-
-#: ../views/admin/about.php:73
-msgid "Add a slideshow to show your products from the WordPress Shopping Cart plugin. You can choose to show either latest products or feature products images in the slideshow. The images, titles, descriptions, etc. will be automatically pulled from the Shopping Cart plugin, it is fully automated and integrated."
-msgstr ""
-
-#: ../views/admin/about.php:76
-msgid "Revamp of Configuration Settings"
-msgstr ""
-
-#: ../views/admin/about.php:77
-msgid "The Configurations Settings got a Revamp. New Sliders for speed settings, Color picker for color settings, Debugging setting and more."
-msgstr ""
-
-#: ../views/admin/about.php:79
-msgid "Child Theme Folder Support"
-msgstr ""
-
-#: ../views/admin/about.php:80
-msgid "The best way to make modifications to template files in the Slideshow Gallery plugin is to create a child theme folder for the plugin inside your WordPress theme folder. This version now supports a child theme folder."
-msgstr ""
-
-#: ../views/admin/about.php:88
-msgid "Go to Slideshow Gallery overview"
-msgstr ""
-
-#: ../views/admin/galleries/hardcode.php:2
+#: views/admin/galleries/hardcode.php:2
 msgid "Hardcode Gallery: %s"
-msgstr ""
+msgstr "Kodeer Galery: %s"
 
-#: ../views/admin/galleries/hardcode.php:3 ../views/admin/galleries/view.php:4
+#: views/admin/galleries/hardcode.php:3 views/admin/galleries/view.php:4
 msgid "&larr; All Galleries"
-msgstr ""
+msgstr "&larr; Alle Galerye"
 
-#: ../views/admin/galleries/hardcode.php:3 ../views/admin/galleries/view.php:4
+#: views/admin/galleries/hardcode.php:3 views/admin/galleries/view.php:4
 msgid "All Galleries"
-msgstr ""
+msgstr "Alle Galerye"
 
-#: ../views/admin/galleries/hardcode.php:4
+#: views/admin/galleries/hardcode.php:4
 msgid "This PHP code can be used inside your WordPress theme to display slides inside this gallery."
-msgstr ""
+msgstr "Hierdie PHP kode kan gebruik word binne in jou WordPress ontwerp om skyfies te wys van hierdie galery."
 
-#: ../views/admin/galleries/index.php:2 ../views/admin/slides/index.php:2
+#: views/admin/galleries/index.php:2 views/admin/slides/index.php:2
 msgid "Add New"
-msgstr ""
+msgstr "Voeg By"
 
-#: ../views/admin/galleries/index.php:7
+#: views/admin/galleries/index.php:7
 msgid "galleries"
-msgstr ""
+msgstr "galerye"
 
-#: ../views/admin/galleries/index.php:11
+#: views/admin/galleries/index.php:11
 msgid "Are you sure you wish to execute this action on the selected galleries?"
-msgstr ""
+msgstr "Is jy seker jy wil hierdie aksie toepas op die geselekteerde galerye?"
 
-#: ../views/admin/galleries/index.php:15 ../views/admin/slides/loop.php:13
+#: views/admin/galleries/index.php:15 views/admin/slides/loop.php:13
 msgid "- Bulk Actions -"
-msgstr ""
+msgstr "- Massa Aksie -"
 
-#: ../views/admin/galleries/index.php:16 ../views/admin/galleries/index.php:94
-#: ../views/admin/galleries/view.php:10 ../views/admin/slides/loop.php:14
-#: ../views/admin/slides/loop.php:127
+#: views/admin/galleries/index.php:16 views/admin/galleries/index.php:94
+#: views/admin/galleries/view.php:10 views/admin/slides/loop.php:14
+#: views/admin/slides/loop.php:127
 msgid "Delete"
-msgstr ""
+msgstr "Verwyder"
 
-#: ../views/admin/galleries/index.php:18 ../views/admin/slides/loop.php:16
+#: views/admin/galleries/index.php:18 views/admin/slides/loop.php:16
 msgid "Apply"
-msgstr ""
+msgstr "Pas toe"
 
-#: ../views/admin/galleries/index.php:37 ../views/admin/galleries/index.php:62
-#: ../views/admin/slides/loop.php:35 ../views/admin/slides/loop.php:77
+#: views/admin/galleries/index.php:37 views/admin/galleries/index.php:62
+#: views/admin/slides/loop.php:35 views/admin/slides/loop.php:77
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#: ../views/admin/galleries/index.php:43 ../views/admin/galleries/index.php:68
-#: ../views/admin/galleries/save.php:16 ../views/admin/slides/loop.php:47
-#: ../views/admin/slides/loop.php:89 ../views/admin/slides/save.php:20
+#: views/admin/galleries/index.php:43 views/admin/galleries/index.php:68
+#: views/admin/galleries/save.php:16 views/admin/slides/loop.php:47
+#: views/admin/slides/loop.php:89 views/admin/slides/save.php:20
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
-#: ../views/admin/galleries/index.php:47 ../views/admin/galleries/index.php:72
+#: views/admin/galleries/index.php:47 views/admin/galleries/index.php:72
 msgid "Slides"
-msgstr ""
+msgstr "Skyfies"
 
-#: ../views/admin/galleries/index.php:48 ../views/admin/galleries/index.php:73
+#: views/admin/galleries/index.php:48 views/admin/galleries/index.php:73
 msgid "Shortcode"
-msgstr ""
+msgstr "Kortkode"
 
-#: ../views/admin/galleries/index.php:51 ../views/admin/galleries/index.php:76
-#: ../views/admin/slides/loop.php:60 ../views/admin/slides/loop.php:102
+#: views/admin/galleries/index.php:51 views/admin/galleries/index.php:76
+#: views/admin/slides/loop.php:60 views/admin/slides/loop.php:102
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
-#: ../views/admin/galleries/index.php:90
+#: views/admin/galleries/index.php:90
 msgid "View"
-msgstr ""
+msgstr "Sien"
 
-#: ../views/admin/galleries/index.php:91 ../views/admin/galleries/view.php:8
-#: ../views/admin/slides/loop.php:126
+#: views/admin/galleries/index.php:91 views/admin/galleries/view.php:8
+#: views/admin/slides/loop.php:126
 msgid "Edit"
-msgstr ""
+msgstr "Verander"
 
-#: ../views/admin/galleries/index.php:92 ../views/admin/galleries/view.php:9
+#: views/admin/galleries/index.php:92 views/admin/galleries/view.php:9
 msgid "Hardcode"
-msgstr ""
+msgstr "Kodeer"
 
-#: ../views/admin/galleries/index.php:93 ../views/admin/slides/loop.php:6
-#: ../views/admin/slides/loop.php:8 ../views/admin/slides/order.php:2
+#: views/admin/galleries/index.php:93 views/admin/slides/loop.php:6
+#: views/admin/slides/loop.php:8 views/admin/slides/order.php:2
 msgid "Order Slides"
-msgstr ""
+msgstr "Sorteer Skyfies"
 
-#: ../views/admin/galleries/index.php:94 ../views/admin/slides/loop.php:127
+#: views/admin/galleries/index.php:94 views/admin/slides/loop.php:127
 msgid "Are you sure you want to permanently remove this slide?"
-msgstr ""
+msgstr "Is jy seker jy wil permanent hierdie skyfie verwyder?"
 
-#: ../views/admin/galleries/index.php:115 ../views/admin/slides/save.php:122
+#: views/admin/galleries/index.php:115 views/admin/slides/save.php:122
 msgid "No galleries are available."
-msgstr ""
+msgstr "Geen galerye beskikbaar."
 
-#: ../views/admin/galleries/save.php:8
+#: views/admin/galleries/save.php:8
 msgid "Save a Gallery"
-msgstr ""
+msgstr "Stoor n Galery"
 
-#: ../views/admin/galleries/save.php:17
+#: views/admin/galleries/save.php:17
 msgid "Give this gallery a title/name for your own reference."
-msgstr ""
+msgstr "Gee die galery n titel/naam vir verwysing."
 
-#: ../views/admin/galleries/save.php:42
+#: views/admin/galleries/save.php:42
 msgid "Title of this gallery for identification purposes."
-msgstr ""
+msgstr "Titel van hierdie galery vir identifikasie doeleindes."
 
-#: ../views/admin/galleries/save.php:50
+#: views/admin/galleries/save.php:50
 msgid "Save Gallery"
-msgstr ""
+msgstr "Stoor Galery"
 
-#: ../views/admin/galleries/view.php:2
+#: views/admin/galleries/view.php:2
 msgid "View Gallery: %s"
-msgstr ""
+msgstr "Sien Galery: %s"
 
-#: ../views/admin/galleries/view.php:8
+#: views/admin/galleries/view.php:8
 msgid "Edit Gallery"
-msgstr ""
+msgstr "Verander Galery"
 
-#: ../views/admin/galleries/view.php:10
+#: views/admin/galleries/view.php:10
 msgid "Are you sure you want to delete this gallery?"
-msgstr ""
+msgstr "Is jy seker jy wil hierdie galery verwyder?"
 
-#: ../views/admin/galleries/view.php:10
+#: views/admin/galleries/view.php:10
 msgid "Delete Gallery"
-msgstr ""
+msgstr "Verwyder Galery"
 
-#: ../views/admin/metaboxes/settings-about.php:5
+#: views/admin/metaboxes/settings-about.php:5
 msgid "Vote/rate on WordPress.org, please!"
-msgstr ""
+msgstr "Stem/gradeer op WordPress.org, asseblief!"
 
-#: ../views/admin/metaboxes/settings-about.php:8
+#: views/admin/metaboxes/settings-about.php:8
 msgid "Online Documentation"
-msgstr ""
+msgstr "Aanlyn Dokumentasie"
 
-#: ../views/admin/metaboxes/settings-about.php:11
+#: views/admin/metaboxes/settings-about.php:11
 msgid "Find Us on Facebook"
-msgstr ""
+msgstr "Vind ons op Facebook"
 
-#: ../views/admin/metaboxes/settings-about.php:14
+#: views/admin/metaboxes/settings-about.php:14
 msgid "Make a Donation, please"
-msgstr ""
+msgstr "Maak n donasie, asseblief"
 
-#: ../views/admin/metaboxes/settings-about.php:17
+#: views/admin/metaboxes/settings-about.php:17
 msgid "More Amazing Plugins!!!"
-msgstr ""
+msgstr "Nog fantastiese plugins!!!"
 
-#: ../views/admin/metaboxes/settings-general.php:20
+#: views/admin/metaboxes/settings-general.php:20
 msgid "Turn this on so that the slideshow can automatically slide through the slides.<br/><br/><strong>Override per slideshow:</strong> Using parameter <code>auto</code> with value <code>true</code> or <code>false</code> eg. <code>[tribulant_slideshow auto=\"false\"]</code>."
-msgstr ""
+msgstr "Sit hierdie aan sodat die skyfievertoning outomaties deur die skyfies kan gaan.<br/><br/><strong>Jy kan dit per skyfievertoning verander met parameter <code>auto</code> met waarde <code>true</code> of <code>false</code> eg. <code>[tribulant_slideshow auto=\"false\"]</code>"
 
-#: ../views/admin/metaboxes/settings-general.php:22
-#: ../views/admin/metaboxes/settings-general.php:37
-#: ../views/admin/metaboxes/settings-general.php:98
-#: ../views/admin/metaboxes/settings-general.php:166
-#: ../views/admin/metaboxes/settings-general.php:218
-#: ../views/admin/metaboxes/settings-linksimages.php:7
-#: ../views/admin/metaboxes/settings-styles.php:64
-#: ../views/admin/metaboxes/settings-styles.php:78
-#: ../views/admin/slides/loop.php:144 ../views/admin/slides/save.php:271
+#: views/admin/metaboxes/settings-general.php:22
+#: views/admin/metaboxes/settings-general.php:37
+#: views/admin/metaboxes/settings-general.php:98
+#: views/admin/metaboxes/settings-general.php:166
+#: views/admin/metaboxes/settings-general.php:218
+#: views/admin/metaboxes/settings-linksimages.php:7
+#: views/admin/metaboxes/settings-styles.php:64
+#: views/admin/metaboxes/settings-styles.php:78
+#: views/admin/slides/loop.php:144 views/admin/slides/save.php:271
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
-#: ../views/admin/metaboxes/settings-general.php:23
-#: ../views/admin/metaboxes/settings-general.php:38
-#: ../views/admin/metaboxes/settings-general.php:99
-#: ../views/admin/metaboxes/settings-general.php:167
-#: ../views/admin/metaboxes/settings-general.php:219
-#: ../views/admin/metaboxes/settings-linksimages.php:8
-#: ../views/admin/metaboxes/settings-styles.php:65
-#: ../views/admin/metaboxes/settings-styles.php:79
-#: ../views/admin/slides/loop.php:147 ../views/admin/slides/save.php:272
+#: views/admin/metaboxes/settings-general.php:23
+#: views/admin/metaboxes/settings-general.php:38
+#: views/admin/metaboxes/settings-general.php:99
+#: views/admin/metaboxes/settings-general.php:167
+#: views/admin/metaboxes/settings-general.php:219
+#: views/admin/metaboxes/settings-linksimages.php:8
+#: views/admin/metaboxes/settings-styles.php:65
+#: views/admin/metaboxes/settings-styles.php:79
+#: views/admin/slides/loop.php:147 views/admin/slides/save.php:272
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
-#: ../views/admin/metaboxes/settings-general.php:24
+#: views/admin/metaboxes/settings-general.php:24
 msgid "Should image slides automatically slide?"
-msgstr ""
+msgstr "Moet skyfies outomaties skyf?"
 
-#: ../views/admin/metaboxes/settings-general.php:34
+#: views/admin/metaboxes/settings-general.php:34
 msgid "Always Auto"
-msgstr ""
+msgstr "Altyd Outo"
 
-#: ../views/admin/metaboxes/settings-general.php:35
+#: views/admin/metaboxes/settings-general.php:35
 msgid "With the \"Auto Slide\" setting turned on above, the slideshow will automatically go through the slides but it will stop automatically navigating once the user started navigating. You can override this behaviour and force automatic navigation by turning this on."
-msgstr ""
+msgstr "Met die \"Out Skyf\" verstelling sal die skyfievertoning outomaties deur die skyfies gaan en sal dan outomaties stop sodra die gebruiker navigeer. Jy kan dit verander deur hierdie verstelling aan te sit."
 
-#: ../views/admin/metaboxes/settings-general.php:39
+#: views/admin/metaboxes/settings-general.php:39
 msgid "Should the slideshow always continue auto sliding, even after navigation by the user?"
-msgstr ""
+msgstr "Moet die skyfievertoning altyd aanhou outo skyf, selfs na die gebruiker navigeer het?"
 
-#: ../views/admin/metaboxes/settings-general.php:43
+#: views/admin/metaboxes/settings-general.php:43
 msgid "Auto Speed"
-msgstr ""
+msgstr "Outo Spoed"
 
-#: ../views/admin/metaboxes/settings-general.php:44
+#: views/admin/metaboxes/settings-general.php:44
 msgid "Set the speed at which auto sliding will occur, meaning the interval between auto sliding. The default is 10 which is recommended but you can specify a smaller number for quicker sliding or a larger number for slower sliding."
-msgstr ""
+msgstr "Stel die spoed waarteen die outo skyf sal gebeur, menende die interval tussen skyfies. Die standaard is 10 wat aanbeveel word, maar jy kan spesifiseer wat jy wil he dit moet wees."
 
-#: ../views/admin/metaboxes/settings-general.php:62
+#: views/admin/metaboxes/settings-general.php:62
 msgid "Speed for auto sliding. Lower number for shorter interval between images."
-msgstr ""
+msgstr "Spoed vir outo skyf. Hoe laer die nommer, hoe korter die interval tussen prente/skyfies."
 
-#: ../views/admin/metaboxes/settings-general.php:62
+#: views/admin/metaboxes/settings-general.php:62
 msgid "(Default/Recommended: 10)"
-msgstr ""
+msgstr "(Standaard/Aanbeveel: 10)"
 
-#: ../views/admin/metaboxes/settings-general.php:72
+#: views/admin/metaboxes/settings-general.php:72
 msgid "Image Fading Speed"
-msgstr ""
+msgstr "Prent Vervaag Spoed"
 
-#: ../views/admin/metaboxes/settings-general.php:73
+#: views/admin/metaboxes/settings-general.php:73
 msgid "Choose the speed at which images fade in and out. The default is 10 and a number between 1 and 20 is recommended. Use a low number for quick fading and a higher number for slower fading."
-msgstr ""
+msgstr "Kies die spoed waarteen prente in en uit vervaag. Die standaard is 10 en n nommer tussen 1 en 20 is aanbeveel. Hoe laer die nommer, hoe vinniger sal die skyfies vervaag."
 
-#: ../views/admin/metaboxes/settings-general.php:91
+#: views/admin/metaboxes/settings-general.php:91
 msgid "Speed for fading of images. Lower number for quicker fading of images."
-msgstr ""
+msgstr "Spoed van die vervaging van prente. Laer nommer vir vinniger vervaging."
 
-#: ../views/admin/metaboxes/settings-general.php:91
+#: views/admin/metaboxes/settings-general.php:91
 msgid "(Default: 10, Recommended: 1-20)"
-msgstr ""
+msgstr "(Standaard: 10, Aanbeveel: 1-20)"
 
-#: ../views/admin/metaboxes/settings-general.php:95
+#: views/admin/metaboxes/settings-general.php:95
 msgid "Show Image Navigation"
-msgstr ""
+msgstr "Wys Prent Navigasie"
 
-#: ../views/admin/metaboxes/settings-general.php:96
+#: views/admin/metaboxes/settings-general.php:96
 msgid "Turn this on to show the Next and Previous arrows on either sides of the slideshow for the user to navigate through slides. Once turned on, you can set the opacity of these navigation arrows below."
-msgstr ""
+msgstr "Sit hierdie aan om die Volgende en Vorige pyltjies aan die kante van die skyfievertoning te wys sodat die gebruiker deur die skyfies kan navigeer. Sodra dit aan is kan jy die ondeursigtigheid van die navigasiepyltjies stel."
 
-#: ../views/admin/metaboxes/settings-general.php:100
+#: views/admin/metaboxes/settings-general.php:100
 msgid "Show next/previous buttons on the image for navigation purposes?"
-msgstr ""
+msgstr "Wys volgende/vorige knoppies op die prent vir navigasie?"
 
-#: ../views/admin/metaboxes/settings-general.php:110
+#: views/admin/metaboxes/settings-general.php:110
 msgid "Navigation Default Opacity"
-msgstr ""
+msgstr "Navigasie Standaard Ondeursigtigheid"
 
-#: ../views/admin/metaboxes/settings-general.php:111
+#: views/admin/metaboxes/settings-general.php:111
 msgid "The default state opacity of the left/right navigation arrows. This is a percentage value and you can specify anything between 0% and 100% as needed."
-msgstr ""
+msgstr "Die standaard ondeursigtigheid van die links/regs navigasiepyltjies. Dit is n persentasie waarde en jy kan enigiets tussen 0 en 100% spesifiseer soos nodig."
 
-#: ../views/admin/metaboxes/settings-general.php:130
+#: views/admin/metaboxes/settings-general.php:130
 msgid "Opacity of the next/previous buttons by default."
-msgstr ""
+msgstr "Ondeursigtigheid van die volgende/vorige knoppies as standaard."
 
-#: ../views/admin/metaboxes/settings-general.php:134
+#: views/admin/metaboxes/settings-general.php:134
 msgid "Navigation Hover Opacity"
-msgstr ""
+msgstr "Navigasie Beweeg Ondeursigtigheid"
 
-#: ../views/admin/metaboxes/settings-general.php:135
+#: views/admin/metaboxes/settings-general.php:135
 msgid "The hover state opacity of the left/right navigation arrows. This is the opacity when the user hovers with the mouse cursor over the arrow image. Percentage value between 0% and 100%"
-msgstr ""
+msgstr "Die muis oor beweeg ondeursigtigheid van die links/regs navigasie pyltjies. Persentasie waarde tussen 0 en 100%"
 
-#: ../views/admin/metaboxes/settings-general.php:153
+#: views/admin/metaboxes/settings-general.php:153
 msgid "Opacity of the next/previous buttons when they are hovered."
-msgstr ""
+msgstr "Ondeursigtigheid van die volgende/vorige knoppies as die muis oor beweeg word."
 
-#: ../views/admin/metaboxes/settings-general.php:163
+#: views/admin/metaboxes/settings-general.php:163
 msgid "Show Information"
-msgstr ""
+msgstr "Wys Informasie"
 
-#: ../views/admin/metaboxes/settings-general.php:164
+#: views/admin/metaboxes/settings-general.php:164
 msgid "Should the information bar be shown on slides? Turn this on to show a bar on each slide with the title and description of the slide."
-msgstr ""
+msgstr "Moet die informasiestrook gewys word op skyfies? Sit hierdie aan om dit te wys."
 
-#: ../views/admin/metaboxes/settings-general.php:168
+#: views/admin/metaboxes/settings-general.php:168
 msgid "Should the information bar be shown on slides?"
-msgstr ""
+msgstr "Moet die informarsiestrook gewys word op skyfies?"
 
-#: ../views/admin/metaboxes/settings-general.php:178
+#: views/admin/metaboxes/settings-general.php:178
 msgid "Information Speed"
-msgstr ""
+msgstr "Informasie Spoed"
 
-#: ../views/admin/metaboxes/settings-general.php:179
+#: views/admin/metaboxes/settings-general.php:179
 msgid "Specify the speed at which the information bar will slide up and down as the slide is shown and hidden."
-msgstr ""
+msgstr "Spesifiseer die spood waarteen die informasiestrook op en af sal skyf."
 
-#: ../views/admin/metaboxes/settings-general.php:197
+#: views/admin/metaboxes/settings-general.php:197
 msgid "Speed at which the information bar will slide in and out."
-msgstr ""
+msgstr "Spoed waarteen die informasiestrook in en uit sal skyf."
 
-#: ../views/admin/metaboxes/settings-general.php:201
+#: views/admin/metaboxes/settings-general.php:201
 msgid "Hide On Mobiles"
-msgstr ""
+msgstr "Steek Weg Op Mobiele Toestelle"
 
-#: ../views/admin/metaboxes/settings-general.php:202
+#: views/admin/metaboxes/settings-general.php:202
 msgid "With a responsive layout turned on, the slideshow will respond in width on mobile devices and the information bar tends to overlap the entire slide since it increases in height as it reduces in width. You can tick/check this setting to hide the information bar on mobile devices so that the slides remain fully visible."
-msgstr ""
+msgstr "Met n responsiewe uitleg aan sal die skyfievertoning aanpas tot die wydte van mobiele toestelle en die informasiestrook is geneig om dan bo oor die prent te gaan aangesien die hoogte daarvan vermeerder. Jy kan hierdie merk om die informasiestrook weg te steek op mobiele toestelle om dit te vermy."
 
-#: ../views/admin/metaboxes/settings-general.php:204
+#: views/admin/metaboxes/settings-general.php:204
 msgid "Yes, hide the information bar on mobiles"
-msgstr ""
+msgstr "Ja, steek die informasiestrook weg op mobiele toestelle"
 
-#: ../views/admin/metaboxes/settings-general.php:205
+#: views/admin/metaboxes/settings-general.php:205
 msgid "Tick/check this to hide the information bar on mobiles"
-msgstr ""
+msgstr "Merk hierdie om die informasiestrook weg te steek op mobiele toestelle."
 
-#: ../views/admin/metaboxes/settings-general.php:215
+#: views/admin/metaboxes/settings-general.php:215
 msgid "Show Thumbnails"
-msgstr ""
+msgstr "Wys Thumbnails"
 
-#: ../views/admin/metaboxes/settings-general.php:216
+#: views/admin/metaboxes/settings-general.php:216
 msgid "Would you like to show a thumbnail bar/slider above/below the slideshow with the thumbnails of all the slides in the slideshow for easier navigation?"
-msgstr ""
+msgstr "Wil jy he die thumbnailstrook moet wys vir makliker navigasie van die skyfievertoning?"
 
-#: ../views/admin/metaboxes/settings-general.php:220
+#: views/admin/metaboxes/settings-general.php:220
 msgid "Should the thumbnails bar be shown for slides?"
-msgstr ""
+msgstr "Moet die thumbnails strook gewys word?"
 
-#: ../views/admin/metaboxes/settings-general.php:230
+#: views/admin/metaboxes/settings-general.php:230
 msgid "Thumbnails Position"
-msgstr ""
+msgstr "Thumbnails Posisie"
 
-#: ../views/admin/metaboxes/settings-general.php:231
+#: views/admin/metaboxes/settings-general.php:231
 msgid "With the thumbnails turned on with the setting above, you can now specify the position of the thumbnail bar/slider. Either above or below the slideshow is available."
-msgstr ""
+msgstr "Met die thumbnails aangesit kan jy die posisie van die thumbnailstrook spesifiseer. Of bo of onder die skyfievertoning is beskikbaar."
 
-#: ../views/admin/metaboxes/settings-general.php:233
+#: views/admin/metaboxes/settings-general.php:233
 msgid "Top"
-msgstr ""
+msgstr "Bo"
 
-#: ../views/admin/metaboxes/settings-general.php:234
+#: views/admin/metaboxes/settings-general.php:234
 msgid "Bottom"
-msgstr ""
+msgstr "Onder"
 
-#: ../views/admin/metaboxes/settings-general.php:235
+#: views/admin/metaboxes/settings-general.php:235
 msgid "Choose your preferred position of the thumbnails bar relative to the slideshow images."
-msgstr ""
+msgstr "Kies die posisie van die thumbnails strook relatief tot die skyfievertoning self."
 
-#: ../views/admin/metaboxes/settings-general.php:239
+#: views/admin/metaboxes/settings-general.php:239
 msgid "Thumbnail Dimensions"
-msgstr ""
+msgstr "Thumbnail Dimensies"
 
-#: ../views/admin/metaboxes/settings-general.php:240
+#: views/admin/metaboxes/settings-general.php:240
 msgid "Specify the width and height (dimensions) of the thumbnails in the thumbnail bar/slider which will show above/below the slideshow."
-msgstr ""
+msgstr "Spesifiseer die wydte en hoogte (dimensies) van die thumbnails in die thumbnailstrook wat bo of onder die skyfievertoning sal wys."
 
-#: ../views/admin/metaboxes/settings-general.php:243
+#: views/admin/metaboxes/settings-general.php:243
 msgid "x <!-- by -->"
-msgstr ""
+msgstr "x"
 
-#: ../views/admin/metaboxes/settings-general.php:245
+#: views/admin/metaboxes/settings-general.php:245
 msgid "px <!-- pixels -->"
-msgstr ""
+msgstr "px"
 
-#: ../views/admin/metaboxes/settings-general.php:246
+#: views/admin/metaboxes/settings-general.php:246
 msgid "Width and height of the thumbnails for the slides."
-msgstr ""
+msgstr "Wydte en hoogte van die thumbnails vir die skyfies"
 
-#: ../views/admin/metaboxes/settings-general.php:247
+#: views/admin/metaboxes/settings-general.php:247
 msgid "You may leave the width empty (not the height) to crop proportionally."
-msgstr ""
+msgstr "Jy kan die wydte (nie die hoogte nie) leeg los om proporsioneel te knip."
 
-#: ../views/admin/metaboxes/settings-general.php:251
+#: views/admin/metaboxes/settings-general.php:251
 msgid "Thumbnail Opacity"
-msgstr ""
+msgstr "Thumbnail Ondeursigtigheid"
 
-#: ../views/admin/metaboxes/settings-general.php:252
+#: views/admin/metaboxes/settings-general.php:252
 msgid "The opacity of the default state of thumbnails in the thumbnails bar/slider. The active thumbnail of the currently showing slide will be 100% opacity, always."
-msgstr ""
+msgstr "Die ondeursigtigheid of staandaard status van die thumbnails in die thumbnailstrook. Die aktiewe thumbnail sal altyd 100% ondeursigtig wees."
 
-#: ../views/admin/metaboxes/settings-general.php:270
+#: views/admin/metaboxes/settings-general.php:270
 msgid "Default opacity of thumbnails when they are not hovered."
-msgstr ""
+msgstr "Standaard ondeursigtigheid van thumbnails wanneer die muis nie oor hulle beweeg nie."
 
-#: ../views/admin/metaboxes/settings-general.php:274
+#: views/admin/metaboxes/settings-general.php:274
 msgid "Thumbnails Scroll Speed"
-msgstr ""
+msgstr "Thumbnails Rol/Skyf Spoed"
 
-#: ../views/admin/metaboxes/settings-general.php:275
+#: views/admin/metaboxes/settings-general.php:275
 msgid "At which speed should the thumbnails bar/slider scroll when the left/right arrows are hovered by the user?"
-msgstr ""
+msgstr "Teen watter spoed moet die thumbnailstrook rol wanneer die links/regs pyltjies oor beweeg word met die muis van die gebruiker?"
 
-#: ../views/admin/metaboxes/settings-general.php:293
+#: views/admin/metaboxes/settings-general.php:293
 msgid "Speed at which the thumbnails will scroll."
-msgstr ""
+msgstr "Spoed waarteen die thumbnails sal rol."
 
-#: ../views/admin/metaboxes/settings-general.php:293
+#: views/admin/metaboxes/settings-general.php:293
 msgid "(Default:5, Recommended: 1-20)"
-msgstr ""
+msgstr "(Standaard: 5, Aanbeveel: 1-20)"
 
-#: ../views/admin/metaboxes/settings-general.php:297
+#: views/admin/metaboxes/settings-general.php:297
 msgid "Thumbnail Spacing"
-msgstr ""
+msgstr "Thumbnails Spasie"
 
-#: ../views/admin/metaboxes/settings-general.php:298
+#: views/admin/metaboxes/settings-general.php:298
 msgid "This is a simple margin setting to specify the space between the thumbnails in the thumbnails bar/slider above/below the slideshow."
-msgstr ""
+msgstr "Hierdie is n spasie verstelling om te spesifiseer hoeveel spasie tussen die thumbnails in die thumbnailstrook moet wees."
 
-#: ../views/admin/metaboxes/settings-general.php:300
-#: ../views/admin/metaboxes/settings-styles.php:48
-#: ../views/admin/metaboxes/settings-styles.php:93
-#: ../views/admin/metaboxes/settings-styles.php:101
+#: views/admin/metaboxes/settings-general.php:300
+#: views/admin/metaboxes/settings-styles.php:48
+#: views/admin/metaboxes/settings-styles.php:93
+#: views/admin/metaboxes/settings-styles.php:101
 msgid "px"
-msgstr ""
+msgstr "px"
 
-#: ../views/admin/metaboxes/settings-general.php:301
+#: views/admin/metaboxes/settings-general.php:301
 msgid "Horizontal margin/spacing in pixels between thumbnail images."
-msgstr ""
+msgstr "Horisontale spasie in pixels tussen thumbnail prente."
 
-#: ../views/admin/metaboxes/settings-linksimages.php:4
+#: views/admin/metaboxes/settings-linksimages.php:4
 msgid "Open Images in Overlay"
-msgstr ""
+msgstr "Maak Prente oop in Oorleg"
 
-#: ../views/admin/metaboxes/settings-linksimages.php:5
+#: views/admin/metaboxes/settings-linksimages.php:5
 msgid "Turn this on to display the link of a slide in an enlargement overlay. It only works if the link on the slide is a link to a jpg, png, gif or bmp image though. For normal links to pages, the overlay will not be used at all."
-msgstr ""
+msgstr "Sit hierdie aan om n link van die skyfie te wys in n vergrootte oorleg. Dit werk slegs as die link op die skyfie n link is na n jpg, png, gif of bmp prent. Vir normale links na bladsye sal die oorleg glad nie gebruik word nie."
 
-#: ../views/admin/metaboxes/settings-linksimages.php:9
+#: views/admin/metaboxes/settings-linksimages.php:9
 msgid "turning this on (Yes) will open image URLs (.jpg, .png, .gif, .bmp) in a Thickbox image overlay"
-msgstr ""
+msgstr "As jy hierdie aansit sal links na prente (jpg, png, gif en bmp) in n oorleg gewys word"
 
-#: ../views/admin/metaboxes/settings-plugins.php:10
+#: views/admin/metaboxes/settings-plugins.php:10
 msgid "Install Now"
-msgstr ""
+msgstr "Installeer Nou"
 
-#: ../views/admin/metaboxes/settings-plugins.php:11
+#: views/admin/metaboxes/settings-plugins.php:11
 msgid "Visit Plugin page"
-msgstr ""
+msgstr "Sien Plugin Bladsy"
 
-#: ../views/admin/metaboxes/settings-styles.php:15
+#: views/admin/metaboxes/settings-styles.php:15
 msgid "Child Theme Folder"
-msgstr ""
+msgstr "Kinder Ontwerp Leer"
 
-#: ../views/admin/metaboxes/settings-styles.php:22
+#: views/admin/metaboxes/settings-styles.php:22
 msgid "Yes, there is a %s folder inside WordPress theme folder %s"
-msgstr ""
+msgstr "Ja, daar is n %s leer binne in die WordPress ontwerp leer %s"
 
-#: ../views/admin/metaboxes/settings-styles.php:27
+#: views/admin/metaboxes/settings-styles.php:27
 msgid "Layout"
-msgstr ""
+msgstr "Uitleg"
 
-#: ../views/admin/metaboxes/settings-styles.php:28
+#: views/admin/metaboxes/settings-styles.php:28
 msgid "Choose responsive if you have a responsive theme and you want the slideshow to resize width/height in a responsive manner on different devices.<br/><br/><strong>Override per slideshow:</strong> Using parameter <code>layout</code> with value <code>responsive</code> or <code>specific</code> eg. <code>[tribulant_slideshow layout=\"specific\"]</code>."
-msgstr ""
+msgstr "Kies responsief as jy n responsiewe ontwerp het en jy wil he die skyfievertoning moet verstel in wydte/hoogte op verskillende toestelle.<br/><br/><strong>Stel per skyfievertoning:</strong> Gebruik parameter <code>layout</code> met waarde <code>responsive</code> of <code>specific</code> eg. <code>[tribulant_slideshow layout=\"specific\"]</code>."
 
-#: ../views/admin/metaboxes/settings-styles.php:30
+#: views/admin/metaboxes/settings-styles.php:30
 msgid "Responsive"
-msgstr ""
+msgstr "Responsief"
 
-#: ../views/admin/metaboxes/settings-styles.php:31
+#: views/admin/metaboxes/settings-styles.php:31
 msgid "Fixed"
-msgstr ""
+msgstr "Vaste"
 
-#: ../views/admin/metaboxes/settings-styles.php:32
+#: views/admin/metaboxes/settings-styles.php:32
 msgid "Choose whether you want a responsive or fixed/specific layout for the slideshow."
-msgstr ""
+msgstr "Kies of jy n responsiewe of vaste uitlweg wil he vir die skyfievertoning."
 
-#: ../views/admin/metaboxes/settings-styles.php:42
+#: views/admin/metaboxes/settings-styles.php:42
 msgid "Responsive Height"
-msgstr ""
+msgstr "Responsiewe Hoogte"
 
-#: ../views/admin/metaboxes/settings-styles.php:43
+#: views/admin/metaboxes/settings-styles.php:43
 msgid "The responsive height can be either a fixed height in pixel or a percentage height. The percentage height is a percentage of the width of the slideshow.<br/><br/><strong>Override per slideshow:</strong> Using parameters <code>resheight</code> value a value and <code>resheighttype</code> with <code>px</code> for pixels or <code>%</code> for percentage eg. <code>[tribulant_slideshow resheight=\"300\" resheighttype=\"px\"]</code>."
-msgstr ""
+msgstr "Die responsiewe hoogte kan vas wees in pixels of n persentasie hoogte wees. Die persentasie hoogte is n persentasie van die wydte van die skyfievertoning.<br/><br/><strong>Stel per skyfievertoning:</strong> Gebruik parameter <code>resheight</code> en <code>resheighttype</code> met <code>px</code> vir pixels of <code>%</code> vir persentasie. eg. <code>[tribulant_slideshow resheight=\"300\" resheighttype=\"px\"]</code>"
 
-#: ../views/admin/metaboxes/settings-styles.php:47
+#: views/admin/metaboxes/settings-styles.php:47
 msgid "&#37;"
-msgstr ""
+msgstr "&#37;"
 
-#: ../views/admin/metaboxes/settings-styles.php:50
+#: views/admin/metaboxes/settings-styles.php:50
 msgid "Choose a responsive height for your slideshow, either a pixel or percentage height."
-msgstr ""
+msgstr "Kies n responsiewe hoogte vir jou skyfievertoning. Of pixels of persentasie."
 
-#: ../views/admin/metaboxes/settings-styles.php:61
+#: views/admin/metaboxes/settings-styles.php:61
 msgid "Resize Images"
-msgstr ""
+msgstr "Verstel Prente"
 
-#: ../views/admin/metaboxes/settings-styles.php:62
+#: views/admin/metaboxes/settings-styles.php:62
 msgid "Should images be automatically resized? If you specify No, the images will be used in the slideshow as you originally upload them. If you specify Yes, the images will be cropped/resized to fit the slideshow better which is the recommended setting."
-msgstr ""
+msgstr "Moet die prente outomaties verstel word? As jy Nee spesifiseer sal die prente gebruik word soos hulle oorspronklik opgelaai is, maar as jy Ja spesifiseer sal hulle geknip word om in die skyfievertoning in te pas en dit is aanbeveel."
 
-#: ../views/admin/metaboxes/settings-styles.php:66
+#: views/admin/metaboxes/settings-styles.php:66
 msgid "Should images be resized proportionally to fit the width of the slideshow area?"
-msgstr ""
+msgstr "Moet die prente proporsioneel verstel word om te pas by die wydte van die skyfievertoning area?"
 
-#: ../views/admin/metaboxes/settings-styles.php:76
+#: views/admin/metaboxes/settings-styles.php:76
 msgid "Crop"
-msgstr ""
+msgstr "Knip"
 
-#: ../views/admin/metaboxes/settings-styles.php:80
+#: views/admin/metaboxes/settings-styles.php:80
 msgid "Should images be cropped?"
-msgstr ""
+msgstr "Moet prente geknip word?"
 
-#: ../views/admin/metaboxes/settings-styles.php:90
+#: views/admin/metaboxes/settings-styles.php:90
 msgid "Gallery Width"
-msgstr ""
+msgstr "Galery Wydte"
 
-#: ../views/admin/metaboxes/settings-styles.php:91
+#: views/admin/metaboxes/settings-styles.php:91
 msgid "The width of the slideshow in pixels."
-msgstr ""
+msgstr "Die wydte van die skyfievertoning in pixels"
 
-#: ../views/admin/metaboxes/settings-styles.php:94
+#: views/admin/metaboxes/settings-styles.php:94
 msgid "Width of the slideshow gallery"
-msgstr ""
+msgstr "Wydte van die skyfievertoning galery"
 
-#: ../views/admin/metaboxes/settings-styles.php:98
+#: views/admin/metaboxes/settings-styles.php:98
 msgid "Gallery Height"
-msgstr ""
+msgstr "Galery Hoogte"
 
-#: ../views/admin/metaboxes/settings-styles.php:99
+#: views/admin/metaboxes/settings-styles.php:99
 msgid "The height of the slideshow in pixels."
-msgstr ""
+msgstr "Die hoogte van die skyfievertoning in pixels."
 
-#: ../views/admin/metaboxes/settings-styles.php:102
+#: views/admin/metaboxes/settings-styles.php:102
 msgid "Height of the slideshow gallery"
-msgstr ""
+msgstr "Hoogte van die skyfievertoning"
 
-#: ../views/admin/metaboxes/settings-styles.php:112
+#: views/admin/metaboxes/settings-styles.php:112
 msgid "Auto Height"
-msgstr ""
+msgstr "Outo Hoogte"
 
-#: ../views/admin/metaboxes/settings-styles.php:114
+#: views/admin/metaboxes/settings-styles.php:114
 msgid "Yes, automatically adjust the slideshow height for each slide"
-msgstr ""
+msgstr "Ja, verstel outomaties die hoogte van die skyfievertoning vir elke skyfie"
 
-#: ../views/admin/metaboxes/settings-styles.php:118
+#: views/admin/metaboxes/settings-styles.php:118
 msgid "Slideshow Border"
-msgstr ""
+msgstr "Skyfievertoning Raam"
 
-#: ../views/admin/metaboxes/settings-styles.php:119
+#: views/admin/metaboxes/settings-styles.php:119
 msgid "This is a CSS style for the border around the entire slideshow. You can use a value such as \"1px #FFFFFF solid\" to display a 1 pixel, white, solid border or even a value such as \"none\" for no border at all."
-msgstr ""
+msgstr "Dit is die CSS styl vir die raam rondom die hele skyfievertoning. Jy kan n waarde spesifiseer soos \"1px #FFFFFF solid\" om n een pixel, wit, solide raam te he of selfs \"none\" om geen raam te he nie."
 
-#: ../views/admin/metaboxes/settings-styles.php:122
+#: views/admin/metaboxes/settings-styles.php:122
 msgid "Border style/color for the entire slideshow wrapper eg. %s"
-msgstr ""
+msgstr "Raam styl/kleur van die skyfievertoning eg. %s"
 
-#: ../views/admin/metaboxes/settings-styles.php:126
-#: ../views/admin/metaboxes/settings-styles.php:130
+#: views/admin/metaboxes/settings-styles.php:126
+#: views/admin/metaboxes/settings-styles.php:130
 msgid "Slideshow Background"
-msgstr ""
+msgstr "Skyfievertoning Agtergrond"
 
-#: ../views/admin/metaboxes/settings-styles.php:127
+#: views/admin/metaboxes/settings-styles.php:127
 msgid "The background which will display behind the entire slideshow. It is behind the slides, thumbnails, etc."
-msgstr ""
+msgstr "Die agtergrond wat sal wys agter die hele skyfievertoning. Dit is agter die skyfies, thumbnails, ens."
 
-#: ../views/admin/metaboxes/settings-styles.php:165
+#: views/admin/metaboxes/settings-styles.php:165
 msgid "Background color (hexidecimal) of the entire slideshow wrapper eg. %s"
-msgstr ""
+msgstr "Agtergrond kleur (heksidesimaal) van die hele skyfievertoning eg. %s"
 
-#: ../views/admin/metaboxes/settings-styles.php:169
-#: ../views/admin/metaboxes/settings-styles.php:173
+#: views/admin/metaboxes/settings-styles.php:169
+#: views/admin/metaboxes/settings-styles.php:173
 msgid "Information Background"
-msgstr ""
+msgstr "Informasie Agtergrond"
 
-#: ../views/admin/metaboxes/settings-styles.php:170
+#: views/admin/metaboxes/settings-styles.php:170
 msgid "The background of the information bar which shows the title and description of each slide. It is automatically half transparent so that it is not obtrusive to the slide image below it though."
-msgstr ""
+msgstr "Die agtergrond van die informasiestrook wat die titel en beskrywing wys van elke skyfie. Dit is outomaties halfpad deursigtig sodat dit nie die prent blok nie."
 
-#: ../views/admin/metaboxes/settings-styles.php:208
+#: views/admin/metaboxes/settings-styles.php:208
 msgid "Background color (hexidecimal) of the information bar eg. %s"
-msgstr ""
+msgstr "Agtergrond kleur (heksidesimaal) van die informasiestrook eg. %s"
 
-#: ../views/admin/metaboxes/settings-styles.php:212
-#: ../views/admin/metaboxes/settings-styles.php:216
+#: views/admin/metaboxes/settings-styles.php:212
+#: views/admin/metaboxes/settings-styles.php:216
 msgid "Information Text Color"
-msgstr ""
+msgstr "Informasie Tekskleur"
 
-#: ../views/admin/metaboxes/settings-styles.php:213
+#: views/admin/metaboxes/settings-styles.php:213
 msgid "This is the color of the text of the title and description of each slide which shows in the information bar."
-msgstr ""
+msgstr "Dit is die kleur van die teks van die titel en beskrywing van elke skyfie wat in die informasiestrook wys."
 
-#: ../views/admin/metaboxes/settings-styles.php:251
+#: views/admin/metaboxes/settings-styles.php:251
 msgid "Text color (hexidecimal) of the information bar content eg. %s"
-msgstr ""
+msgstr "Tekskleur (heksidesimaal) van die informasiestrook inhoud eg. %s"
 
-#: ../views/admin/metaboxes/settings-styles.php:255
-#: ../views/admin/metaboxes/settings-styles.php:259
+#: views/admin/metaboxes/settings-styles.php:255
+#: views/admin/metaboxes/settings-styles.php:259
 msgid "Thumbnail Active Border"
-msgstr ""
+msgstr "Thumbnail Aktiewe Raam"
 
-#: ../views/admin/metaboxes/settings-styles.php:256
+#: views/admin/metaboxes/settings-styles.php:256
 msgid "This is the color of the border which displays on the active thumbnail of the slide currently displaying in the slideshow."
-msgstr ""
+msgstr "Hierdie is die kleur van die raam wat wys om die aktiewe thumbnail van die huidige skyfie in die skyfievertoning."
 
-#: ../views/admin/metaboxes/settings-styles.php:294
+#: views/admin/metaboxes/settings-styles.php:294
 msgid "Border color (hexidecimal) for the active image thumbnail eg. %s"
-msgstr ""
+msgstr "Raamkleur (heksidesimaal) van die aktiewe prent thumbnail eg. %s"
 
-#: ../views/admin/metaboxes/settings-submit.php:13
+#: views/admin/metaboxes/settings-submit.php:13
 msgid "Reset all configuration settings to their default values"
-msgstr ""
+msgstr "Stel all verstellings terug na hulle standaard waardes"
 
-#: ../views/admin/metaboxes/settings-submit.php:13
+#: views/admin/metaboxes/settings-submit.php:13
 msgid "Are you sure you wish to reset all configuration settings?"
-msgstr ""
+msgstr "Is jy seker jy wil al die verstellings terugstel?"
 
-#: ../views/admin/metaboxes/settings-submit.php:13
+#: views/admin/metaboxes/settings-submit.php:13
 msgid "Reset to Defaults"
-msgstr ""
+msgstr "Stel Terug na Standaarde"
 
-#: ../views/admin/metaboxes/settings-submit.php:16
+#: views/admin/metaboxes/settings-submit.php:16
 msgid "Turn on debugging"
-msgstr ""
+msgstr "Sit ontfouting aan"
 
-#: ../views/admin/metaboxes/settings-submit.php:22
+#: views/admin/metaboxes/settings-submit.php:22
 msgid "Save Configuration"
-msgstr ""
+msgstr "Stoor Verstellings"
 
-#: ../views/admin/settings.php:12
+#: views/admin/settings.php:12
 msgid "Configuration Settings"
-msgstr ""
+msgstr "Sisteem Verstellings"
 
-#: ../views/admin/slides/index.php:7
+#: views/admin/slides/index.php:7
 msgid "slides"
-msgstr ""
+msgstr "skyfies"
 
-#: ../views/admin/slides/loop.php:2
+#: views/admin/slides/loop.php:2
 msgid "Are you sure you wish to execute this action on the selected slides?"
-msgstr ""
+msgstr "Is jy seker jy wil hierdie aksie toepas op die geselekteerde skyfies?"
 
-#: ../views/admin/slides/loop.php:8
+#: views/admin/slides/loop.php:8
 msgid "Order all your slides"
-msgstr ""
+msgstr "Sorteer alle skyfies"
 
-#: ../views/admin/slides/loop.php:41 ../views/admin/slides/loop.php:83
+#: views/admin/slides/loop.php:41 views/admin/slides/loop.php:83
 msgid "Image"
-msgstr ""
+msgstr "Prent"
 
-#: ../views/admin/slides/loop.php:51 ../views/admin/slides/loop.php:93
-#: ../views/admin/slides/save.php:113
+#: views/admin/slides/loop.php:51 views/admin/slides/loop.php:93
+#: views/admin/slides/save.php:113
 msgid "Galleries"
-msgstr ""
+msgstr "Galerye"
 
-#: ../views/admin/slides/loop.php:54 ../views/admin/slides/loop.php:96
+#: views/admin/slides/loop.php:54 views/admin/slides/loop.php:96
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
-#: ../views/admin/slides/loop.php:66 ../views/admin/slides/loop.php:108
+#: views/admin/slides/loop.php:66 views/admin/slides/loop.php:108
 msgid "Order"
-msgstr ""
+msgstr "Sorteer"
 
-#: ../views/admin/slides/loop.php:139
+#: views/admin/slides/loop.php:139
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
-#: ../views/admin/slides/loop.php:145
+#: views/admin/slides/loop.php:145
 msgid "Open"
-msgstr ""
+msgstr "Maak Oop"
 
-#: ../views/admin/slides/loop.php:163 ../views/admin/slides/order.php:56
+#: views/admin/slides/loop.php:163 views/admin/slides/order.php:56
 msgid "No slides found"
-msgstr ""
+msgstr "Geen skyfies gevind"
 
-#: ../views/admin/slides/order.php:5
+#: views/admin/slides/order.php:5
 msgid "&larr; Manage All Slides"
-msgstr ""
+msgstr "&larr; Beheer Alle Skyfies"
 
-#: ../views/admin/slides/save.php:11
+#: views/admin/slides/save.php:11
 msgid "Save a Slide"
-msgstr ""
+msgstr "Stoor n Skyfie"
 
-#: ../views/admin/slides/save.php:21
+#: views/admin/slides/save.php:21
 msgid "This title is for your reference in management and it will also be used to display the title of the slide in the information bar if you have that turned on."
-msgstr ""
+msgstr "Die titel is vir verwysing in beheer en dit sal ook gebruik word as die titel van die skyfie in die informasiestrook as jy dit aangesit het."
 
-#: ../views/admin/slides/save.php:46
+#: views/admin/slides/save.php:46
 msgid "Title/name of your slide as it will be displayed to your users."
-msgstr ""
+msgstr "Titel/naam van jou skyfie soos dit aan jou gebruikers gewys sal word."
 
-#: ../views/admin/slides/save.php:51
+#: views/admin/slides/save.php:51
 msgid "Description"
-msgstr ""
+msgstr "Beskrywing"
 
-#: ../views/admin/slides/save.php:52
+#: views/admin/slides/save.php:52
 msgid "The description is specifically used for the information bar if you have that turned on."
-msgstr ""
+msgstr "Die beskrywing word spesifiek gebruik vir die informasiestrook as jy dit aan het."
 
-#: ../views/admin/slides/save.php:77
+#: views/admin/slides/save.php:77
 msgid "Description of your slide as it will be displayed to your users below the title."
-msgstr ""
+msgstr "Beskrywing van die skyfie soos dit aan die gebruikers gewys sal word."
 
-#: ../views/admin/slides/save.php:82
+#: views/admin/slides/save.php:82
 msgid "Show Information?"
-msgstr ""
+msgstr "Wys Informasie?"
 
-#: ../views/admin/slides/save.php:83
+#: views/admin/slides/save.php:83
 msgid "You can choose to show both title and description, only title, only description or not show the information bar at all. Please note that this setting is only effective when the information bar is turned on in configuration or via a parameter in shortcode or hardcode."
-msgstr ""
+msgstr "Jy kan kies of albei die titel en beskrywing of slegs die titel of slegs die beskrywing moet wys. Neem kennis dat die verstelling slegs effektief is wanner die informasiestrook aangesit is."
 
-#: ../views/admin/slides/save.php:85
+#: views/admin/slides/save.php:85
 msgid "Both title and description"
-msgstr ""
+msgstr "Albei Titel en Beskrywing"
 
-#: ../views/admin/slides/save.php:86
+#: views/admin/slides/save.php:86
 msgid "Title only"
-msgstr ""
+msgstr "Slegs Titel"
 
-#: ../views/admin/slides/save.php:87
+#: views/admin/slides/save.php:87
 msgid "Description only"
-msgstr ""
+msgstr "Slegs Beskrywing"
 
-#: ../views/admin/slides/save.php:88
+#: views/admin/slides/save.php:88
 msgid "None, do not show"
-msgstr ""
+msgstr "Geen, moet nie wys nie"
 
-#: ../views/admin/slides/save.php:89
+#: views/admin/slides/save.php:89
 msgid "Choose how the information bar will be displayed on this slide."
-msgstr ""
+msgstr "Kies hoe die informasiestrook gewys sal word op hierdie skyfie."
 
-#: ../views/admin/slides/save.php:99
+#: views/admin/slides/save.php:99
 msgid "Info Opacity"
-msgstr ""
+msgstr "Informasie Ondeursigtigheid"
 
-#: ../views/admin/slides/save.php:100
+#: views/admin/slides/save.php:100
 msgid "The opacity of the information bar from 0 to 100 where 0 is transparent and 100 is opague."
-msgstr ""
+msgstr "Die ondeursigtigheid van die informasiestrook van 0 tot 100 waar 0 deursigtig is en 100 ondeursigtig is."
 
-#: ../views/admin/slides/save.php:103
+#: views/admin/slides/save.php:103
 msgid "A value between 0 and 100. Leave empty for default."
-msgstr ""
+msgstr "n Waarde tussen 0 en 100. Los leeg vir standaard."
 
-#: ../views/admin/slides/save.php:114
+#: views/admin/slides/save.php:114
 msgid "You can organize/assign a slide to multiple galleries as needed. It is easy to display a slideshow with the slides of a specific gallery then."
-msgstr ""
+msgstr "Jy kan n skyfie organiseer in vele galerye soos nodig. Dit is maklik om n skyfievertoning te wys met die skyfies van n spesifieke galery."
 
-#: ../views/admin/slides/save.php:117
+#: views/admin/slides/save.php:117
 msgid "Select All"
-msgstr ""
+msgstr "Kies Almal"
 
-#: ../views/admin/slides/save.php:124
+#: views/admin/slides/save.php:124
 msgid "Assign this slide to one or more galleries."
-msgstr ""
+msgstr "Ken hierdie skyfie toe tot een of meer galerye."
 
-#: ../views/admin/slides/save.php:128
+#: views/admin/slides/save.php:128
 msgid "Image Type"
-msgstr ""
+msgstr "Prent Tipe"
 
-#: ../views/admin/slides/save.php:129
+#: views/admin/slides/save.php:129
 msgid "Do you want to specify a URL to your image or upload the image file manually? Specifying a URL will still copy the image file remotely from the location to your server so uploading is recommended to prevent any restrictions or errors."
-msgstr ""
+msgstr "Wil jy n URL spesifiseer na jou prent of wil jy self een oplaai? As jy n URL spesifiseer sal die prent oorgelaai word van die plek af na jou server toe. Dit word aanbeveel om dit liewer self op te laai as jy kan."
 
-#: ../views/admin/slides/save.php:131
+#: views/admin/slides/save.php:131
 msgid "Media Upload"
-msgstr ""
+msgstr "Media Oplaai"
 
-#: ../views/admin/slides/save.php:132
+#: views/admin/slides/save.php:132
 msgid "Upload File"
-msgstr ""
+msgstr "Laai Leer Op"
 
-#: ../views/admin/slides/save.php:133
+#: views/admin/slides/save.php:133
 msgid "Specify URL"
-msgstr ""
+msgstr "Spesifiseer URL"
 
-#: ../views/admin/slides/save.php:135
+#: views/admin/slides/save.php:135
 msgid "Do you want to upload an image or specify a local/remote image URL?"
-msgstr ""
+msgstr "Wil jy n prent oplaai of n URL spesifiseer?"
 
-#: ../views/admin/slides/save.php:146 ../views/admin/slides/save.php:211
+#: views/admin/slides/save.php:146 views/admin/slides/save.php:211
 msgid "Choose Image"
-msgstr ""
+msgstr "Kies Prent"
 
-#: ../views/admin/slides/save.php:155
+#: views/admin/slides/save.php:155
 msgid "Choose File"
-msgstr ""
+msgstr "Kies Leer"
 
-#: ../views/admin/slides/save.php:176
+#: views/admin/slides/save.php:176
 msgid "Upload a slide"
-msgstr ""
+msgstr "Laai n skyfie op"
 
-#: ../views/admin/slides/save.php:178
+#: views/admin/slides/save.php:178
 msgid "Select as Slide Image"
-msgstr ""
+msgstr "Kies n Skyfie Prent"
 
-#: ../views/admin/slides/save.php:212
+#: views/admin/slides/save.php:212
 msgid "Simply choose an image file from your computer to upload for this slide. Only .jpg, .png and .gif are supported and in rare cases .bmp but please try and prevent using .bmp files."
-msgstr ""
+msgstr "Kies n prent van jou rekenaar af en laai dit op vir hierdie skyfie. Slegs jpg, png en gif word toegelaat en in skaarse gevalle sal bmp werk, maar probeer dit vermy."
 
-#: ../views/admin/slides/save.php:215
+#: views/admin/slides/save.php:215
 msgid "Choose your image file from your computer. JPG, PNG, GIF are supported."
-msgstr ""
+msgstr "Kies jou prent van jou rekenaar af. JPG, PNG, GIF is ondersteun."
 
-#: ../views/admin/slides/save.php:225
+#: views/admin/slides/save.php:225
 msgid "Current image. Leave the field above blank to keep this image."
-msgstr ""
+msgstr "Huidige prent. Los leeg om hierdie prent te hou."
 
-#: ../views/admin/slides/save.php:253
+#: views/admin/slides/save.php:253
 msgid "Image URL"
-msgstr ""
+msgstr "Prent URL"
 
-#: ../views/admin/slides/save.php:254
+#: views/admin/slides/save.php:254
 msgid "Specify an absolute URL to an image file to use for this slide. The image will be copied from the location to your server."
-msgstr ""
+msgstr "Spesifiseer n absolute URL na n prent toe vir hierdie skyfie. Die prent sal oorgelaai word van die plek af na jou server toe."
 
-#: ../views/admin/slides/save.php:257
+#: views/admin/slides/save.php:257
 msgid "Local or remote image location eg. http://domain.com/path/to/image.jpg"
-msgstr ""
+msgstr "Plaaslike of afgelee prent plek eg. http://domain.com/leer/tot/foto.jpg"
 
-#: ../views/admin/slides/save.php:268
+#: views/admin/slides/save.php:268
 msgid "Use Link"
-msgstr ""
+msgstr "Gebruik Link"
 
-#: ../views/admin/slides/save.php:269
+#: views/admin/slides/save.php:269
 msgid "Turn this on to specify a link/URL for this slide to link to when it is clicked."
-msgstr ""
+msgstr "Sit hierdie aan om n link te spesifiseer vir hierdie skyfie vir wanneer dit gekliek word."
 
-#: ../views/admin/slides/save.php:273
+#: views/admin/slides/save.php:273
 msgid "Set this to Yes to link this slide to a link/URL of your choice."
-msgstr ""
+msgstr "Stel hierdie as Ja om die skyfie te link na n URL."
 
-#: ../views/admin/slides/save.php:283
+#: views/admin/slides/save.php:283
 msgid "Link To"
-msgstr ""
+msgstr "Link Na"
 
-#: ../views/admin/slides/save.php:284
+#: views/admin/slides/save.php:284
 msgid "The absolute URL to take the user to when the slide is clicked."
-msgstr ""
+msgstr "Die absolute URL waarna die gebruiker gevat moet word sodra die skyfie gekliek word."
 
-#: ../views/admin/slides/save.php:287
+#: views/admin/slides/save.php:287
 msgid "Link/URL to go to when a user clicks the slide eg. http://www.domain.com/mypage/"
-msgstr ""
+msgstr "Link om heen te gaan as die gebruiker op die skyfie kliek eg. http://domain.com/mybladsy/"
 
-#: ../views/admin/slides/save.php:291
+#: views/admin/slides/save.php:291
 msgid "Link Target"
-msgstr ""
+msgstr "Link Teiken"
 
-#: ../views/admin/slides/save.php:292
+#: views/admin/slides/save.php:292
 msgid "Depending on the purpose of specifying this link, you may want it to open in the same window or in a new window."
-msgstr ""
+msgstr "Afhangende van die doel waarvoor jy hierdie link spesifiseer, wil jy dalk he dit moet oopmaak in dieselfde venster of n nuwe venster."
 
-#: ../views/admin/slides/save.php:294
+#: views/admin/slides/save.php:294
 msgid "Current Window"
-msgstr ""
+msgstr "Huidige Venster"
 
-#: ../views/admin/slides/save.php:295
+#: views/admin/slides/save.php:295
 msgid "New/Blank Window"
-msgstr ""
+msgstr "Nuwe/Skoon Venster"
 
-#: ../views/admin/slides/save.php:296
+#: views/admin/slides/save.php:296
 msgid "Should this link open in the current window or a new window?"
-msgstr ""
+msgstr "Moet hierdie link oopmaak in die huidige venster of n nuwe een?"
 
-#: ../views/admin/slides/save.php:304
+#: views/admin/slides/save.php:304
 msgid "Save Slide"
-msgstr ""
+msgstr "Stoor Skyfie"
 
-#: ../views/admin/tinymce-dialog.php:24
+#: views/admin/tinymce-dialog.php:24
 msgid "Insert a Slideshow Gallery"
-msgstr ""
+msgstr "Sit n Skyfievertoning In"
 
-#: ../views/admin/tinymce-dialog.php:39
+#: views/admin/tinymce-dialog.php:39
 msgid "Please fill in a post ID."
-msgstr ""
+msgstr "Vul n pos ID in."
 
-#: ../views/admin/tinymce-dialog.php:53
+#: views/admin/tinymce-dialog.php:53
 msgid "Please select a gallery."
-msgstr ""
+msgstr "Kies n galery."
 
-#: ../views/admin/tinymce-dialog.php:90
+#: views/admin/tinymce-dialog.php:90
 msgid "Images From a Post"
-msgstr ""
+msgstr "Prente van n artikel"
 
-#: ../views/admin/tinymce-dialog.php:91
+#: views/admin/tinymce-dialog.php:91
 msgid "Slides From a Gallery"
-msgstr ""
+msgstr "Skyfies van n galery"
 
-#: ../views/admin/tinymce-dialog.php:92
+#: views/admin/tinymce-dialog.php:92
 msgid "All Available Slides"
-msgstr ""
+msgstr "Alle skyfies"
 
-#: ../views/admin/tinymce-dialog.php:93
+#: views/admin/tinymce-dialog.php:93
 msgid "Products"
-msgstr ""
+msgstr "Produkte"
 
-#: ../views/admin/tinymce-dialog.php:95
+#: views/admin/tinymce-dialog.php:95
 msgid "Requires the %sShopping Cart plugin%s"
-msgstr ""
+msgstr "Benodig die %Shopping Cart plugin%s"
 
-#: ../views/admin/tinymce-dialog.php:100
+#: views/admin/tinymce-dialog.php:100
 msgid "Products Source:"
-msgstr ""
+msgstr "Produkte Bron:"
 
-#: ../views/admin/tinymce-dialog.php:102
+#: views/admin/tinymce-dialog.php:102
 msgid "Latest Products"
-msgstr ""
+msgstr "Nuutste Produkte"
 
-#: ../views/admin/tinymce-dialog.php:103
+#: views/admin/tinymce-dialog.php:103
 msgid "Featured Products"
-msgstr ""
+msgstr "Gewilde Produkte"
 
-#: ../views/admin/tinymce-dialog.php:105
+#: views/admin/tinymce-dialog.php:105
 msgid "Choose the source of the products"
-msgstr ""
+msgstr "Kies die bron van die produkte"
 
-#: ../views/admin/tinymce-dialog.php:108
+#: views/admin/tinymce-dialog.php:108
 msgid "Number of Products:"
-msgstr ""
+msgstr "Hoeveel Produkte:"
 
-#: ../views/admin/tinymce-dialog.php:110
+#: views/admin/tinymce-dialog.php:110
 msgid "The number of products to display"
-msgstr ""
+msgstr "Die hoeveelheid produkte om te wys"
 
-#: ../views/admin/tinymce-dialog.php:123
+#: views/admin/tinymce-dialog.php:123
 msgid "Post ID:"
-msgstr ""
+msgstr "Artikel ID:"
 
-#: ../views/admin/tinymce-dialog.php:125
+#: views/admin/tinymce-dialog.php:125
 msgid "ID of the post to take images from."
-msgstr ""
+msgstr "ID van die artikel om die prente vanaf te neem."
 
-#: ../views/admin/tinymce-dialog.php:131
+#: views/admin/tinymce-dialog.php:131
 msgid "Gallery:"
-msgstr ""
+msgstr "Galery:"
 
-#: ../views/admin/tinymce-dialog.php:133
+#: views/admin/tinymce-dialog.php:133
 msgid "- Select Gallery -"
-msgstr ""
+msgstr "- Kies Galery -"
 
-#: ../views/admin/tinymce-dialog.php:145
+#: views/admin/tinymce-dialog.php:145
 msgid "Exclude:"
-msgstr ""
+msgstr "Sluit Uit:"
 
-#: ../views/admin/tinymce-dialog.php:147
+#: views/admin/tinymce-dialog.php:147
 msgid "Comma separated IDs of attachments/slides to exclude"
-msgstr ""
+msgstr "Kommaskeidende IDs van aanhangsels/skyfies om uit te sluit"
 
-#: ../views/admin/tinymce-dialog.php:151
+#: views/admin/tinymce-dialog.php:151
 msgid "For more settings/parameters, see the %sSlideshow Gallery plugin%s page."
-msgstr ""
+msgstr "Vir meer verstellings/parameters, sien die %sSlideshow Gallery plugin% bladsy."
 
-#: ../views/default/gallery.php:125 ../views/default/gallery.php:156
+#: views/default/gallery.php:125 views/default/gallery.php:156
 msgid "Slide Left"
-msgstr ""
+msgstr "Skyf Links"
 
-#: ../views/default/gallery.php:129 ../views/default/gallery.php:160
+#: views/default/gallery.php:129 views/default/gallery.php:160
 msgid "Slide Right"
-msgstr ""
+msgstr "Skyf Regs"
 
-#: ../views/default/gallery.php:138
+#: views/default/gallery.php:138
 msgid "Previous Image"
-msgstr ""
+msgstr "Vorige Prent"
 
-#: ../views/default/gallery.php:143
+#: views/default/gallery.php:143
 msgid "Next Image"
-msgstr ""
+msgstr "Volgende Prent"
 
-#: ../views/default/gallery.php:236
+#: views/default/gallery.php:236
 msgid "No slides are available."
-msgstr ""
+msgstr "Geen skyfies is beskikbaar nie."
+
+#: views/admin/metaboxes/settings-wprelated.php:13
+msgid "Language External"
+msgstr "Taal Buite"
+
+#: views/admin/metaboxes/settings-wprelated.php:14
+msgid "By default, the plugin loads language file from %s. By turning this on, you can host your language file outside the plugin and place it inside %s. Name the language file %s"
+msgstr "Die plugin laai die taal vanaf %s as standaard. As jy hierdie aansit kan jy die taal se leer buite die plugin hou en dit binne in %s sit. Noem die leer van die taal %s."
+
+#: views/admin/metaboxes/settings-wprelated.php:16
+msgid "Yes, load external language file"
+msgstr "Ja, laai die taal van buite af"
+
+#: views/admin/metaboxes/settings-wprelated.php:17
+msgid "Turn this on to load language file from %s named %s"
+msgstr "Sit hierdie aan om die taal te laai van %s met die naam %s"
 
