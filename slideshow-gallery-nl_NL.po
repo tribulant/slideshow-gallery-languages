@@ -1,20 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Slideshow Gallery plugin\n"
-"POT-Creation-Date: 2016-08-08 10:57+0200\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Tribulant Software <support@tribulant.com>\n"
-"Language-Team: \n"
-"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.5\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: ../slideshow-gallery\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Slideshow Gallery plugin\n"
+"Language: nl\n"
 
 #: helpers/html.php:60 slideshow-gallery.php:183 views/admin/slides/index.php:8
 msgid "Manage Slides"
@@ -70,66 +61,16 @@ msgid "No image was chosen for uploading, please choose an image"
 msgstr "Geen afbeelding gekozen om te uploaden, kies s.v.p. een afbeelding"
 
 #: models/slide.php:163
-msgid ""
-"No TMP directory has been specified for PHP to use, please ask your hosting "
-"provider"
-msgstr ""
-"Geen TMP map geselecteerd voor PHP om te gebruiken, vraag s.v.p. je webhost"
+msgid "No TMP directory has been specified for PHP to use, please ask your hosting provider"
+msgstr "Geen TMP map geselecteerd voor PHP om te gebruiken, vraag s.v.p. je webhost"
 
 #: models/slide.php:166
 msgid "Image cannot be written to disc, please ask your hosting provider"
-msgstr ""
-"Afbeelding kan niet geschreven worden op schijf, vraag s.v.p. je webhost"
+msgstr "Afbeelding kan niet geschreven worden op schijf, vraag s.v.p. je webhost"
 
 #: models/slide.php:172
 msgid "Please specify an image"
 msgstr "Kies s.v.p. een afbeelding"
-
-#: models/slideshow.php:26 slideshow-gallery-plugin.php:88
-#: slideshow-gallery.php:275 views/admin/submitserial.php:7
-msgid "Upgrade to PRO"
-msgstr ""
-
-#: models/slideshow.php:48
-msgid "Slideshow LITE"
-msgstr ""
-
-#: models/slideshow.php:57 slideshow-gallery.php:188
-#: views/admin/settings-submitserial.php:2
-#: views/admin/settings-submitserial.php:24 views/admin/submitserial.php:25
-msgid "Submit Serial Key"
-msgstr ""
-
-#: models/slideshow.php:67
-msgid "Upgrade to PRO now!"
-msgstr ""
-
-#: slideshow-gallery-plugin.php:87
-#, php-format
-msgid ""
-"You are running Slideshow Gallery LITE. Take your slideshows to the next "
-"level with %s. Already purchased? %s."
-msgstr ""
-
-#: slideshow-gallery-plugin.php:87
-msgid "See instructions to install PRO"
-msgstr ""
-
-#: slideshow-gallery-plugin.php:89 slideshow-gallery.php:276
-msgid "Hide this message"
-msgstr ""
-
-#: slideshow-gallery-plugin.php:163
-msgid "Serial key has been deleted."
-msgstr ""
-
-#: slideshow-gallery-plugin.php:166 slideshow-gallery.php:226
-msgid "Please fill in a serial key."
-msgstr ""
-
-#: slideshow-gallery-plugin.php:170 slideshow-gallery.php:231
-msgid "Serial key is invalid, please try again."
-msgstr ""
 
 #: slideshow-gallery-plugin.php:199
 msgid "Slides have been ordered"
@@ -140,22 +81,12 @@ msgid "Slideshow Manager"
 msgstr "Slideshow manager"
 
 #: slideshow-gallery-plugin.php:525
-#, php-format
 msgid "Uploads folder named \"%s\" cannot be created inside \"%s\""
 msgstr "Uploads map genaamd \"%s\" kan niet gemaakt worden in \"%s\""
 
 #: slideshow-gallery-plugin.php:534
-#, php-format
-msgid ""
-"Slideshow cache folder \"%s\" for resizing images cannot be created inside "
-"\"%s\""
-msgstr ""
-"Slideshow cache map \"%s\", om afbeeldingsgrootte aan te passen, kan niet "
-"gemaakt worden in \"%s\" "
-
-#: slideshow-gallery.php:102 views/admin/settings-submitserial.php:15
-msgid "Serial Key"
-msgstr ""
+msgid "Slideshow cache folder \"%s\" for resizing images cannot be created inside \"%s\""
+msgstr "Slideshow cache map \"%s\", om afbeeldingsgrootte aan te passen, kan niet gemaakt worden in \"%s\" "
 
 #: slideshow-gallery.php:103
 msgid "Settings"
@@ -169,10 +100,6 @@ msgstr "Diashow"
 msgid "Save Settings"
 msgstr "Opslaan"
 
-#: slideshow-gallery.php:209
-msgid "Recommended Plugin"
-msgstr "Aanbevolen plugin"
-
 #: slideshow-gallery.php:210
 msgid "About This Plugin"
 msgstr "Over deze plugin"
@@ -181,20 +108,17 @@ msgstr "Over deze plugin"
 msgid "More about this plugin and the creators of it"
 msgstr "Meer over deze plugin en de makers ervan"
 
+#: slideshow-gallery.php:209
+msgid "Recommended Plugin"
+msgstr "Aanbevolen plugin"
+
 #: slideshow-gallery.php:211
 msgid "General Settings"
 msgstr "Algemene instellingen"
 
 #: slideshow-gallery.php:211
-msgid ""
-"General configuration settings for the inner workings and some default "
-"behaviours"
-msgstr ""
-"Algemene instellingen voor de werking van de plugin en het standaard gedrag"
-
-#: slideshow-gallery.php:212
-msgid "Posts/Pages Settings"
-msgstr ""
+msgid "General configuration settings for the inner workings and some default behaviours"
+msgstr "Algemene instellingen voor de werking van de plugin en het standaard gedrag"
 
 #: slideshow-gallery.php:213
 msgid "Links &amp; Images Overlay"
@@ -212,10 +136,6 @@ msgstr "Uiterlijk &amp; stijlen"
 msgid "Change the way the slideshows look so that it suits your needs"
 msgstr "Pas de wijze waarop diashows eruit zien aan aan je wensen"
 
-#: slideshow-gallery.php:215
-msgid "Technical Settings"
-msgstr ""
-
 #: slideshow-gallery.php:216
 msgid "WordPress Related"
 msgstr "WordPress gerelateerd"
@@ -225,55 +145,16 @@ msgid "Settings specifically related to WordPress"
 msgstr "Instellingen die specifiek aan WordPress gerelateerd zijn"
 
 #: slideshow-gallery.php:257
-#, php-format
-msgid ""
-"You have been using the %s for %s days or more. Please consider to %s it or "
-"say it %s on %s."
-msgstr ""
-"Je gebruikt de %s nu %s dagen of langer. Wil je overwegen om te %s dit te "
-"melden %s op %s ?"
-
-#: slideshow-gallery.php:274
-#, php-format
-msgid ""
-"You are using Slideshow Gallery LITE. Take your slideshows to the next level "
-"with %s. Already purchased? %s."
-msgstr ""
-
-#: slideshow-gallery.php:424
-msgid "No products are available"
-msgstr ""
+msgid "You have been using the %s for %s days or more. Please consider to %s it or say it %s on %s."
+msgstr "Je gebruikt de %s nu %s dagen of langer. Wil je overwegen om te %s dit te melden %s op %s ?"
 
 #: slideshow-gallery.php:427
-#, fuzzy, php-format
 msgid "You need the %sShopping Cart plugin%s to display products slides."
-msgstr ""
-"Je hebt de Shopping Cart plugin%s nodig om dia's van producten te tonen"
+msgstr "Je hebt de Shopping Cart plugin%s nodig om dia's van producten te tonen"
 
 #: slideshow-gallery.php:455
-#, php-format
-msgid ""
-"No posts with featured images are available. Ensure your theme includes %s "
-"support."
-msgstr ""
-"Geen berichten met uitgelichte afbeeldingen beschikbaar. Check of je thema "
-"%s ondersteunt."
-
-#: slideshow-gallery.php:496
-msgid "No slides are available in this gallery"
-msgstr ""
-
-#: slideshow-gallery.php:523
-msgid "No slides are available"
-msgstr ""
-
-#: slideshow-gallery.php:563
-msgid "No attachments on this post/page"
-msgstr ""
-
-#: slideshow-gallery.php:566
-msgid "No post/page ID was specified"
-msgstr ""
+msgid "No posts with featured images are available. Ensure your theme includes %s support."
+msgstr "Geen berichten met uitgelichte afbeeldingen beschikbaar. Check of je thema %s ondersteunt."
 
 #: slideshow-gallery.php:592
 msgid "Slide has been removed"
@@ -291,26 +172,14 @@ msgstr "Dia is opgeslagen"
 msgid "Slide could not be saved"
 msgstr "Dia kon niet opgeslagen worden"
 
-#: slideshow-gallery.php:656
-msgid "Slides have been saved"
-msgstr ""
+#: slideshow-gallery.php:705
+msgid "Selected slides have been removed"
+msgstr "Geselecteerde dia's zijn verwijderd"
 
 #: slideshow-gallery.php:660 slideshow-gallery.php:710
 #: slideshow-gallery.php:838
 msgid "No slides were selected"
 msgstr "Geen dia's geselecteerd"
-
-#: slideshow-gallery.php:678
-msgid "Selected slides removed from all galleries"
-msgstr ""
-
-#: slideshow-gallery.php:696
-msgid "Slides added to selected galleries"
-msgstr ""
-
-#: slideshow-gallery.php:705
-msgid "Selected slides have been removed"
-msgstr "Geselecteerde dia's zijn verwijderd"
 
 #: slideshow-gallery.php:714 slideshow-gallery.php:842
 msgid "No action was specified"
@@ -332,10 +201,6 @@ msgstr "Galerij kan niet verwijderd worden"
 msgid "Selected galleries have been removed"
 msgstr "Geselecteerde galerijen zijn verwijderd"
 
-#: slideshow-gallery.php:879
-msgid "Database tables have been checked and optimized"
-msgstr ""
-
 #: slideshow-gallery.php:888
 msgid "All configuration settings have been reset to their defaults"
 msgstr "Alle instellingen zijn ge-reset naar de standaard instellingen"
@@ -349,15 +214,8 @@ msgid "Configuration has been saved"
 msgstr "Instellingen opgeslagen"
 
 #: vendors/BFI_Thumb.php:120
-msgid ""
-"The server does not have ImageMagick or GD installed and/or enabled! Any of "
-"these libraries are required for WordPress to be able to resize images. "
-"Please contact your server administrator to enable this before continuing."
-msgstr ""
-"De server heeft ImageMagick of GD niet geïnstalleerd of ingeschakeld! Een "
-"van deze bibliotheken is nodig voor WordPress om afbeeldingen te kunnen "
-"schalen of aanpassen. Neem s.v.p. contact op met je serverbeheerder om dit "
-"in te schakelen alvorens verder te gaan."
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr "De server heeft ImageMagick of GD niet geïnstalleerd of ingeschakeld! Een van deze bibliotheken is nodig voor WordPress om afbeeldingen te kunnen schalen of aanpassen. Neem s.v.p. contact op met je serverbeheerder om dit in te schakelen alvorens verder te gaan."
 
 #: vendors/BFI_Thumb.php:235
 msgid "Image rotate failed."
@@ -379,39 +237,23 @@ msgstr "Afbeelding grijsschaal aanpassing mislukt."
 msgid "Image negate failed."
 msgstr "Afbeelding annuleren mislukt."
 
-#: vendors/class.paginate.php:198
-#, php-format
-msgid "%s items"
-msgstr ""
+#: vendors/class.paginate.php:204
+msgid "of"
+msgstr "van"
 
 #: vendors/class.paginate.php:201
 msgid "Previous Page"
 msgstr "Vorige pagina"
 
-#: vendors/class.paginate.php:204
-msgid "of"
-msgstr "van"
-
 #: vendors/class.paginate.php:207
 msgid "Next Page"
 msgstr "Volgende pagina"
 
-#: vendors/class.update.php:19
-msgid "Something went wrong!"
-msgstr ""
-
-#: vendors/class.update.php:20
-msgid ""
-"Please try again or <a href=\"http://tribulant.com/support/\" target=\"_blank"
-"\">contact us</a>."
-msgstr ""
-
-#: views/admin/err-top.php:11 views/admin/msg-top.php:11
-msgid "Dismiss this notice."
-msgstr ""
+#: views/admin/metaboxes/settings-general.php:150
+msgid "Auto Slide"
+msgstr "Auto start"
 
 #: views/admin/galleries/hardcode.php:8
-#, php-format
 msgid "Hardcode Gallery: %s"
 msgstr "Hardcode galerij: %s"
 
@@ -424,12 +266,8 @@ msgid "All Galleries"
 msgstr "Alle galerijen"
 
 #: views/admin/galleries/hardcode.php:10
-msgid ""
-"This PHP code can be used inside your WordPress theme to display slides "
-"inside this gallery."
-msgstr ""
-"Deze PHP code kan gebruikt worden in je WordPress thema om dia's binnen deze "
-"galerij te tonen."
+msgid "This PHP code can be used inside your WordPress theme to display slides inside this gallery."
+msgstr "Deze PHP code kan gebruikt worden in je WordPress thema om dia's binnen deze galerij te tonen."
 
 #: views/admin/galleries/index.php:8 views/admin/slides/index.php:9
 msgid "Add New"
@@ -441,9 +279,7 @@ msgstr "galerijen"
 
 #: views/admin/galleries/index.php:18
 msgid "Are you sure you wish to execute this action on the selected galleries?"
-msgstr ""
-"Weet je zeker dat je deze actie wilt uitvoeren met de geselecteerde "
-"galerijen?"
+msgstr "Weet je zeker dat je deze actie wilt uitvoeren met de geselecteerde galerijen?"
 
 #: views/admin/galleries/index.php:25 views/admin/slides/loop.php:21
 msgid "- Bulk Actions -"
@@ -503,22 +339,9 @@ msgstr "Sorteer dia's"
 msgid "Are you sure you want to permanently remove this slide?"
 msgstr "Weet je zeker dat je deze dia definitief wilt verwijderen?"
 
-#: views/admin/galleries/index.php:121
-#, php-format
-msgid "No galleries available, %s"
-msgstr ""
-
-#: views/admin/galleries/index.php:121 views/admin/slides/loop.php:197
-msgid "add one"
-msgstr ""
-
-#: views/admin/galleries/index.php:132 views/admin/slides/loop.php:208
-msgid "- Per Page -"
-msgstr ""
-
-#: views/admin/galleries/index.php:135 views/admin/slides/loop.php:211
-msgid "per page"
-msgstr ""
+#: views/admin/slides/save-multiple.php:68 views/admin/slides/save.php:130
+msgid "No galleries are available."
+msgstr "Geen galerijen beschikbaar"
 
 #: views/admin/galleries/save.php:9
 msgid "Save a Gallery"
@@ -536,12 +359,7 @@ msgstr "Titel van deze galerij t.b.v. de herkenning."
 msgid "Save Gallery"
 msgstr "Sla galerij op"
 
-#: views/admin/galleries/save.php:56 views/admin/slides/save.php:326
-msgid "Continue editing"
-msgstr ""
-
 #: views/admin/galleries/view.php:8
-#, php-format
 msgid "View Gallery: %s"
 msgstr "Bekijk galerij: %s"
 
@@ -556,20 +374,6 @@ msgstr "Weet je zeker dat je deze galerij wilt verwijderen?"
 #: views/admin/galleries/view.php:16
 msgid "Delete Gallery"
 msgstr "Verwijder galerij"
-
-#: views/admin/lite-upgrade.php:13
-msgid "Slideshow Gallery PRO"
-msgstr ""
-
-#: views/admin/lite-upgrade.php:45
-msgid ""
-"Once you have purchased a serial key, simply submit it to activate Slideshow "
-"Gallery PRO:"
-msgstr ""
-
-#: views/admin/lite-upgrade.php:46
-msgid "Submit Serial"
-msgstr ""
 
 #: views/admin/metaboxes/settings-about.php:11
 msgid "Vote/rate on WordPress.org, please!"
@@ -591,66 +395,9 @@ msgstr "Doneer s.v.p."
 msgid "More Amazing Plugins!!!"
 msgstr "Meer prachtige plugins!!"
 
-#: views/admin/metaboxes/settings-general.php:25
-msgid "Slide Effects"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:30
-msgid "Effect"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:57
-msgid "Choose the type of effect/transition you want for slides"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:82
-msgid "Slide Direction"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:84
-msgid "Left/Right"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:85
-msgid "Top/Bottom"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:95
-msgid "Easing"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:96
-#, php-format
-msgid "Choose the type of easing effect. See the %s available."
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:96
-msgid "list of easings"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:139
-msgid "Choose the desired easing effect"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:145
-msgid "Sliding Behaviour"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:150
-msgid "Auto Slide"
-msgstr "Auto start"
-
 #: views/admin/metaboxes/settings-general.php:151
-msgid ""
-"Turn this on so that the slideshow can automatically slide through the "
-"slides.<br/><br/><strong>Override per slideshow:</strong> Using parameter "
-"<code>auto</code> with value <code>true</code> or <code>false</code> eg. "
-"<code>[tribulant_slideshow auto=\"false\"]</code>."
-msgstr ""
-"Schakel dit in zodat de diashow automatisch kan starten met de dia's.<br/"
-"><br/><strong>Pas aan per diashow:</strong> Gebruik parameter <code>auto</"
-"code> met waarde <code>true</code> of <code>false</code> bijv. "
-"<code>[tribulant_slideshow auto=\"false\"]</code>. "
+msgid "Turn this on so that the slideshow can automatically slide through the slides.<br/><br/><strong>Override per slideshow:</strong> Using parameter <code>auto</code> with value <code>true</code> or <code>false</code> eg. <code>[tribulant_slideshow auto=\"false\"]</code>."
+msgstr "Schakel dit in zodat de diashow automatisch kan starten met de dia's.<br/><br/><strong>Pas aan per diashow:</strong> Gebruik parameter <code>auto</code> met waarde <code>true</code> of <code>false</code> bijv. <code>[tribulant_slideshow auto=\"false\"]</code>. "
 
 #: views/admin/metaboxes/settings-general.php:153
 #: views/admin/metaboxes/settings-general.php:168
@@ -685,60 +432,28 @@ msgid "Always Auto"
 msgstr "Altijd automatisch"
 
 #: views/admin/metaboxes/settings-general.php:166
-msgid ""
-"With the \"Auto Slide\" setting turned on above, the slideshow will "
-"automatically go through the slides but it will stop automatically "
-"navigating once the user started navigating. You can override this behaviour "
-"and force automatic navigation by turning this on."
-msgstr ""
-"Met \"Automatische dia's\", zie hierboven, ingeschakeld, zal de diashow "
-"automatisch door de dia's gaan, maar ook automatisch stoppen wanneer de "
-"bezoeker gaat navigeren. Je kunt dit gedrag uitschakelen en automatische "
-"navigatie forceren door dit in te schakelen."
+msgid "With the \"Auto Slide\" setting turned on above, the slideshow will automatically go through the slides but it will stop automatically navigating once the user started navigating. You can override this behaviour and force automatic navigation by turning this on."
+msgstr "Met \"Automatische dia's\", zie hierboven, ingeschakeld, zal de diashow automatisch door de dia's gaan, maar ook automatisch stoppen wanneer de bezoeker gaat navigeren. Je kunt dit gedrag uitschakelen en automatische navigatie forceren door dit in te schakelen."
 
 #: views/admin/metaboxes/settings-general.php:170
-msgid ""
-"Should the slideshow always continue auto sliding, even after navigation by "
-"the user?"
-msgstr ""
-"Moet de diashow steeds  automatisch verder gaan, zelfs wanneer de bezoeker "
-"erdoor navigeert?"
+msgid "Should the slideshow always continue auto sliding, even after navigation by the user?"
+msgstr "Moet de diashow steeds  automatisch verder gaan, zelfs wanneer de bezoeker erdoor navigeert?"
 
 #: views/admin/metaboxes/settings-general.php:174
 msgid "Auto Speed"
 msgstr "Automatische snelheid"
 
 #: views/admin/metaboxes/settings-general.php:175
-msgid ""
-"Set the speed at which auto sliding will occur, meaning the interval between "
-"auto sliding. The default is 10 which is recommended but you can specify a "
-"smaller number for quicker sliding or a larger number for slower sliding."
-msgstr ""
-"Stel de snelheid van de automatische diashow in, oftewel het interval tussen "
-"de dia's. Standaard en aanbevolen is 10, maar je kunt een kleiner getal "
-"kiezen voor korter- en een groter getal voor langer interval."
+msgid "Set the speed at which auto sliding will occur, meaning the interval between auto sliding. The default is 10 which is recommended but you can specify a smaller number for quicker sliding or a larger number for slower sliding."
+msgstr "Stel de snelheid van de automatische diashow in, oftewel het interval tussen de dia's. Standaard en aanbevolen is 10, maar je kunt een kleiner getal kiezen voor korter- en een groter getal voor langer interval."
 
 #: views/admin/metaboxes/settings-general.php:193
-msgid ""
-"Speed for auto sliding. Lower number for shorter interval between images."
-msgstr ""
-"Snelheid voor automatische dia's. Kleiner betekent een korter interval "
-"tussen afbeeldingen."
+msgid "Speed for auto sliding. Lower number for shorter interval between images."
+msgstr "Snelheid voor automatische dia's. Kleiner betekent een korter interval tussen afbeeldingen."
 
 #: views/admin/metaboxes/settings-general.php:193
 msgid "(Default/Recommended: 10)"
 msgstr "(Standaard/aanbevolen: 10)"
-
-#: views/admin/metaboxes/settings-general.php:203
-msgid "Transition Speed"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:204
-msgid ""
-"Choose the speed at which images fade in and out. The default is 20 and a "
-"number between 1 and 50 is recommended. Use a low number for quick fading "
-"and a higher number for slower fading."
-msgstr ""
 
 #: views/admin/metaboxes/settings-general.php:222
 msgid "Speed for fading of images. Lower number for quicker fading of images."
@@ -748,23 +463,13 @@ msgstr "Snelheid van faden tussen afbeeldingen. Lager is sneller."
 msgid "(Default: 10, Recommended: 1-20)"
 msgstr "(Standaard: 10, aanbevolen: 1-20)"
 
-#: views/admin/metaboxes/settings-general.php:228
-msgid "Navigation (Previous/Next)"
-msgstr ""
-
 #: views/admin/metaboxes/settings-general.php:232
 msgid "Show Image Navigation"
 msgstr "Toon dianavigatie"
 
 #: views/admin/metaboxes/settings-general.php:233
-msgid ""
-"Turn this on to show the Next and Previous arrows on either sides of the "
-"slideshow for the user to navigate through slides. Once turned on, you can "
-"set the opacity of these navigation arrows below."
-msgstr ""
-"Schakel in om een Vorige en Volgende pijl op de zijkanten van een diashow te "
-"tonen zodat de bezoeker door de dia's kan navigeren. Na inschakelen kun je "
-"de transparantie van de navigatiepijlen hieronder instellen."
+msgid "Turn this on to show the Next and Previous arrows on either sides of the slideshow for the user to navigate through slides. Once turned on, you can set the opacity of these navigation arrows below."
+msgstr "Schakel in om een Vorige en Volgende pijl op de zijkanten van een diashow te tonen zodat de bezoeker door de dia's kan navigeren. Na inschakelen kun je de transparantie van de navigatiepijlen hieronder instellen."
 
 #: views/admin/metaboxes/settings-general.php:237
 msgid "Show next/previous buttons on the image for navigation purposes?"
@@ -775,12 +480,8 @@ msgid "Navigation Default Opacity"
 msgstr "Standaard navigatie transparantie"
 
 #: views/admin/metaboxes/settings-general.php:248
-msgid ""
-"The default state opacity of the left/right navigation arrows. This is a "
-"percentage value and you can specify anything between 0% and 100% as needed."
-msgstr ""
-"De standaard transparantie van links/rechts navigatiepijlen. Kies een "
-"percentage naar wens tussen 0% en 100%."
+msgid "The default state opacity of the left/right navigation arrows. This is a percentage value and you can specify anything between 0% and 100% as needed."
+msgstr "De standaard transparantie van links/rechts navigatiepijlen. Kies een percentage naar wens tussen 0% en 100%."
 
 #: views/admin/metaboxes/settings-general.php:267
 msgid "Opacity of the next/previous buttons by default."
@@ -791,50 +492,72 @@ msgid "Navigation Hover Opacity"
 msgstr "Navigatie hover transparantie"
 
 #: views/admin/metaboxes/settings-general.php:272
-msgid ""
-"The hover state opacity of the left/right navigation arrows. This is the "
-"opacity when the user hovers with the mouse cursor over the arrow image. "
-"Percentage value between 0% and 100%"
-msgstr ""
-"De navigatie hover transparantie van de links/rechts navigatiepijlen. De "
-"transparantie dus, die zichtbaar is bij het met de muis over de pijl gaan. "
-"Kies een percentage tussen 0% en 100%."
+msgid "The hover state opacity of the left/right navigation arrows. This is the opacity when the user hovers with the mouse cursor over the arrow image. Percentage value between 0% and 100%"
+msgstr "De navigatie hover transparantie van de links/rechts navigatiepijlen. De transparantie dus, die zichtbaar is bij het met de muis over de pijl gaan. Kies een percentage tussen 0% en 100%."
 
 #: views/admin/metaboxes/settings-general.php:290
 msgid "Opacity of the next/previous buttons when they are hovered."
-msgstr ""
-"Transparantie van de Volgende/Vorige knoppen bij het overgaan met de muis."
-
-#: views/admin/metaboxes/settings-general.php:297
-msgid "Information Bar"
-msgstr ""
+msgstr "Transparantie van de Volgende/Vorige knoppen bij het overgaan met de muis."
 
 #: views/admin/metaboxes/settings-general.php:302
 msgid "Show Information"
 msgstr "Toon informatie"
 
 #: views/admin/metaboxes/settings-general.php:303
-msgid ""
-"Should the information bar be shown on slides? Turn this on to show a bar on "
-"each slide with the title and description of the slide."
-msgstr ""
-"Moet de info-balk op dia's getoond worden? Schakel in om een balk met de "
-"titel en beschrijving op iedere dia te tonen."
+msgid "Should the information bar be shown on slides? Turn this on to show a bar on each slide with the title and description of the slide."
+msgstr "Moet de info-balk op dia's getoond worden? Schakel in om een balk met de titel en beschrijving op iedere dia te tonen."
 
 #: views/admin/metaboxes/settings-general.php:307
 msgid "Should the information bar be shown on slides?"
 msgstr "Informatiebalk tonen op dia's?"
 
-#: views/admin/metaboxes/settings-general.php:317
-msgid "Information Bar Position"
-msgstr ""
+#: views/admin/metaboxes/settings-general.php:375
+msgid "Information Speed"
+msgstr "Info-balk snelheid"
 
-#: views/admin/metaboxes/settings-general.php:318
-msgid ""
-"With the Information Bar turned on with the setting above, you can now "
-"specify the position of the information bar. Either above or below the "
-"slideshow is available."
-msgstr ""
+#: views/admin/metaboxes/settings-general.php:376
+msgid "Specify the speed at which the information bar will slide up and down as the slide is shown and hidden."
+msgstr "Geef de snelheid aan waarmee de info-balk naar boven en naar beneden zal glijden bij het verschijnen en verdwijnen van de dia."
+
+#: views/admin/metaboxes/settings-general.php:394
+msgid "Speed at which the information bar will slide in and out."
+msgstr "Snelheid waarmee de info-balk in en uit glijdt."
+
+#: views/admin/metaboxes/settings-general.php:398
+msgid "Hide On Mobiles"
+msgstr "Verberg op mobieltjes"
+
+#: views/admin/metaboxes/settings-general.php:399
+msgid "With a responsive layout turned on, the slideshow will respond in width on mobile devices and the information bar tends to overlap the entire slide since it increases in height as it reduces in width. You can tick/check this setting to hide the information bar on mobile devices so that the slides remain fully visible."
+msgstr "Met een responsive layout ingeschakeld zal de info-balk de neiging hebben groter te worden dan de hele dia. Schakel m.b.v. deze instelling het tonen van de info-balk op mobieltjes uit, zodat de dia zichtbaar blijft. "
+
+#: views/admin/metaboxes/settings-general.php:401
+msgid "Yes, hide the information bar on mobiles"
+msgstr "Je, verberg de info-balk op mobieltjes"
+
+#: views/admin/metaboxes/settings-general.php:402
+msgid "Tick/check this to hide the information bar on mobiles"
+msgstr "Vink aan om de info-balk op mobieltjes te verbergen"
+
+#: views/admin/metaboxes/settings-general.php:414
+msgid "Show Thumbnails"
+msgstr "Toon thumbnails"
+
+#: views/admin/metaboxes/settings-general.php:415
+msgid "Would you like to show a thumbnail bar/slider above/below the slideshow with the thumbnails of all the slides in the slideshow for easier navigation?"
+msgstr "Wil je een balk/-slider met thumbnails boven of onder de diashow tonen, waarin thumbnails van alle dia's in de diashow getoond worden t.b.v. makkelijker navigatie?"
+
+#: views/admin/metaboxes/settings-general.php:419
+msgid "Should the thumbnails bar be shown for slides?"
+msgstr "Thumbnail balk tonen?"
+
+#: views/admin/metaboxes/settings-general.php:429
+msgid "Thumbnails Position"
+msgstr "Thumbnails positie"
+
+#: views/admin/metaboxes/settings-general.php:430
+msgid "With the thumbnails turned on with the setting above, you can now specify the position of the thumbnail bar/slider. Either above or below the slideshow is available."
+msgstr "Met de thumbnails ingeschakeld, zie hierboven, kun je nu aangeven waar je de thumbnail balk/-slider wilt positioneren: boven of onder de diashow."
 
 #: views/admin/metaboxes/settings-general.php:320
 #: views/admin/metaboxes/settings-general.php:432
@@ -846,145 +569,8 @@ msgstr "Boven"
 msgid "Bottom"
 msgstr "Onder"
 
-#: views/admin/metaboxes/settings-general.php:322
-msgid ""
-"Choose your preferred position of the information bar relative to the "
-"slideshow."
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:326
-msgid "Show Only On Hover"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:327
-msgid "Checking this option will only show the information bar on hover"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:329
-msgid "Yes, only show the info bar on hover"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:330
-msgid "Tick/check this to only show the information bar on hover."
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:340
-msgid "Information Delay"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:342
-#: views/admin/metaboxes/settings-general.php:363
-msgid "seconds"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:343
-msgid ""
-"Delay the information bar in seconds or leave empty/zero for immediate "
-"display."
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:347
-msgid "Fade Information Bar"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:348
-msgid "Fade the information bar after a few seconds."
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:350
-msgid "Yes, fade the information bar"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:351
-msgid "Do you want the information bar to fade?"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:361
-msgid "Fade Delay"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:364
-msgid "Enter time in seconds for the information bar to fade."
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:375
-msgid "Information Speed"
-msgstr "Info-balk snelheid"
-
-#: views/admin/metaboxes/settings-general.php:376
-msgid ""
-"Specify the speed at which the information bar will slide up and down as the "
-"slide is shown and hidden."
-msgstr ""
-"Geef de snelheid aan waarmee de info-balk naar boven en naar beneden zal "
-"glijden bij het verschijnen en verdwijnen van de dia."
-
-#: views/admin/metaboxes/settings-general.php:394
-msgid "Speed at which the information bar will slide in and out."
-msgstr "Snelheid waarmee de info-balk in en uit glijdt."
-
-#: views/admin/metaboxes/settings-general.php:398
-msgid "Hide On Mobiles"
-msgstr "Verberg op mobieltjes"
-
-#: views/admin/metaboxes/settings-general.php:399
-msgid ""
-"With a responsive layout turned on, the slideshow will respond in width on "
-"mobile devices and the information bar tends to overlap the entire slide "
-"since it increases in height as it reduces in width. You can tick/check this "
-"setting to hide the information bar on mobile devices so that the slides "
-"remain fully visible."
-msgstr ""
-"Met een responsive layout ingeschakeld zal de info-balk de neiging hebben "
-"groter te worden dan de hele dia. Schakel m.b.v. deze instelling het tonen "
-"van de info-balk op mobieltjes uit, zodat de dia zichtbaar blijft. "
-
-#: views/admin/metaboxes/settings-general.php:401
-msgid "Yes, hide the information bar on mobiles"
-msgstr "Je, verberg de info-balk op mobieltjes"
-
-#: views/admin/metaboxes/settings-general.php:402
-msgid "Tick/check this to hide the information bar on mobiles"
-msgstr "Vink aan om de info-balk op mobieltjes te verbergen"
-
-#: views/admin/metaboxes/settings-general.php:409
-msgid "Thumbnails Bar/Slider"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:414
-msgid "Show Thumbnails"
-msgstr "Toon thumbnails"
-
-#: views/admin/metaboxes/settings-general.php:415
-msgid ""
-"Would you like to show a thumbnail bar/slider above/below the slideshow with "
-"the thumbnails of all the slides in the slideshow for easier navigation?"
-msgstr ""
-"Wil je een balk/-slider met thumbnails boven of onder de diashow tonen, "
-"waarin thumbnails van alle dia's in de diashow getoond worden t.b.v. "
-"makkelijker navigatie?"
-
-#: views/admin/metaboxes/settings-general.php:419
-msgid "Should the thumbnails bar be shown for slides?"
-msgstr "Thumbnail balk tonen?"
-
-#: views/admin/metaboxes/settings-general.php:429
-msgid "Thumbnails Position"
-msgstr "Thumbnails positie"
-
-#: views/admin/metaboxes/settings-general.php:430
-msgid ""
-"With the thumbnails turned on with the setting above, you can now specify "
-"the position of the thumbnail bar/slider. Either above or below the "
-"slideshow is available."
-msgstr ""
-"Met de thumbnails ingeschakeld, zie hierboven, kun je nu aangeven waar je de "
-"thumbnail balk/-slider wilt positioneren: boven of onder de diashow."
-
 #: views/admin/metaboxes/settings-general.php:434
-msgid ""
-"Choose your preferred position of the thumbnails bar relative to the "
-"slideshow images."
+msgid "Choose your preferred position of the thumbnails bar relative to the slideshow images."
 msgstr "Kies de plaats waar je de thumbnailbalk wilt hebben t.o.v. de diashow."
 
 #: views/admin/metaboxes/settings-general.php:438
@@ -992,12 +578,8 @@ msgid "Thumbnail Dimensions"
 msgstr "Thumbnail afmetingen"
 
 #: views/admin/metaboxes/settings-general.php:439
-msgid ""
-"Specify the width and height (dimensions) of the thumbnails in the thumbnail "
-"bar/slider which will show above/below the slideshow."
-msgstr ""
-"Geef de breedte en hoogte aan van de thumbnails in de thumbnailbalk/-slider "
-"die boven of onder de diashow getoond wordt."
+msgid "Specify the width and height (dimensions) of the thumbnails in the thumbnail bar/slider which will show above/below the slideshow."
+msgstr "Geef de breedte en hoogte aan van de thumbnails in de thumbnailbalk/-slider die boven of onder de diashow getoond wordt."
 
 #: views/admin/metaboxes/settings-general.php:442
 msgid "x <!-- by -->"
@@ -1011,40 +593,25 @@ msgstr "px <!-- pixels -->"
 msgid "Width and height of the thumbnails for the slides."
 msgstr "Breedte en hoogte van de thumbnails."
 
-#: views/admin/metaboxes/settings-general.php:446
-msgid "You may leave the height empty (not the width) to crop proportionally."
-msgstr ""
-
 #: views/admin/metaboxes/settings-general.php:450
 msgid "Thumbnail Opacity"
 msgstr "Thumbnail transparantie"
 
 #: views/admin/metaboxes/settings-general.php:451
-#, fuzzy, php-format
-msgid ""
-"The opacity of the default state of thumbnails in the thumbnails bar/slider. "
-"The active thumbnail of the currently showing slide will be 100% opacity, "
-"always."
-msgstr ""
-"De standaard transparantie van de thumbnails in de thumbnailbalk/-slider. De "
-"thumbnail van de active dia zal altijd op 100% getoond worden."
+msgid "The opacity of the default state of thumbnails in the thumbnails bar/slider. The active thumbnail of the currently showing slide will be 100% opacity, always."
+msgstr "De standaard transparantie van de thumbnails in de thumbnailbalk/-slider. De thumbnail van de active dia zal altijd op 100% getoond worden."
 
 #: views/admin/metaboxes/settings-general.php:469
 msgid "Default opacity of thumbnails when they are not hovered."
-msgstr ""
-"Standaard transparantie van thumbnails wanneer je er niet de muis over gaat."
+msgstr "Standaard transparantie van thumbnails wanneer je er niet de muis over gaat."
 
 #: views/admin/metaboxes/settings-general.php:473
 msgid "Thumbnails Scroll Speed"
 msgstr "Scrollsnelheid thumbnails"
 
 #: views/admin/metaboxes/settings-general.php:474
-msgid ""
-"At which speed should the thumbnails bar/slider scroll when the left/right "
-"arrows are hovered by the user?"
-msgstr ""
-"Met welke snelheid dienen de thumbnails in de balk/slider te bewegen bij "
-"muis-over door de bezoeker?"
+msgid "At which speed should the thumbnails bar/slider scroll when the left/right arrows are hovered by the user?"
+msgstr "Met welke snelheid dienen de thumbnails in de balk/slider te bewegen bij muis-over door de bezoeker?"
 
 #: views/admin/metaboxes/settings-general.php:492
 msgid "Speed at which the thumbnails will scroll."
@@ -1059,12 +626,8 @@ msgid "Thumbnail Spacing"
 msgstr "Ruimte om thumbnail "
 
 #: views/admin/metaboxes/settings-general.php:497
-msgid ""
-"This is a simple margin setting to specify the space between the thumbnails "
-"in the thumbnails bar/slider above/below the slideshow."
-msgstr ""
-"Een eenvoudige instelling om de ruimte tussen de thumbnails in de balk/"
-"slider en boven/onder de diashow te bepalen."
+msgid "This is a simple margin setting to specify the space between the thumbnails in the thumbnails bar/slider above/below the slideshow."
+msgstr "Een eenvoudige instelling om de ruimte tussen de thumbnails in de balk/slider en boven/onder de diashow te bepalen."
 
 #: views/admin/metaboxes/settings-general.php:499
 #: views/admin/metaboxes/settings-styles.php:71
@@ -1077,46 +640,17 @@ msgstr "px"
 msgid "Horizontal margin/spacing in pixels between thumbnail images."
 msgstr "Horizontale ruimte in pixels tussen thumbnails."
 
-#: views/admin/metaboxes/settings-general.php:504
-msgid "Hide On Mobile"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:505
-msgid ""
-"With a responsive layout turned on, the slideshow will respond in width on "
-"mobile devices. You can tick/check this setting to hide the thumbnail bar."
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:507
-msgid "Yes, hide the thumbnail bar on mobiles"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:508
-msgid "Tick/check this to hide the thumbnail bar on mobiles"
-msgstr ""
-
 #: views/admin/metaboxes/settings-linksimages.php:10
 msgid "Open Images in Overlay"
 msgstr "Open afbeeldingen in een overlay"
 
 #: views/admin/metaboxes/settings-linksimages.php:11
-msgid ""
-"Turn this on to display the link of a slide in an enlargement overlay. It "
-"only works if the link on the slide is a link to a jpg, png, gif or bmp "
-"image though. For normal links to pages, the overlay will not be used at all."
-msgstr ""
-"Vink aan om de vergroting van een dia in een overlay (een mooi overliggend "
-"scherm) te tonen. Werkt alleen wanneer de link van een dia leidt naar een "
-"jpg, png, gif of bmp afbeelding. Bij links naar webpagina's wordt de overlay "
-"niet gebruikt."
+msgid "Turn this on to display the link of a slide in an enlargement overlay. It only works if the link on the slide is a link to a jpg, png, gif or bmp image though. For normal links to pages, the overlay will not be used at all."
+msgstr "Vink aan om de vergroting van een dia in een overlay (een mooi overliggend scherm) te tonen. Werkt alleen wanneer de link van een dia leidt naar een jpg, png, gif of bmp afbeelding. Bij links naar webpagina's wordt de overlay niet gebruikt."
 
 #: views/admin/metaboxes/settings-linksimages.php:15
-msgid ""
-"turning this on (Yes) will open image URLs (.jpg, .png, .gif, .bmp) in a "
-"Thickbox image overlay"
-msgstr ""
-"inschakelen (Ja) zorgt ervoor dat afbeeldings-URL's (.jpg, .png, .gif. .bmp) "
-"in een mooie Thickbox overlay geopend worden."
+msgid "turning this on (Yes) will open image URLs (.jpg, .png, .gif, .bmp) in a Thickbox image overlay"
+msgstr "inschakelen (Ja) zorgt ervoor dat afbeeldings-URL's (.jpg, .png, .gif. .bmp) in een mooie Thickbox overlay geopend worden."
 
 #: views/admin/metaboxes/settings-plugins.php:16
 msgid "Install Now"
@@ -1126,28 +660,11 @@ msgstr "Installeer nu"
 msgid "Visit Plugin page"
 msgstr "Bezoek plugin pagina"
 
-#: views/admin/metaboxes/settings-postspages.php:21
-msgid "Override Excerpt Settings"
-msgstr ""
-
-#: views/admin/metaboxes/settings-postspages.php:23
-msgid "Yes, override the post/page excerpt settings"
-msgstr ""
-
-#: views/admin/metaboxes/settings-postspages.php:33
-msgid "Read More Text"
-msgstr ""
-
-#: views/admin/metaboxes/settings-postspages.php:61
-msgid "Excerpt Length"
-msgstr ""
-
 #: views/admin/metaboxes/settings-styles.php:18
 msgid "Child Theme Folder"
 msgstr "Child theme map"
 
 #: views/admin/metaboxes/settings-styles.php:25
-#, php-format
 msgid "Yes, there is a %s folder inside WordPress theme folder %s"
 msgstr "Ja, er is een map %s binnen de WordPress thema map %s"
 
@@ -1156,19 +673,8 @@ msgid "Layout"
 msgstr "Layout"
 
 #: views/admin/metaboxes/settings-styles.php:31
-msgid ""
-"Choose responsive if you have a responsive theme and you want the slideshow "
-"to resize width/height in a responsive manner on different devices.<br/><br/"
-"><strong>Override per slideshow:</strong> Using parameter <code>layout</"
-"code> with value <code>responsive</code> or <code>specific</code> eg. "
-"<code>[tribulant_slideshow layout=\"specific\"]</code>."
-msgstr ""
-"Kies Responsive wanneer je een responsive thema hebt en je de breedte/hoogte "
-"van de diashow wilt laten meeschalen op een responsive manier op de diverse "
-"toestellen waarmee een website bekeken kan worden.<br /><br /><strong>Te "
-"overschrijven per diashow:</strong> Gebruik van parameter <code>layout</"
-"code> met waarde <code>responsive</code> of <code>specifieke</code> bijv. "
-"<code>[tribulant_slideshow layout=\"specific\"]</code>. "
+msgid "Choose responsive if you have a responsive theme and you want the slideshow to resize width/height in a responsive manner on different devices.<br/><br/><strong>Override per slideshow:</strong> Using parameter <code>layout</code> with value <code>responsive</code> or <code>specific</code> eg. <code>[tribulant_slideshow layout=\"specific\"]</code>."
+msgstr "Kies Responsive wanneer je een responsive thema hebt en je de breedte/hoogte van de diashow wilt laten meeschalen op een responsive manier op de diverse toestellen waarmee een website bekeken kan worden.<br /><br /><strong>Te overschrijven per diashow:</strong> Gebruik van parameter <code>layout</code> met waarde <code>responsive</code> of <code>specifieke</code> bijv. <code>[tribulant_slideshow layout=\"specific\"]</code>. "
 
 #: views/admin/metaboxes/settings-styles.php:33
 msgid "Responsive"
@@ -1179,88 +685,36 @@ msgid "Fixed"
 msgstr "Fixed (vast)"
 
 #: views/admin/metaboxes/settings-styles.php:35
-msgid ""
-"Choose whether you want a responsive or fixed/specific layout for the "
-"slideshow."
-msgstr ""
-"Kies of je een responsive of een fixed (vaste) layout wilt voor de diashow."
-
-#: views/admin/metaboxes/settings-styles.php:39
-msgid "Auto Height"
-msgstr "Automatische hoogte"
-
-#: views/admin/metaboxes/settings-styles.php:41
-msgid "Yes, automatically adjust the slideshow height for each slide"
-msgstr "Ja, pas de hoogte van de diashow automatisch aan voor iedere dia"
-
-#: views/admin/metaboxes/settings-styles.php:51
-msgid "Maximum Auto Height"
-msgstr ""
-
-#: views/admin/metaboxes/settings-styles.php:53
-msgid "pixels"
-msgstr ""
-
-#: views/admin/metaboxes/settings-styles.php:54
-msgid ""
-"Set the maximum height that auto height may go or leave empty/zero for no "
-"maximum"
-msgstr ""
+msgid "Choose whether you want a responsive or fixed/specific layout for the slideshow."
+msgstr "Kies of je een responsive of een fixed (vaste) layout wilt voor de diashow."
 
 #: views/admin/metaboxes/settings-styles.php:65
 msgid "Responsive Height"
 msgstr "Responsive hoogte"
 
 #: views/admin/metaboxes/settings-styles.php:66
-msgid ""
-"The responsive height can be either a fixed height in pixel or a percentage "
-"height. The percentage height is a percentage of the width of the slideshow."
-"<br/><br/><strong>Override per slideshow:</strong> Using parameters "
-"<code>resheight</code> value a value and <code>resheighttype</code> with "
-"<code>px</code> for pixels or <code>%</code> for percentage eg. "
-"<code>[tribulant_slideshow resheight=\"300\" resheighttype=\"px\"]</code>."
-msgstr ""
-"De responsive hoogte kan een vaste hoogte in pixels zijn of een percentage. "
-"Het percentage is ten opzichte van de breedte van de diashow.<br /><br /"
-"><strong>Te overschrijven per diashow:</strong> Gebruik van parameters "
-"<code>resheight</code> met een waarde en <code>resheighttype</code> met "
-"<code>px</code> voor pixels of <code>%</code> voor percentage, bijv. "
-"<code>[tribulant_slideshow resheight=\"300\" resheighttype=\"px\"]</code>. "
+msgid "The responsive height can be either a fixed height in pixel or a percentage height. The percentage height is a percentage of the width of the slideshow.<br/><br/><strong>Override per slideshow:</strong> Using parameters <code>resheight</code> value a value and <code>resheighttype</code> with <code>px</code> for pixels or <code>%</code> for percentage eg. <code>[tribulant_slideshow resheight=\"300\" resheighttype=\"px\"]</code>."
+msgstr "De responsive hoogte kan een vaste hoogte in pixels zijn of een percentage. Het percentage is ten opzichte van de breedte van de diashow.<br /><br /><strong>Te overschrijven per diashow:</strong> Gebruik van parameters <code>resheight</code> met een waarde en <code>resheighttype</code> met <code>px</code> voor pixels of <code>%</code> voor percentage, bijv. <code>[tribulant_slideshow resheight=\"300\" resheighttype=\"px\"]</code>. "
 
 #: views/admin/metaboxes/settings-styles.php:70
 msgid "&#37;"
 msgstr "&#37;"
 
 #: views/admin/metaboxes/settings-styles.php:73
-msgid ""
-"Choose a responsive height for your slideshow, either a pixel or percentage "
-"height."
-msgstr ""
-"Kies een responsive hoogte voor je diashow, in pixels of een percentage."
+msgid "Choose a responsive height for your slideshow, either a pixel or percentage height."
+msgstr "Kies een responsive hoogte voor je diashow, in pixels of een percentage."
 
 #: views/admin/metaboxes/settings-styles.php:83
 msgid "Resize Images"
 msgstr "Afbeeldingsformaat aanpassen"
 
 #: views/admin/metaboxes/settings-styles.php:84
-msgid ""
-"Should images be automatically resized? If you specify No, the images will "
-"be used in the slideshow as you originally upload them. If you specify Yes, "
-"the images will be cropped/resized to fit the slideshow better which is the "
-"recommended setting."
-msgstr ""
-"Moeten afbeeldingen automatisch aangepast worden? Bij Nee zullen de "
-"afbeeldingen gebruikt worden zoals je ze hebt ge-upload. Bij Ja zullen "
-"afbeeldingen geschaald en bijgesneden worden; dit is de aanbevolen "
-"instelling."
+msgid "Should images be automatically resized? If you specify No, the images will be used in the slideshow as you originally upload them. If you specify Yes, the images will be cropped/resized to fit the slideshow better which is the recommended setting."
+msgstr "Moeten afbeeldingen automatisch aangepast worden? Bij Nee zullen de afbeeldingen gebruikt worden zoals je ze hebt ge-upload. Bij Ja zullen afbeeldingen geschaald en bijgesneden worden; dit is de aanbevolen instelling."
 
 #: views/admin/metaboxes/settings-styles.php:88
-msgid ""
-"Should images be resized proportionally to fit the width of the slideshow "
-"area?"
-msgstr ""
-"Moeten afbeeldingen proportioneel geschaald worden om binnen de breedte van "
-"de diashow te passen?"
+msgid "Should images be resized proportionally to fit the width of the slideshow area?"
+msgstr "Moeten afbeeldingen proportioneel geschaald worden om binnen de breedte van de diashow te passen?"
 
 #: views/admin/metaboxes/settings-styles.php:98
 msgid "Crop"
@@ -1294,22 +748,23 @@ msgstr "De hoogte van de diashow in pixels."
 msgid "Height of the slideshow gallery"
 msgstr "Hoogte van de diashow galerij"
 
+#: views/admin/metaboxes/settings-styles.php:39
+msgid "Auto Height"
+msgstr "Automatische hoogte"
+
+#: views/admin/metaboxes/settings-styles.php:41
+msgid "Yes, automatically adjust the slideshow height for each slide"
+msgstr "Ja, pas de hoogte van de diashow automatisch aan voor iedere dia"
+
 #: views/admin/metaboxes/settings-styles.php:135
 msgid "Slideshow Border"
 msgstr "Rand diashow"
 
 #: views/admin/metaboxes/settings-styles.php:136
-msgid ""
-"This is a CSS style for the border around the entire slideshow. You can use "
-"a value such as \"1px #FFFFFF solid\" to display a 1 pixel, white, solid "
-"border or even a value such as \"none\" for no border at all."
-msgstr ""
-"Dit is een CSS stijl voor de rand om de gehele diashow. Je kunt een waarde "
-"van bijv. \"1px #FFFFFF solid\" invoeren om een 1 pixel brede, witte rand te "
-"tonen, of zelfs \"none\" voor helemaal geen rand."
+msgid "This is a CSS style for the border around the entire slideshow. You can use a value such as \"1px #FFFFFF solid\" to display a 1 pixel, white, solid border or even a value such as \"none\" for no border at all."
+msgstr "Dit is een CSS stijl voor de rand om de gehele diashow. Je kunt een waarde van bijv. \"1px #FFFFFF solid\" invoeren om een 1 pixel brede, witte rand te tonen, of zelfs \"none\" voor helemaal geen rand."
 
 #: views/admin/metaboxes/settings-styles.php:139
-#, php-format
 msgid "Border style/color for the entire slideshow wrapper eg. %s"
 msgstr "Rand stijl/kleur voor de gehele diashow, bijv. %s"
 
@@ -1319,15 +774,10 @@ msgid "Slideshow Background"
 msgstr "Diashow achtergrond"
 
 #: views/admin/metaboxes/settings-styles.php:144
-msgid ""
-"The background which will display behind the entire slideshow. It is behind "
-"the slides, thumbnails, etc."
-msgstr ""
-"De achtergrond die getoond wordt achter de gehele diashow, dus achter de "
-"dia's en de thumbnails, etc."
+msgid "The background which will display behind the entire slideshow. It is behind the slides, thumbnails, etc."
+msgstr "De achtergrond die getoond wordt achter de gehele diashow, dus achter de dia's en de thumbnails, etc."
 
 #: views/admin/metaboxes/settings-styles.php:182
-#, php-format
 msgid "Background color (hexidecimal) of the entire slideshow wrapper eg. %s"
 msgstr "Achtergrondkleur (hexadecimaal) van de gehele diashow, bijv. %s"
 
@@ -1337,17 +787,10 @@ msgid "Information Background"
 msgstr "Informatie achtergrond"
 
 #: views/admin/metaboxes/settings-styles.php:187
-msgid ""
-"The background of the information bar which shows the title and description "
-"of each slide. It is automatically half transparent so that it is not "
-"obtrusive to the slide image below it though."
-msgstr ""
-"De achtergrond van de info-balk die de titel en beschrijving van iedere dia "
-"toont.  Zal automatisch half transparant weergegeven worden zodat hij niet "
-"storend is voor de dia eronder."
+msgid "The background of the information bar which shows the title and description of each slide. It is automatically half transparent so that it is not obtrusive to the slide image below it though."
+msgstr "De achtergrond van de info-balk die de titel en beschrijving van iedere dia toont.  Zal automatisch half transparant weergegeven worden zodat hij niet storend is voor de dia eronder."
 
 #: views/admin/metaboxes/settings-styles.php:225
-#, php-format
 msgid "Background color (hexidecimal) of the information bar eg. %s"
 msgstr "Achtergrondkleur (hexadecimaal) van de info-balk, bijv. %s"
 
@@ -1357,15 +800,10 @@ msgid "Information Text Color"
 msgstr "Info-tekst kleur"
 
 #: views/admin/metaboxes/settings-styles.php:230
-msgid ""
-"This is the color of the text of the title and description of each slide "
-"which shows in the information bar."
-msgstr ""
-"De kleur van de tekst van de titel en beschrijving van iedere dia, die in de "
-"info-balk getoond wordt."
+msgid "This is the color of the text of the title and description of each slide which shows in the information bar."
+msgstr "De kleur van de tekst van de titel en beschrijving van iedere dia, die in de info-balk getoond wordt."
 
 #: views/admin/metaboxes/settings-styles.php:268
-#, php-format
 msgid "Text color (hexidecimal) of the information bar content eg. %s"
 msgstr "Tekstkleur (hexadecimaal) van de inhoud van de info-balk, bijv. %s"
 
@@ -1375,21 +813,12 @@ msgid "Thumbnail Active Border"
 msgstr "Randkleur actieve thumbnail"
 
 #: views/admin/metaboxes/settings-styles.php:273
-msgid ""
-"This is the color of the border which displays on the active thumbnail of "
-"the slide currently displaying in the slideshow."
-msgstr ""
-"De kleur van de rand van de actieve thumbnail, die hoort bij de dia die op "
-"dat moment getoond wordt."
+msgid "This is the color of the border which displays on the active thumbnail of the slide currently displaying in the slideshow."
+msgstr "De kleur van de rand van de actieve thumbnail, die hoort bij de dia die op dat moment getoond wordt."
 
 #: views/admin/metaboxes/settings-styles.php:311
-#, php-format
 msgid "Border color (hexidecimal) for the active image thumbnail eg. %s"
 msgstr "Randkleur (hexadecimaal) van de active thumbnail, bijv. %s"
-
-#: views/admin/metaboxes/settings-submit.php:15
-msgid "Check/optimize database tables"
-msgstr ""
 
 #: views/admin/metaboxes/settings-submit.php:18
 msgid "Reset all configuration settings to their default values"
@@ -1411,62 +840,9 @@ msgstr "Schakel debugging in"
 msgid "Save Configuration"
 msgstr "Sla instellingen op"
 
-#: views/admin/metaboxes/settings-tech.php:14
-msgid "Javascript Output"
-msgstr ""
-
-#: views/admin/metaboxes/settings-tech.php:16
-msgid "Per Slideshow"
-msgstr ""
-
-#: views/admin/metaboxes/settings-tech.php:17
-msgid "All in Footer"
-msgstr ""
-
-#: views/admin/metaboxes/settings-wprelated.php:15
-msgid "Language External"
-msgstr "Externe taal"
-
-#: views/admin/metaboxes/settings-wprelated.php:16
-#, php-format
-msgid ""
-"By default, the plugin loads language file from %s. By turning this on, you "
-"can host your language file outside the plugin and place it inside %s. Name "
-"the language file %s"
-msgstr ""
-"Standaard laadt de plugin het taalbestand vanuit %s. Door dit in te "
-"schakelen, kun je een taalbestand van buiten de plugin-map laden en in "
-"plaatsen in %s. Noem het taalbestand %s"
-
-#: views/admin/metaboxes/settings-wprelated.php:18
-msgid "Yes, load external language file"
-msgstr "Ja, laadt extern taalbestand "
-
-#: views/admin/metaboxes/settings-wprelated.php:19
-#, php-format
-msgid "Turn this on to load language file from %s named %s"
-msgstr "Schakel in om een taalbestand te laden vanuit %s met de naam %s"
-
-#: views/admin/settings-submitserial.php:5
-msgid "Please submit a serial key in the form below."
-msgstr ""
-
-#: views/admin/settings-submitserial.php:6
-#, php-format
-msgid "You can obtain the serial key from your %s."
-msgstr ""
-
-#: views/admin/settings-submitserial.php:6
-msgid "downloads section"
-msgstr ""
-
 #: views/admin/settings.php:14
 msgid "Configuration Settings"
 msgstr "Instellingen"
-
-#: views/admin/slides/index.php:10
-msgid "Add Multiple"
-msgstr ""
 
 #: views/admin/slides/index.php:15
 msgid "slides"
@@ -1474,38 +850,17 @@ msgstr "dia's"
 
 #: views/admin/slides/loop.php:7
 msgid "Are you sure you wish to execute this action on the selected slides?"
-msgstr ""
-"Weet je zeker dat je deze actie wilt uitvoeren met de geselecteerde dia's?"
+msgstr "Weet je zeker dat je deze actie wilt uitvoeren met de geselecteerde dia's?"
+
+#: views/admin/slides/loop.php:80 views/admin/slides/loop.php:122
+msgid "Image"
+msgstr "Afbeelding"
 
 #: views/admin/slides/loop.php:23 views/admin/slides/loop.php:90
 #: views/admin/slides/loop.php:132 views/admin/slides/save-multiple.php:60
 #: views/admin/slides/save.php:121
 msgid "Galleries"
 msgstr "Galerijen"
-
-#: views/admin/slides/loop.php:24
-msgid "Add Galleries..."
-msgstr ""
-
-#: views/admin/slides/loop.php:25
-msgid "Set Galleries..."
-msgstr ""
-
-#: views/admin/slides/loop.php:26
-msgid "Remove All Galleries"
-msgstr ""
-
-#: views/admin/slides/loop.php:36
-msgid "Select all"
-msgstr ""
-
-#: views/admin/slides/loop.php:41
-msgid "No galleries are available"
-msgstr ""
-
-#: views/admin/slides/loop.php:80 views/admin/slides/loop.php:122
-msgid "Image"
-msgstr "Afbeelding"
 
 #: views/admin/slides/loop.php:93 views/admin/slides/loop.php:135
 msgid "Link"
@@ -1523,106 +878,21 @@ msgstr "Geen"
 msgid "Open"
 msgstr "Open"
 
-#: views/admin/slides/loop.php:197
-#, php-format
-msgid "No slides available, %s or %s"
-msgstr ""
-
-#: views/admin/slides/loop.php:197
-msgid "add multiple"
-msgstr ""
-
-#: views/admin/slides/order.php:11
-msgid "&larr; Manage All Slides"
-msgstr "&larr; beheer alle dia's"
-
-#: views/admin/slides/order.php:14
-#, php-format
-msgid "This page lets you order all slides shown with %s."
-msgstr ""
-
-#: views/admin/slides/order.php:15
-msgid ""
-"To order slides per gallery, go to Slideshow > Manage Galleries and order "
-"for that specific gallery."
-msgstr ""
-
 #: views/admin/slides/order.php:65
 msgid "No slides found"
 msgstr "Geen dia's gevonden"
 
-#: views/admin/slides/save-multiple.php:8
-#: views/admin/slides/save-multiple.php:77
-msgid "Save Multiple Slides"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:27
-msgid "Choose Images"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:29
-msgid "Choose Files"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:30
-msgid ""
-"Upload/choose images from the media gallery. Ctrl/Shift + Click to choose "
-"multiple."
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:43
-#: views/admin/slides/save-multiple.php:115
-msgid "Title:"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:44
-#: views/admin/slides/save-multiple.php:116
-msgid "Description:"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:49
-#: views/admin/slides/save-multiple.php:120
-msgid "Are you sure you want to remove this slide?"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:49
-#: views/admin/slides/save-multiple.php:120
-msgid "Remove"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:63 views/admin/slides/save.php:125
-msgid "Select All"
-msgstr "Selecteer alle"
-
-#: views/admin/slides/save-multiple.php:68 views/admin/slides/save.php:130
-msgid "No galleries are available."
-msgstr "Geen galerijen beschikbaar"
-
-#: views/admin/slides/save-multiple.php:70
-msgid "Choose the galleries to add these slides to."
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:97
-msgid "Upload Slides"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:99
-msgid "Select Images as Slides"
-msgstr ""
+#: views/admin/slides/order.php:11
+msgid "&larr; Manage All Slides"
+msgstr "&larr; beheer alle dia's"
 
 #: views/admin/slides/save.php:16
 msgid "Save a Slide"
 msgstr "Sla een dia op"
 
 #: views/admin/slides/save.php:29
-msgid ""
-"This title is for your reference in management and it will also be used to "
-"display the title of the slide in the information bar if you have that "
-"turned on."
-msgstr ""
-"De titel als referentie voor jezelf in het beheergedeelte, wordt ook "
-"gebruikt als titel van dia in de info-balk van de diashow als je dat "
-"ingesteld hebt."
+msgid "This title is for your reference in management and it will also be used to display the title of the slide in the information bar if you have that turned on."
+msgstr "De titel als referentie voor jezelf in het beheergedeelte, wordt ook gebruikt als titel van dia in de info-balk van de diashow als je dat ingesteld hebt."
 
 #: views/admin/slides/save.php:54
 msgid "Title/name of your slide as it will be displayed to your users."
@@ -1633,34 +903,20 @@ msgid "Description"
 msgstr "Beschrijving"
 
 #: views/admin/slides/save.php:60
-msgid ""
-"The description is specifically used for the information bar if you have "
-"that turned on."
-msgstr ""
-"De beschrijving wordt gebruikt in de info-balk, als je die ingeschakeld hebt."
+msgid "The description is specifically used for the information bar if you have that turned on."
+msgstr "De beschrijving wordt gebruikt in de info-balk, als je die ingeschakeld hebt."
 
 #: views/admin/slides/save.php:85
-msgid ""
-"Description of your slide as it will be displayed to your users below the "
-"title."
-msgstr ""
-"Beschrijving van je dia die onder de titel getoond wordt aan bezoekers."
+msgid "Description of your slide as it will be displayed to your users below the title."
+msgstr "Beschrijving van je dia die onder de titel getoond wordt aan bezoekers."
 
 #: views/admin/slides/save.php:90
 msgid "Show Information?"
 msgstr "Toon info?"
 
 #: views/admin/slides/save.php:91
-msgid ""
-"You can choose to show both title and description, only title, only "
-"description or not show the information bar at all. Please note that this "
-"setting is only effective when the information bar is turned on in "
-"configuration or via a parameter in shortcode or hardcode."
-msgstr ""
-"Je kunt kiezen om titel en beschrijving te tonen, alleen de titel óf de "
-"beschrijving te tonen of geheel geen info-balk te tonen. Denk eraan dat deze "
-"instelling alleen effect heeft wanneer de info-balk is ingeschakeld in de "
-"instellingen of via een parameter in shortcode of handgecodeerd."
+msgid "You can choose to show both title and description, only title, only description or not show the information bar at all. Please note that this setting is only effective when the information bar is turned on in configuration or via a parameter in shortcode or hardcode."
+msgstr "Je kunt kiezen om titel en beschrijving te tonen, alleen de titel óf de beschrijving te tonen of geheel geen info-balk te tonen. Denk eraan dat deze instelling alleen effect heeft wanneer de info-balk is ingeschakeld in de instellingen of via een parameter in shortcode of handgecodeerd."
 
 #: views/admin/slides/save.php:93
 msgid "Both title and description"
@@ -1687,25 +943,20 @@ msgid "Info Opacity"
 msgstr "Info transparantie"
 
 #: views/admin/slides/save.php:108
-msgid ""
-"The opacity of the information bar from 0 to 100 where 0 is transparent and "
-"100 is opague."
-msgstr ""
-"De transparantie van de info-balk tussen 0 en 100, waar 0 helemaal "
-"transparant is en 100 ondoorschijnend."
+msgid "The opacity of the information bar from 0 to 100 where 0 is transparent and 100 is opague."
+msgstr "De transparantie van de info-balk tussen 0 en 100, waar 0 helemaal transparant is en 100 ondoorschijnend."
 
 #: views/admin/slides/save.php:111
 msgid "A value between 0 and 100. Leave empty for default."
 msgstr "Een waarde tussen 0 en 100. Laat leeg voor standaard."
 
 #: views/admin/slides/save.php:122
-msgid ""
-"You can organize/assign a slide to multiple galleries as needed. It is easy "
-"to display a slideshow with the slides of a specific gallery then."
-msgstr ""
-"Je kunt een dia toewijzen aan/gebruiken in meerdere galerijen als je wilt. "
-"Het is dus makkelijk om een diashow met dia's uit bepaalde galerijen te "
-"tonen."
+msgid "You can organize/assign a slide to multiple galleries as needed. It is easy to display a slideshow with the slides of a specific gallery then."
+msgstr "Je kunt een dia toewijzen aan/gebruiken in meerdere galerijen als je wilt. Het is dus makkelijk om een diashow met dia's uit bepaalde galerijen te tonen."
+
+#: views/admin/slides/save-multiple.php:63 views/admin/slides/save.php:125
+msgid "Select All"
+msgstr "Selecteer alle"
 
 #: views/admin/slides/save.php:132
 msgid "Assign this slide to one or more galleries."
@@ -1716,16 +967,8 @@ msgid "Image Type"
 msgstr "Afbeeldingstype"
 
 #: views/admin/slides/save.php:137
-msgid ""
-"Do you want to specify a URL to your image or upload the image file "
-"manually? Specifying a URL will still copy the image file remotely from the "
-"location to your server so uploading is recommended to prevent any "
-"restrictions or errors."
-msgstr ""
-"Wil je een URL specificeren naar een afbeelding of wil je handmatig een "
-"afbeelding uploaden? Een URL specificeren betekent dat de afbeelding naar "
-"jouw server gekopieerd wordt. Voor meer zekerheid/minder fouten adviseren we "
-"zelf te uploaden."
+msgid "Do you want to specify a URL to your image or upload the image file manually? Specifying a URL will still copy the image file remotely from the location to your server so uploading is recommended to prevent any restrictions or errors."
+msgstr "Wil je een URL specificeren naar een afbeelding of wil je handmatig een afbeelding uploaden? Een URL specificeren betekent dat de afbeelding naar jouw server gekopieerd wordt. Voor meer zekerheid/minder fouten adviseren we zelf te uploaden."
 
 #: views/admin/slides/save.php:139
 msgid "Media Upload"
@@ -1741,8 +984,7 @@ msgstr "Geef URL op"
 
 #: views/admin/slides/save.php:143
 msgid "Do you want to upload an image or specify a local/remote image URL?"
-msgstr ""
-"Wil je een afbeelding uploaden of een (al dan niet lokale) URL specificeren?"
+msgstr "Wil je een afbeelding uploaden of een (al dan niet lokale) URL specificeren?"
 
 #: views/admin/slides/save.php:154 views/admin/slides/save.php:218
 msgid "Choose Image"
@@ -1761,55 +1003,36 @@ msgid "Select as Slide Image"
 msgstr "Kies als dia-afbeelding"
 
 #: views/admin/slides/save.php:219
-msgid ""
-"Simply choose an image file from your computer to upload for this slide. "
-"Only .jpg, .png and .gif are supported and in rare cases .bmp but please try "
-"and prevent using .bmp files."
-msgstr ""
-"Kies een afbeelding van je computer om te uploaden en als dia te gebruiken. "
-"Alleen .jpg, .png en .gif worden ondersteund en soms .bmp, maar gebruik deze "
-"laatste liever niet."
+msgid "Simply choose an image file from your computer to upload for this slide. Only .jpg, .png and .gif are supported and in rare cases .bmp but please try and prevent using .bmp files."
+msgstr "Kies een afbeelding van je computer om te uploaden en als dia te gebruiken. Alleen .jpg, .png en .gif worden ondersteund en soms .bmp, maar gebruik deze laatste liever niet."
 
 #: views/admin/slides/save.php:222
 msgid "Choose your image file from your computer. JPG, PNG, GIF are supported."
-msgstr ""
-"Kies een afbeelding van je computer. JPG, PNG en GIF worden ondersteund."
+msgstr "Kies een afbeelding van je computer. JPG, PNG en GIF worden ondersteund."
 
 #: views/admin/slides/save.php:232
 msgid "Current image. Leave the field above blank to keep this image."
-msgstr ""
-"Huidige afbeelding. Laat het veld hierboven leeg om deze afbeelding te "
-"blijven gebruiken."
+msgstr "Huidige afbeelding. Laat het veld hierboven leeg om deze afbeelding te blijven gebruiken."
 
 #: views/admin/slides/save.php:250
 msgid "Image URL"
 msgstr "Afbeelding URL"
 
 #: views/admin/slides/save.php:251
-msgid ""
-"Specify an absolute URL to an image file to use for this slide. The image "
-"will be copied from the location to your server."
-msgstr ""
-"Geef een absolute URL op naar de afbeelding die je voor deze dia wilt "
-"gebruiken. De afbeelding wordt van die locatie gekopieerd naar jouw server."
+msgid "Specify an absolute URL to an image file to use for this slide. The image will be copied from the location to your server."
+msgstr "Geef een absolute URL op naar de afbeelding die je voor deze dia wilt gebruiken. De afbeelding wordt van die locatie gekopieerd naar jouw server."
 
 #: views/admin/slides/save.php:254
 msgid "Local or remote image location eg. http://domain.com/path/to/image.jpg"
-msgstr ""
-"Locale of niet-locale afbeeldingslocatie, bijv. http://www.domein.nl/pad/"
-"naar/afbeelding.jpg"
+msgstr "Locale of niet-locale afbeeldingslocatie, bijv. http://www.domein.nl/pad/naar/afbeelding.jpg"
 
 #: views/admin/slides/save.php:265
 msgid "Use Link"
 msgstr "Gebruik link"
 
 #: views/admin/slides/save.php:266
-msgid ""
-"Turn this on to specify a link/URL for this slide to link to when it is "
-"clicked."
-msgstr ""
-"Schakel in om een link/URL voor deze dia te specificeren wanneer erop wordt "
-"geklikt."
+msgid "Turn this on to specify a link/URL for this slide to link to when it is clicked."
+msgstr "Schakel in om een link/URL voor deze dia te specificeren wanneer erop wordt geklikt."
 
 #: views/admin/slides/save.php:270
 msgid "Set this to Yes to link this slide to a link/URL of your choice."
@@ -1821,28 +1044,19 @@ msgstr "Link naar"
 
 #: views/admin/slides/save.php:281
 msgid "The absolute URL to take the user to when the slide is clicked."
-msgstr ""
-"De absolute URL om de bezoeker heen te leiden wanneer de dia is aangeklikt."
+msgstr "De absolute URL om de bezoeker heen te leiden wanneer de dia is aangeklikt."
 
 #: views/admin/slides/save.php:307
-msgid ""
-"Link/URL to go to when a user clicks the slide eg. http://www.domain.com/"
-"mypage/"
-msgstr ""
-"Link/URL waar de bezoeker heengaat bij aanklikken dia, bijv. http://www."
-"domein.nl/pagina/"
+msgid "Link/URL to go to when a user clicks the slide eg. http://www.domain.com/mypage/"
+msgstr "Link/URL waar de bezoeker heengaat bij aanklikken dia, bijv. http://www.domein.nl/pagina/"
 
 #: views/admin/slides/save.php:311
 msgid "Link Target"
 msgstr "Link doel"
 
 #: views/admin/slides/save.php:312
-msgid ""
-"Depending on the purpose of specifying this link, you may want it to open in "
-"the same window or in a new window."
-msgstr ""
-"Afhankelijk van het doel van deze link, kun je hem laten openen in een nieuw "
-"venster/tabblad of in hetzelfde venster/tabblad."
+msgid "Depending on the purpose of specifying this link, you may want it to open in the same window or in a new window."
+msgstr "Afhankelijk van het doel van deze link, kun je hem laten openen in een nieuw venster/tabblad of in hetzelfde venster/tabblad."
 
 #: views/admin/slides/save.php:314
 msgid "Current Window"
@@ -1854,75 +1068,11 @@ msgstr "Nieuw/blanko venster/tabblad"
 
 #: views/admin/slides/save.php:316
 msgid "Should this link open in the current window or a new window?"
-msgstr ""
-"Moet de link openen in het huidige venster/tabblad of in een nieuw venster/"
-"tabblad?"
+msgstr "Moet de link openen in het huidige venster/tabblad of in een nieuw venster/tabblad?"
 
 #: views/admin/slides/save.php:324
 msgid "Save Slide"
 msgstr "Sla dia op"
-
-#: views/admin/submitserial.php:1
-msgid "Slideshow Gallery Serial Key"
-msgstr ""
-
-#: views/admin/submitserial.php:6
-msgid "You are running Slideshow Gallery LITE."
-msgstr ""
-
-#: views/admin/submitserial.php:7
-#, php-format
-msgid "To remove limits, you can submit a serial key or %s."
-msgstr ""
-
-#: views/admin/submitserial.php:10
-msgid ""
-"Please obtain a serial key from the downloads section in your Tribulant "
-"Software account."
-msgstr ""
-
-#: views/admin/submitserial.php:11
-msgid ""
-"Once in the downloads section, click the KEY icon to request a serial key."
-msgstr ""
-
-#: views/admin/submitserial.php:12
-msgid "Downloads Section"
-msgstr ""
-
-#: views/admin/submitserial.php:24
-msgid "Cancel"
-msgstr ""
-
-#: views/admin/submitserial.php:30
-msgid "Serial Key:"
-msgstr ""
-
-#: views/admin/submitserial.php:31
-msgid "Your current serial is valid and working."
-msgstr ""
-
-#: views/admin/submitserial.php:33
-msgid "Close"
-msgstr ""
-
-#: views/admin/submitserial.php:34
-msgid "Are you sure you want to delete your serial key?"
-msgstr ""
-
-#: views/admin/submitserial.php:34
-msgid "Delete Serial"
-msgstr ""
-
-#: views/admin/submitserial.php:39
-msgid ""
-"The serial key is valid and you can now continue using the Slideshow Gallery "
-"plugin. Thank you for your business and support!"
-msgstr ""
-
-#: views/admin/submitserial.php:40
-msgid "Apply Serial and Close Window"
-msgstr ""
 
 #: views/admin/tinymce-dialog.php:25
 msgid "Insert a Slideshow Gallery"
@@ -1944,10 +1094,6 @@ msgstr "Afbeeldingen uit een bericht"
 msgid "Slides From a Gallery"
 msgstr "Dia's uit een galerij"
 
-#: views/admin/tinymce-dialog.php:110
-msgid "Featured Posts"
-msgstr ""
-
 #: views/admin/tinymce-dialog.php:111
 msgid "All Available Slides"
 msgstr "Alle beschikbare dia's"
@@ -1957,7 +1103,6 @@ msgid "Products"
 msgstr "Producten"
 
 #: views/admin/tinymce-dialog.php:114
-#, php-format
 msgid "Requires the %sShopping Cart plugin%s"
 msgstr "%sShopping Cart plugin%s moet geactiveerd zijn"
 
@@ -2001,31 +1146,17 @@ msgstr "Galerij:"
 msgid "- Select Gallery -"
 msgstr "- Kies galerij -"
 
-#: views/admin/tinymce-dialog.php:165
-msgid "Number of Posts:"
-msgstr ""
-
-#: views/admin/tinymce-dialog.php:170
-msgid "Post Type:"
-msgstr ""
-
 #: views/admin/tinymce-dialog.php:180
 msgid "Exclude:"
 msgstr "Uitsluiten:"
 
 #: views/admin/tinymce-dialog.php:182
 msgid "Comma separated IDs of attachments/slides to exclude"
-msgstr ""
-"Komma-gescheiden lijst van ID's van bijlagen/dia's die uitgesloten moeten "
-"worden"
+msgstr "Komma-gescheiden lijst van ID's van bijlagen/dia's die uitgesloten moeten worden"
 
 #: views/admin/tinymce-dialog.php:186
-#, php-format
-msgid ""
-"For more settings/parameters, see the %sSlideshow Gallery plugin%s page."
-msgstr ""
-"Voor meer instellingen/parameters, kijk op de %sSlideshow Gallery plugin%s "
-"pagina."
+msgid "For more settings/parameters, see the %sSlideshow Gallery plugin%s page."
+msgstr "Voor meer instellingen/parameters, kijk op de %sSlideshow Gallery plugin%s pagina."
 
 #: views/default/gallery.php:125 views/default/gallery.php:154
 msgid "Slide Left"
@@ -2047,39 +1178,524 @@ msgstr "Volgende afbeelding"
 msgid "No slides are available."
 msgstr "Geen dia's beschikbaar"
 
-#~ msgid "The image did not upload, please try again"
-#~ msgstr "De afbeelding is niet ge-uload, probeer s.v.p. opnieuw"
+#: views/admin/metaboxes/settings-wprelated.php:15
+msgid "Language External"
+msgstr "Externe taal"
 
-#~ msgid ""
-#~ "Image could not be moved from TMP to \"wp-content/uploads/\", please "
-#~ "check permissions"
-#~ msgstr ""
-#~ "Afbeelding kon niet verplaatst worden van TMP naar \"wp-content/uploads/"
-#~ "\", controleer s.v.p. de rechten"
+#: views/admin/metaboxes/settings-wprelated.php:16
+msgid "By default, the plugin loads language file from %s. By turning this on, you can host your language file outside the plugin and place it inside %s. Name the language file %s"
+msgstr "Standaard laadt de plugin het taalbestand vanuit %s. Door dit in te schakelen, kun je een taalbestand van buiten de plugin-map laden en in plaatsen in %s. Noem het taalbestand %s"
 
-#~ msgid "Displaying"
-#~ msgstr "Toont nu"
+#: views/admin/metaboxes/settings-wprelated.php:18
+msgid "Yes, load external language file"
+msgstr "Ja, laadt extern taalbestand "
 
-#~ msgid "Page"
-#~ msgstr "Pagina"
+#: views/admin/metaboxes/settings-wprelated.php:19
+msgid "Turn this on to load language file from %s named %s"
+msgstr "Schakel in om een taalbestand te laden vanuit %s met de naam %s"
 
-#~ msgid "Image Fading Speed"
-#~ msgstr "Vervagingssnelheid afbeeldingen"
+#: models/slideshow.php:26 slideshow-gallery-plugin.php:88
+#: slideshow-gallery.php:275 views/admin/submitserial.php:7
+msgid "Upgrade to PRO"
+msgstr ""
 
-#~ msgid ""
-#~ "Choose the speed at which images fade in and out. The default is 10 and a "
-#~ "number between 1 and 20 is recommended. Use a low number for quick fading "
-#~ "and a higher number for slower fading."
-#~ msgstr ""
-#~ "Kies de snelheid waarmee afbeeldingen in en uit vervagen/\"faden\". "
-#~ "Standaard is 10, een getal tussen 1 en 20 is aanbevolen. Hoe lager het "
-#~ "getal dat je kiest, des te sneller zal het vervagen gaan."
+#: models/slideshow.php:48
+msgid "Slideshow LITE"
+msgstr ""
 
-#~ msgid ""
-#~ "You may leave the width empty (not the height) to crop proportionally."
-#~ msgstr ""
-#~ "Je kunt de breedte leeg laten (niet de hoogte!) om een afbeelding "
-#~ "proportioneel juist te houden."
+#: models/slideshow.php:57 slideshow-gallery.php:188
+#: views/admin/settings-submitserial.php:2
+#: views/admin/settings-submitserial.php:24 views/admin/submitserial.php:25
+msgid "Submit Serial Key"
+msgstr ""
 
-#~ msgid "Order all your slides"
-#~ msgstr "Rangschik alle dia's"
+#: models/slideshow.php:67
+msgid "Upgrade to PRO now!"
+msgstr ""
+
+#: slideshow-gallery-plugin.php:87
+msgid "You are running Slideshow Gallery LITE. Take your slideshows to the next level with %s. Already purchased? %s."
+msgstr ""
+
+#: slideshow-gallery-plugin.php:87
+msgid "See instructions to install PRO"
+msgstr ""
+
+#: slideshow-gallery-plugin.php:89 slideshow-gallery.php:276
+msgid "Hide this message"
+msgstr ""
+
+#: slideshow-gallery-plugin.php:163
+msgid "Serial key has been deleted."
+msgstr ""
+
+#: slideshow-gallery-plugin.php:166 slideshow-gallery.php:226
+msgid "Please fill in a serial key."
+msgstr ""
+
+#: slideshow-gallery-plugin.php:170 slideshow-gallery.php:231
+msgid "Serial key is invalid, please try again."
+msgstr ""
+
+#: slideshow-gallery.php:102 views/admin/settings-submitserial.php:15
+msgid "Serial Key"
+msgstr ""
+
+#: slideshow-gallery.php:212
+msgid "Posts/Pages Settings"
+msgstr ""
+
+#: slideshow-gallery.php:215
+msgid "Technical Settings"
+msgstr ""
+
+#: slideshow-gallery.php:274
+msgid "You are using Slideshow Gallery LITE. Take your slideshows to the next level with %s. Already purchased? %s."
+msgstr ""
+
+#: slideshow-gallery.php:424
+msgid "No products are available"
+msgstr ""
+
+#: slideshow-gallery.php:496
+msgid "No slides are available in this gallery"
+msgstr ""
+
+#: slideshow-gallery.php:523
+msgid "No slides are available"
+msgstr ""
+
+#: slideshow-gallery.php:563
+msgid "No attachments on this post/page"
+msgstr ""
+
+#: slideshow-gallery.php:566
+msgid "No post/page ID was specified"
+msgstr ""
+
+#: slideshow-gallery.php:656
+msgid "Slides have been saved"
+msgstr ""
+
+#: slideshow-gallery.php:678
+msgid "Selected slides removed from all galleries"
+msgstr ""
+
+#: slideshow-gallery.php:696
+msgid "Slides added to selected galleries"
+msgstr ""
+
+#: slideshow-gallery.php:879
+msgid "Database tables have been checked and optimized"
+msgstr ""
+
+#: vendors/class.paginate.php:198
+msgid "%s items"
+msgstr ""
+
+#: vendors/class.update.php:19
+msgid "Something went wrong!"
+msgstr ""
+
+#: vendors/class.update.php:20
+msgid "Please try again or <a href=\"http://tribulant.com/support/\" target=\"_blank\">contact us</a>."
+msgstr ""
+
+#: views/admin/err-top.php:11 views/admin/msg-top.php:11
+msgid "Dismiss this notice."
+msgstr ""
+
+#: views/admin/galleries/index.php:121
+msgid "No galleries available, %s"
+msgstr ""
+
+#: views/admin/galleries/index.php:121 views/admin/slides/loop.php:197
+msgid "add one"
+msgstr ""
+
+#: views/admin/galleries/index.php:132 views/admin/slides/loop.php:208
+msgid "- Per Page -"
+msgstr ""
+
+#: views/admin/galleries/index.php:135 views/admin/slides/loop.php:211
+msgid "per page"
+msgstr ""
+
+#: views/admin/galleries/save.php:56 views/admin/slides/save.php:326
+msgid "Continue editing"
+msgstr ""
+
+#: views/admin/lite-upgrade.php:13
+msgid "Slideshow Gallery PRO"
+msgstr ""
+
+#: views/admin/lite-upgrade.php:45
+msgid "Once you have purchased a serial key, simply submit it to activate Slideshow Gallery PRO:"
+msgstr ""
+
+#: views/admin/lite-upgrade.php:46
+msgid "Submit Serial"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:25
+msgid "Slide Effects"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:30
+msgid "Effect"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:57
+msgid "Choose the type of effect/transition you want for slides"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:82
+msgid "Slide Direction"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:84
+msgid "Left/Right"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:85
+msgid "Top/Bottom"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:95
+msgid "Easing"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:96
+msgid "Choose the type of easing effect. See the %s available."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:96
+msgid "list of easings"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:139
+msgid "Choose the desired easing effect"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:145
+msgid "Sliding Behaviour"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:203
+msgid "Transition Speed"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:204
+msgid "Choose the speed at which images fade in and out. The default is 20 and a number between 1 and 50 is recommended. Use a low number for quick fading and a higher number for slower fading."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:228
+msgid "Navigation (Previous/Next)"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:297
+msgid "Information Bar"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:317
+msgid "Information Bar Position"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:318
+msgid "With the Information Bar turned on with the setting above, you can now specify the position of the information bar. Either above or below the slideshow is available."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:322
+msgid "Choose your preferred position of the information bar relative to the slideshow."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:326
+msgid "Show Only On Hover"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:327
+msgid "Checking this option will only show the information bar on hover"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:329
+msgid "Yes, only show the info bar on hover"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:330
+msgid "Tick/check this to only show the information bar on hover."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:340
+msgid "Information Delay"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:342
+#: views/admin/metaboxes/settings-general.php:363
+msgid "seconds"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:343
+msgid "Delay the information bar in seconds or leave empty/zero for immediate display."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:347
+msgid "Fade Information Bar"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:348
+msgid "Fade the information bar after a few seconds."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:350
+msgid "Yes, fade the information bar"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:351
+msgid "Do you want the information bar to fade?"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:361
+msgid "Fade Delay"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:364
+msgid "Enter time in seconds for the information bar to fade."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:409
+msgid "Thumbnails Bar/Slider"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:446
+msgid "You may leave the height empty (not the width) to crop proportionally."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:504
+msgid "Hide On Mobile"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:505
+msgid "With a responsive layout turned on, the slideshow will respond in width on mobile devices. You can tick/check this setting to hide the thumbnail bar."
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:507
+msgid "Yes, hide the thumbnail bar on mobiles"
+msgstr ""
+
+#: views/admin/metaboxes/settings-general.php:508
+msgid "Tick/check this to hide the thumbnail bar on mobiles"
+msgstr ""
+
+#: views/admin/metaboxes/settings-postspages.php:21
+msgid "Override Excerpt Settings"
+msgstr ""
+
+#: views/admin/metaboxes/settings-postspages.php:23
+msgid "Yes, override the post/page excerpt settings"
+msgstr ""
+
+#: views/admin/metaboxes/settings-postspages.php:33
+msgid "Read More Text"
+msgstr ""
+
+#: views/admin/metaboxes/settings-postspages.php:61
+msgid "Excerpt Length"
+msgstr ""
+
+#: views/admin/metaboxes/settings-styles.php:51
+msgid "Maximum Auto Height"
+msgstr ""
+
+#: views/admin/metaboxes/settings-styles.php:53
+msgid "pixels"
+msgstr ""
+
+#: views/admin/metaboxes/settings-styles.php:54
+msgid "Set the maximum height that auto height may go or leave empty/zero for no maximum"
+msgstr ""
+
+#: views/admin/metaboxes/settings-submit.php:15
+msgid "Check/optimize database tables"
+msgstr ""
+
+#: views/admin/metaboxes/settings-tech.php:14
+msgid "Javascript Output"
+msgstr ""
+
+#: views/admin/metaboxes/settings-tech.php:16
+msgid "Per Slideshow"
+msgstr ""
+
+#: views/admin/metaboxes/settings-tech.php:17
+msgid "All in Footer"
+msgstr ""
+
+#: views/admin/settings-submitserial.php:5
+msgid "Please submit a serial key in the form below."
+msgstr ""
+
+#: views/admin/settings-submitserial.php:6
+msgid "You can obtain the serial key from your %s."
+msgstr ""
+
+#: views/admin/settings-submitserial.php:6
+msgid "downloads section"
+msgstr ""
+
+#: views/admin/slides/index.php:10
+msgid "Add Multiple"
+msgstr ""
+
+#: views/admin/slides/loop.php:24
+msgid "Add Galleries..."
+msgstr ""
+
+#: views/admin/slides/loop.php:25
+msgid "Set Galleries..."
+msgstr ""
+
+#: views/admin/slides/loop.php:26
+msgid "Remove All Galleries"
+msgstr ""
+
+#: views/admin/slides/loop.php:36
+msgid "Select all"
+msgstr ""
+
+#: views/admin/slides/loop.php:41
+msgid "No galleries are available"
+msgstr ""
+
+#: views/admin/slides/loop.php:197
+msgid "No slides available, %s or %s"
+msgstr ""
+
+#: views/admin/slides/loop.php:197
+msgid "add multiple"
+msgstr ""
+
+#: views/admin/slides/order.php:14
+msgid "This page lets you order all slides shown with %s."
+msgstr ""
+
+#: views/admin/slides/order.php:15
+msgid "To order slides per gallery, go to Slideshow > Manage Galleries and order for that specific gallery."
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:8
+#: views/admin/slides/save-multiple.php:77
+msgid "Save Multiple Slides"
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:27
+msgid "Choose Images"
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:29
+msgid "Choose Files"
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:30
+msgid "Upload/choose images from the media gallery. Ctrl/Shift + Click to choose multiple."
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:43
+#: views/admin/slides/save-multiple.php:115
+msgid "Title:"
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:44
+#: views/admin/slides/save-multiple.php:116
+msgid "Description:"
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:49
+#: views/admin/slides/save-multiple.php:120
+msgid "Are you sure you want to remove this slide?"
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:49
+#: views/admin/slides/save-multiple.php:120
+msgid "Remove"
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:70
+msgid "Choose the galleries to add these slides to."
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:97
+msgid "Upload Slides"
+msgstr ""
+
+#: views/admin/slides/save-multiple.php:99
+msgid "Select Images as Slides"
+msgstr ""
+
+#: views/admin/submitserial.php:1
+msgid "Slideshow Gallery Serial Key"
+msgstr ""
+
+#: views/admin/submitserial.php:6
+msgid "You are running Slideshow Gallery LITE."
+msgstr ""
+
+#: views/admin/submitserial.php:7
+msgid "To remove limits, you can submit a serial key or %s."
+msgstr ""
+
+#: views/admin/submitserial.php:10
+msgid "Please obtain a serial key from the downloads section in your Tribulant Software account."
+msgstr ""
+
+#: views/admin/submitserial.php:11
+msgid "Once in the downloads section, click the KEY icon to request a serial key."
+msgstr ""
+
+#: views/admin/submitserial.php:12
+msgid "Downloads Section"
+msgstr ""
+
+#: views/admin/submitserial.php:24
+msgid "Cancel"
+msgstr ""
+
+#: views/admin/submitserial.php:30
+msgid "Serial Key:"
+msgstr ""
+
+#: views/admin/submitserial.php:31
+msgid "Your current serial is valid and working."
+msgstr ""
+
+#: views/admin/submitserial.php:33
+msgid "Close"
+msgstr ""
+
+#: views/admin/submitserial.php:34
+msgid "Are you sure you want to delete your serial key?"
+msgstr ""
+
+#: views/admin/submitserial.php:34
+msgid "Delete Serial"
+msgstr ""
+
+#: views/admin/submitserial.php:39
+msgid "The serial key is valid and you can now continue using the Slideshow Gallery plugin. Thank you for your business and support!"
+msgstr ""
+
+#: views/admin/submitserial.php:40
+msgid "Apply Serial and Close Window"
+msgstr ""
+
+#: views/admin/tinymce-dialog.php:110
+msgid "Featured Posts"
+msgstr ""
+
+#: views/admin/tinymce-dialog.php:165
+msgid "Number of Posts:"
+msgstr ""
+
+#: views/admin/tinymce-dialog.php:170
+msgid "Post Type:"
+msgstr ""
+
