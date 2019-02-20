@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Slideshow Gallery plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-08 10:58+0200\n"
+"POT-Creation-Date: 2019-02-20 16:22+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tribulant Software <support@tribulant.com>\n"
 "Language-Team: Tribulant Software <support@tribulant.com>\n"
@@ -14,78 +14,253 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: ../slideshow-gallery\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: helpers/html.php:60 slideshow-gallery.php:183 views/admin/slides/index.php:8
+#: helpers/html.php:123 slideshow-gallery.php:191
+#: views/admin/slides/index.php:12
 msgid "Manage Slides"
 msgstr ""
 
-#: helpers/html.php:63 slideshow-gallery.php:184
-#: views/admin/galleries/index.php:8
+#: helpers/html.php:126 slideshow-gallery.php:192
+#: views/admin/galleries/index.php:12
 msgid "Manage Galleries"
 msgstr ""
 
-#: helpers/html.php:66 slideshow-gallery.php:185
-msgid "Configuration"
+#: helpers/html.php:129 slideshow-gallery.php:103 slideshow-gallery.php:193
+#: views/admin/settings.php:14
+msgid "Settings"
 msgstr ""
 
-#: models/gallery.php:84 models/slide.php:96
+#: includes/class.gallery-list-table.php:132
+#: includes/class.slide-list-table.php:150 views/admin/galleries/save.php:20
+#: views/admin/slides/save.php:29
+msgid "Title"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:133
+#: includes/class.slide-list-table.php:149
+msgid "ID"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:134
+msgid "Slides"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:135
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:136
+#: includes/class.slide-list-table.php:154
+msgid "Date"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:170
+#: includes/class.gallery-list-table.php:248
+#: includes/class.slide-list-table.php:196
+#: includes/class.slide-list-table.php:323
+msgid "Delete"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:191
+msgid "Selected galleries deleted"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:244
+msgid "View"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:245
+#: includes/class.slide-list-table.php:322
+msgid "Edit"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:246 views/admin/galleries/view.php:22
+msgid "Embed"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:247
+#: includes/class.slide-list-table.php:264
+#: views/admin/slides/order-gallery.php:8 views/admin/slides/order.php:8
+msgid "Order Slides"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:248 views/admin/galleries/view.php:25
+msgid "Are you sure you want to delete this gallery?"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:282
+#, php-format
+msgid "No galleries avaliable. You can %s"
+msgstr ""
+
+#: includes/class.gallery-list-table.php:282
+#: includes/class.slide-list-table.php:386
+msgid "add one"
+msgstr ""
+
+#: includes/class.slide-list-table.php:148
+msgid "Image"
+msgstr ""
+
+#: includes/class.slide-list-table.php:151
+#: views/admin/slides/save-multiple.php:63 views/admin/slides/save.php:122
+msgid "Galleries"
+msgstr ""
+
+#: includes/class.slide-list-table.php:152
+msgid "Link"
+msgstr ""
+
+#: includes/class.slide-list-table.php:153
+msgid "Expiry"
+msgstr ""
+
+#: includes/class.slide-list-table.php:155
+msgid "Order"
+msgstr ""
+
+#: includes/class.slide-list-table.php:197
+msgid "Add Galleries..."
+msgstr ""
+
+#: includes/class.slide-list-table.php:198
+msgid "Set Galleries..."
+msgstr ""
+
+#: includes/class.slide-list-table.php:199
+msgid "Remove Galleries"
+msgstr ""
+
+#: includes/class.slide-list-table.php:221
+msgid "Selected slides deleted"
+msgstr ""
+
+#: includes/class.slide-list-table.php:229
+msgid "Selected slides removed from all galleries"
+msgstr ""
+
+#: includes/class.slide-list-table.php:247
+msgid "Slides added to selected galleries"
+msgstr ""
+
+#: includes/class.slide-list-table.php:270
+msgid "Select all"
+msgstr ""
+
+#: includes/class.slide-list-table.php:275
+msgid "No galleries are available"
+msgstr ""
+
+#: includes/class.slide-list-table.php:323
+msgid "Are you sure you want to delete this slide?"
+msgstr ""
+
+#: includes/class.slide-list-table.php:333
+msgid "None"
+msgstr ""
+
+#: includes/class.slide-list-table.php:350
+#: includes/class.slide-list-table.php:361
+#: views/admin/metaboxes/settings-general.php:154
+#: views/admin/metaboxes/settings-general.php:169
+#: views/admin/metaboxes/settings-general.php:236
+#: views/admin/metaboxes/settings-general.php:306
+#: views/admin/metaboxes/settings-general.php:418
+#: views/admin/metaboxes/settings-linksimages.php:14
+#: views/admin/metaboxes/settings-styles.php:87
+#: views/admin/metaboxes/settings-styles.php:101
+#: views/admin/slides/save.php:272
+msgid "No"
+msgstr ""
+
+#: includes/class.slide-list-table.php:353
+#: views/admin/metaboxes/settings-general.php:153
+#: views/admin/metaboxes/settings-general.php:168
+#: views/admin/metaboxes/settings-general.php:235
+#: views/admin/metaboxes/settings-general.php:305
+#: views/admin/metaboxes/settings-general.php:417
+#: views/admin/metaboxes/settings-linksimages.php:13
+#: views/admin/metaboxes/settings-styles.php:86
+#: views/admin/metaboxes/settings-styles.php:100
+#: views/admin/slides/save.php:271
+msgid "Yes"
+msgstr ""
+
+#: includes/class.slide-list-table.php:354
+msgid "Open"
+msgstr ""
+
+#: includes/class.slide-list-table.php:367
+msgid "Expired"
+msgstr ""
+
+#: includes/class.slide-list-table.php:386
+#, php-format
+msgid "No slides avaliable. You can %s or %s."
+msgstr ""
+
+#: includes/class.slide-list-table.php:386
+msgid "add multiple"
+msgstr ""
+
+#: models/gallery.php:84 models/slide.php:117
 msgid "Please fill in a title"
 msgstr ""
 
-#: models/gallery.php:86 models/galleryslides.php:76 models/slide.php:205
+#: models/gallery.php:86 models/galleryslides.php:76 models/slide.php:226
 msgid "No data was posted"
 msgstr ""
 
-#: models/galleryslides.php:67 slideshow-gallery.php:816
+#: models/galleryslides.php:67 slideshow-gallery.php:921
 msgid "No gallery was specified"
 msgstr ""
 
-#: models/galleryslides.php:68 slideshow-gallery.php:599
+#: models/galleryslides.php:68 slideshow-gallery.php:759
 msgid "No slide was specified"
 msgstr ""
 
-#: models/slide.php:99
+#: models/slide.php:120
 msgid "Please select an image type"
 msgstr ""
 
-#: models/slide.php:108
+#: models/slide.php:129
 msgid "Choose an image"
 msgstr ""
 
-#: models/slide.php:137 models/slide.php:193
+#: models/slide.php:158 models/slide.php:214
 msgid "This file type is not allowed for security reasons"
 msgstr ""
 
-#: models/slide.php:154
+#: models/slide.php:175
 msgid "The image file is too large"
 msgstr ""
 
-#: models/slide.php:157
+#: models/slide.php:178
 msgid "The image was partially uploaded, please try again"
 msgstr ""
 
-#: models/slide.php:160
+#: models/slide.php:181
 msgid "No image was chosen for uploading, please choose an image"
 msgstr ""
 
-#: models/slide.php:163
+#: models/slide.php:184
 msgid ""
 "No TMP directory has been specified for PHP to use, please ask your hosting "
 "provider"
 msgstr ""
 
-#: models/slide.php:166
+#: models/slide.php:187
 msgid "Image cannot be written to disc, please ask your hosting provider"
 msgstr ""
 
-#: models/slide.php:172
+#: models/slide.php:193
 msgid "Please specify an image"
 msgstr ""
 
-#: models/slideshow.php:26 slideshow-gallery-plugin.php:88
-#: slideshow-gallery.php:275 views/admin/submitserial.php:7
+#: models/slideshow.php:26 slideshow-gallery-plugin.php:107
+#: slideshow-gallery.php:363 views/admin/submitserial.php:14
 msgid "Upgrade to PRO"
 msgstr ""
 
@@ -93,9 +268,9 @@ msgstr ""
 msgid "Slideshow LITE"
 msgstr ""
 
-#: models/slideshow.php:57 slideshow-gallery.php:188
+#: models/slideshow.php:57 slideshow-gallery.php:196
 #: views/admin/settings-submitserial.php:2
-#: views/admin/settings-submitserial.php:24 views/admin/submitserial.php:25
+#: views/admin/settings-submitserial.php:26 views/admin/submitserial.php:36
 msgid "Submit Serial Key"
 msgstr ""
 
@@ -103,240 +278,225 @@ msgstr ""
 msgid "Upgrade to PRO now!"
 msgstr ""
 
-#: slideshow-gallery-plugin.php:87
+#: slideshow-gallery-plugin.php:106
 #, php-format
 msgid ""
 "You are running Slideshow Gallery LITE. Take your slideshows to the next "
 "level with %s. Already purchased? %s."
 msgstr ""
 
-#: slideshow-gallery-plugin.php:87
+#: slideshow-gallery-plugin.php:106
 msgid "See instructions to install PRO"
 msgstr ""
 
-#: slideshow-gallery-plugin.php:89 slideshow-gallery.php:276
+#: slideshow-gallery-plugin.php:108 slideshow-gallery.php:364
 msgid "Hide this message"
 msgstr ""
 
-#: slideshow-gallery-plugin.php:163
+#: slideshow-gallery-plugin.php:182
 msgid "Serial key has been deleted."
 msgstr ""
 
-#: slideshow-gallery-plugin.php:166 slideshow-gallery.php:226
+#: slideshow-gallery-plugin.php:187 slideshow-gallery.php:315
 msgid "Please fill in a serial key."
 msgstr ""
 
-#: slideshow-gallery-plugin.php:170 slideshow-gallery.php:231
+#: slideshow-gallery-plugin.php:191 slideshow-gallery.php:320
 msgid "Serial key is invalid, please try again."
 msgstr ""
 
-#: slideshow-gallery-plugin.php:199
+#: slideshow-gallery-plugin.php:220
 msgid "Slides have been ordered"
 msgstr ""
 
-#: slideshow-gallery-plugin.php:409
+#: slideshow-gallery-plugin.php:443
 msgid "Slideshow Manager"
 msgstr ""
 
-#: slideshow-gallery-plugin.php:525
+#: slideshow-gallery-plugin.php:528
 #, php-format
 msgid "Uploads folder named \"%s\" cannot be created inside \"%s\""
 msgstr ""
 
-#: slideshow-gallery-plugin.php:534
+#: slideshow-gallery-plugin.php:537
 #, php-format
 msgid ""
 "Slideshow cache folder \"%s\" for resizing images cannot be created inside "
 "\"%s\""
 msgstr ""
 
-#: slideshow-gallery.php:102 views/admin/settings-submitserial.php:15
+#: slideshow-gallery.php:102 views/admin/settings-submitserial.php:16
 msgid "Serial Key"
 msgstr ""
 
-#: slideshow-gallery.php:103
-msgid "Settings"
+#: slideshow-gallery.php:108
+msgid "Upgrade"
 msgstr ""
 
-#: slideshow-gallery.php:182
+#: slideshow-gallery.php:190
 msgid "Slideshow"
 msgstr ""
 
-#: slideshow-gallery.php:208
+#: slideshow-gallery.php:231
+msgid "Slides per page"
+msgstr ""
+
+#: slideshow-gallery.php:251
+msgid "Galleries per page"
+msgstr ""
+
+#: slideshow-gallery.php:295 views/admin/metaboxes/settings-submit.php:28
 msgid "Save Settings"
 msgstr ""
 
-#: slideshow-gallery.php:209
+#: slideshow-gallery.php:296
 msgid "Recommended Plugin"
 msgstr ""
 
-#: slideshow-gallery.php:210
+#: slideshow-gallery.php:297
 msgid "About This Plugin"
 msgstr ""
 
-#: slideshow-gallery.php:210
+#: slideshow-gallery.php:297
 msgid "More about this plugin and the creators of it"
 msgstr ""
 
-#: slideshow-gallery.php:211
+#: slideshow-gallery.php:298
 msgid "General Settings"
 msgstr ""
 
-#: slideshow-gallery.php:211
-msgid ""
-"General configuration settings for the inner workings and some default "
-"behaviours"
+#: slideshow-gallery.php:298
+msgid "General settings for the inner workings and some default behaviours"
 msgstr ""
 
-#: slideshow-gallery.php:212
+#: slideshow-gallery.php:299
 msgid "Posts/Pages Settings"
 msgstr ""
 
-#: slideshow-gallery.php:213
+#: slideshow-gallery.php:300
 msgid "Links &amp; Images Overlay"
 msgstr ""
 
-#: slideshow-gallery.php:213
+#: slideshow-gallery.php:300
 msgid "Configure the way that slides with links are opened"
 msgstr ""
 
-#: slideshow-gallery.php:214
+#: slideshow-gallery.php:301
 msgid "Appearance &amp; Styles"
 msgstr ""
 
-#: slideshow-gallery.php:214
+#: slideshow-gallery.php:301
 msgid "Change the way the slideshows look so that it suits your needs"
 msgstr ""
 
-#: slideshow-gallery.php:215
+#: slideshow-gallery.php:302
 msgid "Technical Settings"
 msgstr ""
 
-#: slideshow-gallery.php:216
+#: slideshow-gallery.php:303
 msgid "WordPress Related"
 msgstr ""
 
-#: slideshow-gallery.php:216
+#: slideshow-gallery.php:303
 msgid "Settings specifically related to WordPress"
 msgstr ""
 
-#: slideshow-gallery.php:257
+#: slideshow-gallery.php:345
 #, php-format
 msgid ""
 "You have been using the %s for %s days or more. Please consider to %s it or "
 "say it %s on %s."
 msgstr ""
 
-#: slideshow-gallery.php:274
+#: slideshow-gallery.php:362
 #, php-format
 msgid ""
 "You are using Slideshow Gallery LITE. Take your slideshows to the next level "
 "with %s. Already purchased? %s."
 msgstr ""
 
-#: slideshow-gallery.php:424
+#: slideshow-gallery.php:508
 msgid "No products are available"
 msgstr ""
 
-#: slideshow-gallery.php:427
+#: slideshow-gallery.php:511
 #, php-format
 msgid "You need the %sShopping Cart plugin%s to display products slides."
 msgstr ""
 
-#: slideshow-gallery.php:455
+#: slideshow-gallery.php:536
 #, php-format
 msgid ""
 "No posts with featured images are available. Ensure your theme includes %s "
 "support."
 msgstr ""
 
-#: slideshow-gallery.php:496
+#: slideshow-gallery.php:578
 msgid "No slides are available in this gallery"
 msgstr ""
 
-#: slideshow-gallery.php:523
+#: slideshow-gallery.php:614
 msgid "No slides are available"
 msgstr ""
 
-#: slideshow-gallery.php:563
+#: slideshow-gallery.php:656
 msgid "No attachments on this post/page"
 msgstr ""
 
-#: slideshow-gallery.php:566
+#: slideshow-gallery.php:659
 msgid "No post/page ID was specified"
 msgstr ""
 
-#: slideshow-gallery.php:592
+#: slideshow-gallery.php:752
 msgid "Slide has been removed"
 msgstr ""
 
-#: slideshow-gallery.php:595
+#: slideshow-gallery.php:755
 msgid "Slide cannot be removed"
 msgstr ""
 
-#: slideshow-gallery.php:610
+#: slideshow-gallery.php:769
 msgid "Slide has been saved"
 msgstr ""
 
-#: slideshow-gallery.php:618
+#: slideshow-gallery.php:777
 msgid "Slide could not be saved"
 msgstr ""
 
-#: slideshow-gallery.php:656
+#: slideshow-gallery.php:816
 msgid "Slides have been saved"
 msgstr ""
 
-#: slideshow-gallery.php:660 slideshow-gallery.php:710
-#: slideshow-gallery.php:838
+#: slideshow-gallery.php:820
 msgid "No slides were selected"
 msgstr ""
 
-#: slideshow-gallery.php:678
-msgid "Selected slides removed from all galleries"
-msgstr ""
-
-#: slideshow-gallery.php:696
-msgid "Slides added to selected galleries"
-msgstr ""
-
-#: slideshow-gallery.php:705
-msgid "Selected slides have been removed"
-msgstr ""
-
-#: slideshow-gallery.php:714 slideshow-gallery.php:842
-msgid "No action was specified"
-msgstr ""
-
-#: slideshow-gallery.php:765
+#: slideshow-gallery.php:869
 msgid "Gallery has been saved"
 msgstr ""
 
-#: slideshow-gallery.php:809
+#: slideshow-gallery.php:914
 msgid "Gallery has been removed"
 msgstr ""
 
-#: slideshow-gallery.php:812
+#: slideshow-gallery.php:917
 msgid "Gallery cannot be removed"
 msgstr ""
 
-#: slideshow-gallery.php:833
-msgid "Selected galleries have been removed"
-msgstr ""
-
-#: slideshow-gallery.php:879
+#: slideshow-gallery.php:954
 msgid "Database tables have been checked and optimized"
 msgstr ""
 
-#: slideshow-gallery.php:888
-msgid "All configuration settings have been reset to their defaults"
+#: slideshow-gallery.php:963
+msgid "All settings have been reset to their defaults"
 msgstr ""
 
-#: slideshow-gallery.php:892
-msgid "Configuration settings could not be reset"
+#: slideshow-gallery.php:967
+msgid "Settings could not be reset"
 msgstr ""
 
-#: slideshow-gallery.php:988
-msgid "Configuration has been saved"
+#: slideshow-gallery.php:1062
+msgid "Settings has been saved"
 msgstr ""
 
 #: vendors/BFI_Thumb.php:120
@@ -366,31 +526,14 @@ msgstr ""
 msgid "Image negate failed."
 msgstr ""
 
-#: vendors/class.paginate.php:198
-#, php-format
-msgid "%s items"
-msgstr ""
-
-#: vendors/class.paginate.php:201
-msgid "Previous Page"
-msgstr ""
-
-#: vendors/class.paginate.php:204
-msgid "of"
-msgstr ""
-
-#: vendors/class.paginate.php:207
-msgid "Next Page"
-msgstr ""
-
-#: vendors/class.update.php:19
+#: vendors/class.update.php:23
 msgid "Something went wrong!"
 msgstr ""
 
-#: vendors/class.update.php:20
+#: vendors/class.update.php:24
 msgid ""
-"Please try again or <a href=\"http://tribulant.com/support/\" target=\"_blank"
-"\">contact us</a>."
+"Please try again or <a href=\"https://tribulant.com/support/\" target="
+"\"_blank\">contact us</a>."
 msgstr ""
 
 #: views/admin/err-top.php:11 views/admin/msg-top.php:11
@@ -399,108 +542,37 @@ msgstr ""
 
 #: views/admin/galleries/hardcode.php:8
 #, php-format
-msgid "Hardcode Gallery: %s"
+msgid "Embed Gallery: %s"
 msgstr ""
 
-#: views/admin/galleries/hardcode.php:9 views/admin/galleries/view.php:10
+#: views/admin/galleries/hardcode.php:9 views/admin/galleries/view.php:15
 msgid "&larr; All Galleries"
 msgstr ""
 
-#: views/admin/galleries/hardcode.php:9 views/admin/galleries/view.php:10
+#: views/admin/galleries/hardcode.php:9 views/admin/galleries/view.php:15
 msgid "All Galleries"
 msgstr ""
 
-#: views/admin/galleries/hardcode.php:10
+#: views/admin/galleries/hardcode.php:11
+msgid "Shortcode in Post/Page"
+msgstr ""
+
+#: views/admin/galleries/hardcode.php:14
+msgid "PHP Code in Theme"
+msgstr ""
+
+#: views/admin/galleries/hardcode.php:15
 msgid ""
 "This PHP code can be used inside your WordPress theme to display slides "
 "inside this gallery."
 msgstr ""
 
-#: views/admin/galleries/index.php:8 views/admin/slides/index.php:9
+#: views/admin/galleries/index.php:13 views/admin/slides/index.php:13
 msgid "Add New"
 msgstr ""
 
-#: views/admin/galleries/index.php:13
-msgid "galleries"
-msgstr ""
-
-#: views/admin/galleries/index.php:18
-msgid "Are you sure you wish to execute this action on the selected galleries?"
-msgstr ""
-
-#: views/admin/galleries/index.php:25 views/admin/slides/loop.php:21
-msgid "- Bulk Actions -"
-msgstr ""
-
-#: views/admin/galleries/index.php:26 views/admin/galleries/index.php:106
-#: views/admin/slides/loop.php:22 views/admin/slides/loop.php:167
-msgid "Delete"
-msgstr ""
-
-#: views/admin/galleries/index.php:28 views/admin/slides/loop.php:29
-msgid "Apply"
-msgstr ""
-
-#: views/admin/galleries/index.php:48 views/admin/galleries/index.php:73
-#: views/admin/slides/loop.php:74 views/admin/slides/loop.php:116
-msgid "ID"
-msgstr ""
-
-#: views/admin/galleries/index.php:54 views/admin/galleries/index.php:79
-#: views/admin/galleries/save.php:20 views/admin/slides/loop.php:86
-#: views/admin/slides/loop.php:128 views/admin/slides/save.php:28
-msgid "Title"
-msgstr ""
-
-#: views/admin/galleries/index.php:58 views/admin/galleries/index.php:83
-msgid "Slides"
-msgstr ""
-
-#: views/admin/galleries/index.php:59 views/admin/galleries/index.php:84
-msgid "Shortcode"
-msgstr ""
-
-#: views/admin/galleries/index.php:62 views/admin/galleries/index.php:87
-#: views/admin/slides/loop.php:99 views/admin/slides/loop.php:141
-msgid "Date"
-msgstr ""
-
-#: views/admin/galleries/index.php:102
-msgid "View"
-msgstr ""
-
-#: views/admin/galleries/index.php:103 views/admin/slides/loop.php:166
-msgid "Edit"
-msgstr ""
-
-#: views/admin/galleries/index.php:104 views/admin/galleries/view.php:15
-msgid "Hardcode"
-msgstr ""
-
-#: views/admin/galleries/index.php:105 views/admin/slides/loop.php:14
-#: views/admin/slides/loop.php:16 views/admin/slides/order.php:8
-msgid "Order Slides"
-msgstr ""
-
-#: views/admin/galleries/index.php:106 views/admin/slides/loop.php:167
-msgid "Are you sure you want to permanently remove this slide?"
-msgstr ""
-
-#: views/admin/galleries/index.php:121
-#, php-format
-msgid "No galleries available, %s"
-msgstr ""
-
-#: views/admin/galleries/index.php:121 views/admin/slides/loop.php:197
-msgid "add one"
-msgstr ""
-
-#: views/admin/galleries/index.php:132 views/admin/slides/loop.php:208
-msgid "- Per Page -"
-msgstr ""
-
-#: views/admin/galleries/index.php:135 views/admin/slides/loop.php:211
-msgid "per page"
+#: views/admin/galleries/index.php:17
+msgid "Search Galleries"
 msgstr ""
 
 #: views/admin/galleries/save.php:9
@@ -515,29 +587,29 @@ msgstr ""
 msgid "Title of this gallery for identification purposes."
 msgstr ""
 
-#: views/admin/galleries/save.php:54
+#: views/admin/galleries/save.php:55
 msgid "Save Gallery"
 msgstr ""
 
-#: views/admin/galleries/save.php:56 views/admin/slides/save.php:326
+#: views/admin/galleries/save.php:58 views/admin/slides/save.php:358
 msgid "Continue editing"
 msgstr ""
 
-#: views/admin/galleries/view.php:8
+#: views/admin/galleries/view.php:13
 #, php-format
 msgid "View Gallery: %s"
 msgstr ""
 
-#: views/admin/galleries/view.php:14
+#: views/admin/galleries/view.php:19
 msgid "Edit Gallery"
 msgstr ""
 
-#: views/admin/galleries/view.php:16
-msgid "Are you sure you want to delete this gallery?"
+#: views/admin/galleries/view.php:25
+msgid "Delete Gallery"
 msgstr ""
 
-#: views/admin/galleries/view.php:16
-msgid "Delete Gallery"
+#: views/admin/galleries/view.php:31 views/admin/slides/index.php:18
+msgid "Search Slides"
 msgstr ""
 
 #: views/admin/lite-upgrade.php:13
@@ -567,10 +639,6 @@ msgid "Find Us on Facebook"
 msgstr ""
 
 #: views/admin/metaboxes/settings-about.php:20
-msgid "Make a Donation, please"
-msgstr ""
-
-#: views/admin/metaboxes/settings-about.php:23
 msgid "More Amazing Plugins!!!"
 msgstr ""
 
@@ -629,30 +697,6 @@ msgid ""
 "slides.<br/><br/><strong>Override per slideshow:</strong> Using parameter "
 "<code>auto</code> with value <code>true</code> or <code>false</code> eg. "
 "<code>[tribulant_slideshow auto=\"false\"]</code>."
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:153
-#: views/admin/metaboxes/settings-general.php:168
-#: views/admin/metaboxes/settings-general.php:235
-#: views/admin/metaboxes/settings-general.php:305
-#: views/admin/metaboxes/settings-general.php:417
-#: views/admin/metaboxes/settings-linksimages.php:13
-#: views/admin/metaboxes/settings-styles.php:86
-#: views/admin/metaboxes/settings-styles.php:100
-#: views/admin/slides/save.php:268
-msgid "Yes"
-msgstr ""
-
-#: views/admin/metaboxes/settings-general.php:154
-#: views/admin/metaboxes/settings-general.php:169
-#: views/admin/metaboxes/settings-general.php:236
-#: views/admin/metaboxes/settings-general.php:306
-#: views/admin/metaboxes/settings-general.php:418
-#: views/admin/metaboxes/settings-linksimages.php:14
-#: views/admin/metaboxes/settings-styles.php:87
-#: views/admin/metaboxes/settings-styles.php:101
-#: views/admin/slides/save.php:269
-msgid "No"
 msgstr ""
 
 #: views/admin/metaboxes/settings-general.php:155
@@ -1050,12 +1094,16 @@ msgid ""
 "Thickbox image overlay"
 msgstr ""
 
-#: views/admin/metaboxes/settings-plugins.php:16
+#: views/admin/metaboxes/settings-plugins.php:20
+msgid "Installed"
+msgstr ""
+
+#: views/admin/metaboxes/settings-plugins.php:22 views/admin/settings.php:58
 msgid "Install Now"
 msgstr ""
 
-#: views/admin/metaboxes/settings-plugins.php:17
-msgid "Visit Plugin page"
+#: views/admin/metaboxes/settings-plugins.php:25
+msgid "More Info"
 msgstr ""
 
 #: views/admin/metaboxes/settings-postspages.php:21
@@ -1233,56 +1281,56 @@ msgid ""
 "the slides, thumbnails, etc."
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:182
+#: views/admin/metaboxes/settings-styles.php:155
 #, php-format
 msgid "Background color (hexidecimal) of the entire slideshow wrapper eg. %s"
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:186
-#: views/admin/metaboxes/settings-styles.php:190
+#: views/admin/metaboxes/settings-styles.php:159
+#: views/admin/metaboxes/settings-styles.php:163
 msgid "Information Background"
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:187
+#: views/admin/metaboxes/settings-styles.php:160
 msgid ""
 "The background of the information bar which shows the title and description "
 "of each slide. It is automatically half transparent so that it is not "
 "obtrusive to the slide image below it though."
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:225
+#: views/admin/metaboxes/settings-styles.php:171
 #, php-format
 msgid "Background color (hexidecimal) of the information bar eg. %s"
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:229
-#: views/admin/metaboxes/settings-styles.php:233
+#: views/admin/metaboxes/settings-styles.php:175
+#: views/admin/metaboxes/settings-styles.php:179
 msgid "Information Text Color"
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:230
+#: views/admin/metaboxes/settings-styles.php:176
 msgid ""
 "This is the color of the text of the title and description of each slide "
 "which shows in the information bar."
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:268
+#: views/admin/metaboxes/settings-styles.php:188
 #, php-format
 msgid "Text color (hexidecimal) of the information bar content eg. %s"
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:272
-#: views/admin/metaboxes/settings-styles.php:276
+#: views/admin/metaboxes/settings-styles.php:192
+#: views/admin/metaboxes/settings-styles.php:196
 msgid "Thumbnail Active Border"
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:273
+#: views/admin/metaboxes/settings-styles.php:193
 msgid ""
 "This is the color of the border which displays on the active thumbnail of "
 "the slide currently displaying in the slideshow."
 msgstr ""
 
-#: views/admin/metaboxes/settings-styles.php:311
+#: views/admin/metaboxes/settings-styles.php:204
 #, php-format
 msgid "Border color (hexidecimal) for the active image thumbnail eg. %s"
 msgstr ""
@@ -1292,11 +1340,11 @@ msgid "Check/optimize database tables"
 msgstr ""
 
 #: views/admin/metaboxes/settings-submit.php:18
-msgid "Reset all configuration settings to their default values"
+msgid "Reset all settings to their default values"
 msgstr ""
 
 #: views/admin/metaboxes/settings-submit.php:18
-msgid "Are you sure you wish to reset all configuration settings?"
+msgid "Are you sure you wish to reset all settings?"
 msgstr ""
 
 #: views/admin/metaboxes/settings-submit.php:18
@@ -1305,10 +1353,6 @@ msgstr ""
 
 #: views/admin/metaboxes/settings-submit.php:21
 msgid "Turn on debugging"
-msgstr ""
-
-#: views/admin/metaboxes/settings-submit.php:27
-msgid "Save Configuration"
 msgstr ""
 
 #: views/admin/metaboxes/settings-tech.php:14
@@ -1357,84 +1401,37 @@ msgstr ""
 msgid "downloads section"
 msgstr ""
 
-#: views/admin/settings.php:14
-msgid "Configuration Settings"
+#: views/admin/settings.php:39
+msgid "Install Newsletter Plugin"
 msgstr ""
 
-#: views/admin/slides/index.php:10
+#: views/admin/settings.php:48
+msgid "Installing"
+msgstr ""
+
+#: views/admin/settings.php:52
+msgid "Activate"
+msgstr ""
+
+#: views/admin/settings.php:57
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: views/admin/slides/index.php:14
 msgid "Add Multiple"
 msgstr ""
 
-#: views/admin/slides/index.php:15
-msgid "slides"
-msgstr ""
-
-#: views/admin/slides/loop.php:7
-msgid "Are you sure you wish to execute this action on the selected slides?"
-msgstr ""
-
-#: views/admin/slides/loop.php:23 views/admin/slides/loop.php:90
-#: views/admin/slides/loop.php:132 views/admin/slides/save-multiple.php:60
-#: views/admin/slides/save.php:121
-msgid "Galleries"
-msgstr ""
-
-#: views/admin/slides/loop.php:24
-msgid "Add Galleries..."
-msgstr ""
-
-#: views/admin/slides/loop.php:25
-msgid "Set Galleries..."
-msgstr ""
-
-#: views/admin/slides/loop.php:26
-msgid "Remove All Galleries"
-msgstr ""
-
-#: views/admin/slides/loop.php:36
-msgid "Select all"
-msgstr ""
-
-#: views/admin/slides/loop.php:41
-msgid "No galleries are available"
-msgstr ""
-
-#: views/admin/slides/loop.php:80 views/admin/slides/loop.php:122
-msgid "Image"
-msgstr ""
-
-#: views/admin/slides/loop.php:93 views/admin/slides/loop.php:135
-msgid "Link"
-msgstr ""
-
-#: views/admin/slides/loop.php:105 views/admin/slides/loop.php:147
-msgid "Order"
-msgstr ""
-
-#: views/admin/slides/loop.php:179
-msgid "None"
-msgstr ""
-
-#: views/admin/slides/loop.php:185
-msgid "Open"
-msgstr ""
-
-#: views/admin/slides/loop.php:197
-#, php-format
-msgid "No slides available, %s or %s"
-msgstr ""
-
-#: views/admin/slides/loop.php:197
-msgid "add multiple"
-msgstr ""
-
-#: views/admin/slides/order.php:11
+#: views/admin/slides/order-gallery.php:11 views/admin/slides/order.php:11
 msgid "&larr; Manage All Slides"
 msgstr ""
 
-#: views/admin/slides/order.php:14
+#: views/admin/slides/order-gallery.php:14 views/admin/slides/order.php:14
 #, php-format
 msgid "This page lets you order all slides shown with %s."
+msgstr ""
+
+#: views/admin/slides/order-gallery.php:64 views/admin/slides/order.php:65
+msgid "No slides found"
 msgstr ""
 
 #: views/admin/slides/order.php:15
@@ -1443,161 +1440,154 @@ msgid ""
 "for that specific gallery."
 msgstr ""
 
-#: views/admin/slides/order.php:65
-msgid "No slides found"
-msgstr ""
-
 #: views/admin/slides/save-multiple.php:8
-#: views/admin/slides/save-multiple.php:77
+#: views/admin/slides/save-multiple.php:81
 msgid "Save Multiple Slides"
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:27
+#: views/admin/slides/save-multiple.php:26
+#: views/admin/slides/save-multiple.php:29
 msgid "Choose Images"
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:29
-msgid "Choose Files"
-msgstr ""
-
-#: views/admin/slides/save-multiple.php:30
+#: views/admin/slides/save-multiple.php:31
 msgid ""
 "Upload/choose images from the media gallery. Ctrl/Shift + Click to choose "
 "multiple."
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:43
-#: views/admin/slides/save-multiple.php:115
+#: views/admin/slides/save-multiple.php:44
+#: views/admin/slides/save-multiple.php:126
 msgid "Title:"
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:44
-#: views/admin/slides/save-multiple.php:116
+#: views/admin/slides/save-multiple.php:45
+#: views/admin/slides/save-multiple.php:127
 msgid "Description:"
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:49
-#: views/admin/slides/save-multiple.php:120
+#: views/admin/slides/save-multiple.php:50
+#: views/admin/slides/save-multiple.php:131
 msgid "Are you sure you want to remove this slide?"
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:49
-#: views/admin/slides/save-multiple.php:120
+#: views/admin/slides/save-multiple.php:51
+#: views/admin/slides/save-multiple.php:131
 msgid "Remove"
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:63 views/admin/slides/save.php:125
+#: views/admin/slides/save-multiple.php:66 views/admin/slides/save.php:126
 msgid "Select All"
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:68 views/admin/slides/save.php:130
+#: views/admin/slides/save-multiple.php:71 views/admin/slides/save.php:131
 msgid "No galleries are available."
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:70
+#: views/admin/slides/save-multiple.php:73
 msgid "Choose the galleries to add these slides to."
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:97
+#: views/admin/slides/save-multiple.php:102
 msgid "Upload Slides"
 msgstr ""
 
-#: views/admin/slides/save-multiple.php:99
+#: views/admin/slides/save-multiple.php:104
 msgid "Select Images as Slides"
 msgstr ""
 
-#: views/admin/slides/save.php:16
+#: views/admin/slides/save.php:18
 msgid "Save a Slide"
 msgstr ""
 
-#: views/admin/slides/save.php:29
+#: views/admin/slides/save.php:30
 msgid ""
 "This title is for your reference in management and it will also be used to "
 "display the title of the slide in the information bar if you have that "
 "turned on."
 msgstr ""
 
-#: views/admin/slides/save.php:54
+#: views/admin/slides/save.php:55
 msgid "Title/name of your slide as it will be displayed to your users."
 msgstr ""
 
-#: views/admin/slides/save.php:59
+#: views/admin/slides/save.php:60
 msgid "Description"
 msgstr ""
 
-#: views/admin/slides/save.php:60
+#: views/admin/slides/save.php:61
 msgid ""
 "The description is specifically used for the information bar if you have "
 "that turned on."
 msgstr ""
 
-#: views/admin/slides/save.php:85
+#: views/admin/slides/save.php:86
 msgid ""
 "Description of your slide as it will be displayed to your users below the "
 "title."
 msgstr ""
 
-#: views/admin/slides/save.php:90
+#: views/admin/slides/save.php:91
 msgid "Show Information?"
 msgstr ""
 
-#: views/admin/slides/save.php:91
+#: views/admin/slides/save.php:92
 msgid ""
 "You can choose to show both title and description, only title, only "
 "description or not show the information bar at all. Please note that this "
-"setting is only effective when the information bar is turned on in "
-"configuration or via a parameter in shortcode or hardcode."
-msgstr ""
-
-#: views/admin/slides/save.php:93
-msgid "Both title and description"
+"setting is only effective when the information bar is turned on in settings "
+"or via a parameter in shortcode or hardcode."
 msgstr ""
 
 #: views/admin/slides/save.php:94
-msgid "Title only"
+msgid "Both title and description"
 msgstr ""
 
 #: views/admin/slides/save.php:95
-msgid "Description only"
+msgid "Title only"
 msgstr ""
 
 #: views/admin/slides/save.php:96
-msgid "None, do not show"
+msgid "Description only"
 msgstr ""
 
 #: views/admin/slides/save.php:97
+msgid "None, do not show"
+msgstr ""
+
+#: views/admin/slides/save.php:98
 msgid "Choose how the information bar will be displayed on this slide."
 msgstr ""
 
-#: views/admin/slides/save.php:107
+#: views/admin/slides/save.php:108
 msgid "Info Opacity"
 msgstr ""
 
-#: views/admin/slides/save.php:108
+#: views/admin/slides/save.php:109
 msgid ""
 "The opacity of the information bar from 0 to 100 where 0 is transparent and "
 "100 is opague."
 msgstr ""
 
-#: views/admin/slides/save.php:111
+#: views/admin/slides/save.php:112
 msgid "A value between 0 and 100. Leave empty for default."
 msgstr ""
 
-#: views/admin/slides/save.php:122
+#: views/admin/slides/save.php:123
 msgid ""
 "You can organize/assign a slide to multiple galleries as needed. It is easy "
 "to display a slideshow with the slides of a specific gallery then."
 msgstr ""
 
-#: views/admin/slides/save.php:132
+#: views/admin/slides/save.php:133
 msgid "Assign this slide to one or more galleries."
 msgstr ""
 
-#: views/admin/slides/save.php:136
+#: views/admin/slides/save.php:137
 msgid "Image Type"
 msgstr ""
 
-#: views/admin/slides/save.php:137
+#: views/admin/slides/save.php:138
 msgid ""
 "Do you want to specify a URL to your image or upload the image file "
 "manually? Specifying a URL will still copy the image file remotely from the "
@@ -1605,298 +1595,345 @@ msgid ""
 "restrictions or errors."
 msgstr ""
 
-#: views/admin/slides/save.php:139
+#: views/admin/slides/save.php:140
 msgid "Media Upload"
 msgstr ""
 
-#: views/admin/slides/save.php:140
+#: views/admin/slides/save.php:141
 msgid "Upload File"
 msgstr ""
 
-#: views/admin/slides/save.php:141
+#: views/admin/slides/save.php:142
 msgid "Specify URL"
 msgstr ""
 
-#: views/admin/slides/save.php:143
+#: views/admin/slides/save.php:144
 msgid "Do you want to upload an image or specify a local/remote image URL?"
 msgstr ""
 
-#: views/admin/slides/save.php:154 views/admin/slides/save.php:218
+#: views/admin/slides/save.php:155 views/admin/slides/save.php:165
+#: views/admin/slides/save.php:221
 msgid "Choose Image"
 msgstr ""
 
-#: views/admin/slides/save.php:163
-msgid "Choose File"
-msgstr ""
-
-#: views/admin/slides/save.php:184
+#: views/admin/slides/save.php:187
 msgid "Upload a slide"
 msgstr ""
 
-#: views/admin/slides/save.php:186
+#: views/admin/slides/save.php:189
 msgid "Select as Slide Image"
 msgstr ""
 
-#: views/admin/slides/save.php:219
+#: views/admin/slides/save.php:222
 msgid ""
 "Simply choose an image file from your computer to upload for this slide. "
 "Only .jpg, .png and .gif are supported and in rare cases .bmp but please try "
 "and prevent using .bmp files."
 msgstr ""
 
-#: views/admin/slides/save.php:222
+#: views/admin/slides/save.php:225
 msgid "Choose your image file from your computer. JPG, PNG, GIF are supported."
 msgstr ""
 
-#: views/admin/slides/save.php:232
+#: views/admin/slides/save.php:235
 msgid "Current image. Leave the field above blank to keep this image."
 msgstr ""
 
-#: views/admin/slides/save.php:250
+#: views/admin/slides/save.php:253
 msgid "Image URL"
 msgstr ""
 
-#: views/admin/slides/save.php:251
+#: views/admin/slides/save.php:254
 msgid ""
 "Specify an absolute URL to an image file to use for this slide. The image "
 "will be copied from the location to your server."
 msgstr ""
 
-#: views/admin/slides/save.php:254
-msgid "Local or remote image location eg. http://domain.com/path/to/image.jpg"
+#: views/admin/slides/save.php:257
+msgid "Local or remote image location eg. https://domain.com/path/to/image.jpg"
 msgstr ""
 
-#: views/admin/slides/save.php:265
+#: views/admin/slides/save.php:268
 msgid "Use Link"
 msgstr ""
 
-#: views/admin/slides/save.php:266
+#: views/admin/slides/save.php:269
 msgid ""
 "Turn this on to specify a link/URL for this slide to link to when it is "
 "clicked."
 msgstr ""
 
-#: views/admin/slides/save.php:270
+#: views/admin/slides/save.php:273
 msgid "Set this to Yes to link this slide to a link/URL of your choice."
 msgstr ""
 
-#: views/admin/slides/save.php:280
+#: views/admin/slides/save.php:283
 msgid "Link To"
 msgstr ""
 
-#: views/admin/slides/save.php:281
+#: views/admin/slides/save.php:284
 msgid "The absolute URL to take the user to when the slide is clicked."
 msgstr ""
 
-#: views/admin/slides/save.php:307
+#: views/admin/slides/save.php:310
 msgid ""
-"Link/URL to go to when a user clicks the slide eg. http://www.domain.com/"
+"Link/URL to go to when a user clicks the slide eg. https://www.domain.com/"
 "mypage/"
 msgstr ""
 
-#: views/admin/slides/save.php:311
+#: views/admin/slides/save.php:314
 msgid "Link Target"
 msgstr ""
 
-#: views/admin/slides/save.php:312
+#: views/admin/slides/save.php:315
 msgid ""
 "Depending on the purpose of specifying this link, you may want it to open in "
 "the same window or in a new window."
 msgstr ""
 
-#: views/admin/slides/save.php:314
+#: views/admin/slides/save.php:317
 msgid "Current Window"
 msgstr ""
 
-#: views/admin/slides/save.php:315
+#: views/admin/slides/save.php:318
 msgid "New/Blank Window"
 msgstr ""
 
-#: views/admin/slides/save.php:316
+#: views/admin/slides/save.php:319
 msgid "Should this link open in the current window or a new window?"
 msgstr ""
 
-#: views/admin/slides/save.php:324
+#: views/admin/slides/save.php:329
+msgid "Expiry Date"
+msgstr ""
+
+#: views/admin/slides/save.php:333
+msgid "(optional)"
+msgstr ""
+
+#: views/admin/slides/save.php:333
+msgid "Set an expiry date for this slide."
+msgstr ""
+
+#: views/admin/slides/save.php:355
 msgid "Save Slide"
 msgstr ""
 
-#: views/admin/submitserial.php:1
+#: views/admin/submitserial.php:8
 msgid "Slideshow Gallery Serial Key"
 msgstr ""
 
-#: views/admin/submitserial.php:6
+#: views/admin/submitserial.php:13
 msgid "You are running Slideshow Gallery LITE."
 msgstr ""
 
-#: views/admin/submitserial.php:7
+#: views/admin/submitserial.php:14
 #, php-format
 msgid "To remove limits, you can submit a serial key or %s."
 msgstr ""
 
-#: views/admin/submitserial.php:10
+#: views/admin/submitserial.php:17
 msgid ""
 "Please obtain a serial key from the downloads section in your Tribulant "
 "Software account."
 msgstr ""
 
-#: views/admin/submitserial.php:11
+#: views/admin/submitserial.php:18
 msgid ""
 "Once in the downloads section, click the KEY icon to request a serial key."
 msgstr ""
 
-#: views/admin/submitserial.php:12
+#: views/admin/submitserial.php:19
 msgid "Downloads Section"
 msgstr ""
 
-#: views/admin/submitserial.php:24
+#: views/admin/submitserial.php:33
 msgid "Cancel"
 msgstr ""
 
-#: views/admin/submitserial.php:30
+#: views/admin/submitserial.php:42
 msgid "Serial Key:"
 msgstr ""
 
-#: views/admin/submitserial.php:31
+#: views/admin/submitserial.php:43
 msgid "Your current serial is valid and working."
 msgstr ""
 
-#: views/admin/submitserial.php:33
+#: views/admin/submitserial.php:46
+msgid "Upgrade to Unlimited"
+msgstr ""
+
+#: views/admin/submitserial.php:47
+msgid ""
+"You can upgrade one or more single domain licenses to an unlimited domains "
+"license."
+msgstr ""
+
+#: views/admin/submitserial.php:48
+msgid "You only pay the difference."
+msgstr ""
+
+#: views/admin/submitserial.php:50
+msgid "Upgrade Now"
+msgstr ""
+
+#: views/admin/submitserial.php:56 views/default/head.php:11
 msgid "Close"
 msgstr ""
 
-#: views/admin/submitserial.php:34
+#: views/admin/submitserial.php:58
 msgid "Are you sure you want to delete your serial key?"
 msgstr ""
 
-#: views/admin/submitserial.php:34
+#: views/admin/submitserial.php:59
 msgid "Delete Serial"
 msgstr ""
 
-#: views/admin/submitserial.php:39
+#: views/admin/submitserial.php:65
 msgid ""
 "The serial key is valid and you can now continue using the Slideshow Gallery "
 "plugin. Thank you for your business and support!"
 msgstr ""
 
-#: views/admin/submitserial.php:40
+#: views/admin/submitserial.php:68
 msgid "Apply Serial and Close Window"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:25
+#: views/admin/tinymce-dialog.php:17
 msgid "Insert a Slideshow Gallery"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:40
+#: views/admin/tinymce-dialog.php:32
 msgid "Please fill in a post ID."
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:54
+#: views/admin/tinymce-dialog.php:46
 msgid "Please select a gallery."
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:108
+#: views/admin/tinymce-dialog.php:100
 msgid "Images From a Post"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:109
+#: views/admin/tinymce-dialog.php:101
 msgid "Slides From a Gallery"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:110
+#: views/admin/tinymce-dialog.php:102
 msgid "Featured Posts"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:111
+#: views/admin/tinymce-dialog.php:103
 msgid "All Available Slides"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:112
+#: views/admin/tinymce-dialog.php:104
 msgid "Products"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:114
+#: views/admin/tinymce-dialog.php:106
 #, php-format
 msgid "Requires the %sShopping Cart plugin%s"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:119
+#: views/admin/tinymce-dialog.php:111
 msgid "Products Source:"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:121
+#: views/admin/tinymce-dialog.php:113
 msgid "Latest Products"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:122
+#: views/admin/tinymce-dialog.php:114
 msgid "Featured Products"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:124
+#: views/admin/tinymce-dialog.php:116
 msgid "Choose the source of the products"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:127
+#: views/admin/tinymce-dialog.php:119
 msgid "Number of Products:"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:129
+#: views/admin/tinymce-dialog.php:121
 msgid "The number of products to display"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:142
+#: views/admin/tinymce-dialog.php:134
 msgid "Post ID:"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:144
+#: views/admin/tinymce-dialog.php:136
 msgid "ID of the post to take images from."
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:150
+#: views/admin/tinymce-dialog.php:142
 msgid "Gallery:"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:152
+#: views/admin/tinymce-dialog.php:144
 msgid "- Select Gallery -"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:165
+#: views/admin/tinymce-dialog.php:157
 msgid "Number of Posts:"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:170
+#: views/admin/tinymce-dialog.php:162
 msgid "Post Type:"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:180
+#: views/admin/tinymce-dialog.php:172
 msgid "Exclude:"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:182
+#: views/admin/tinymce-dialog.php:174
 msgid "Comma separated IDs of attachments/slides to exclude"
 msgstr ""
 
-#: views/admin/tinymce-dialog.php:186
+#: views/admin/tinymce-dialog.php:178
 #, php-format
 msgid ""
 "For more settings/parameters, see the %sSlideshow Gallery plugin%s page."
 msgstr ""
 
-#: views/default/gallery.php:125 views/default/gallery.php:154
+#: views/default/gallery.php:129 views/default/gallery.php:158
 msgid "Slide Left"
 msgstr ""
 
-#: views/default/gallery.php:129 views/default/gallery.php:158
+#: views/default/gallery.php:133 views/default/gallery.php:162
 msgid "Slide Right"
 msgstr ""
 
-#: views/default/gallery.php:138
+#: views/default/gallery.php:142
 msgid "Previous Image"
 msgstr ""
 
-#: views/default/gallery.php:143
+#: views/default/gallery.php:147
 msgid "Next Image"
 msgstr ""
 
-#: views/default/gallery.php:280
+#: views/default/gallery.php:284
 msgid "No slides are available."
+msgstr ""
+
+#: views/default/head.php:8
+msgid "Image {current} of {total}"
+msgstr ""
+
+#: views/default/head.php:9
+msgid "Previous"
+msgstr ""
+
+#: views/default/head.php:10
+msgid "Next"
+msgstr ""
+
+#: views/default/head.php:12
+msgid "This content failed to load"
+msgstr ""
+
+#: views/default/head.php:13
+msgid "This image failed to load"
 msgstr ""
